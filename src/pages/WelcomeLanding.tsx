@@ -74,13 +74,13 @@ export default function WelcomeLanding() {
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
           <Link to="/welcome" className="flex items-center gap-2.5 group">
             <img
-              src="/images/avatar-blue.png"
-              alt="Cosmo"
-              width="32"
-              height="32"
-              className="h-8 w-8 object-contain transition-transform group-hover:scale-105"
+              src="/images/satbase-icon.png"
+              alt="SATBase"
+              width="34"
+              height="34"
+              className="h-8.5 w-8.5 object-contain rounded-lg transition-transform group-hover:scale-105 shadow-xs"
             />
-            <span className="text-lg font-bold tracking-tight font-display">
+            <span className="text-xl font-bold tracking-tight font-display">
               SAT<span className="text-accent">BASE</span>
             </span>
           </Link>

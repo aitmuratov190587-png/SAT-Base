@@ -62,9 +62,9 @@ export default function LoginPage() {
         <section className="relative flex min-h-[370px] flex-col justify-between overflow-hidden border-b border-line px-5 py-6 sm:px-9 sm:py-8 lg:min-h-screen lg:border-b-0 lg:border-r lg:border-line lg:px-12 xl:px-16 bg-surface/50">
           <div className="relative z-10 flex items-center justify-between">
             <Link to="/welcome" className="flex items-center gap-2.5">
-              <img src="/images/avatar-blue.png" alt="" className="h-9 w-9 object-contain" />
-              <span className="text-sm font-bold tracking-[-.04em] text-ink font-display">SAT<span className="text-accent">BASE</span></span>
-              <span className="rounded-md border border-line px-1.5 py-1 text-[8px] font-mono tracking-widest text-ink-2">UZ</span>
+              <img src="/images/satbase-icon.png" alt="SATBase" className="h-9 w-9 object-contain rounded-lg shadow-xs" />
+              <span className="text-base font-bold tracking-tight text-ink font-display">SAT<span className="text-accent">BASE</span></span>
+              <span className="rounded-md border border-line px-1.5 py-0.5 text-[8px] font-mono tracking-widest text-ink-2">UZ</span>
             </Link>
             <ThemeToggle />
           </div>

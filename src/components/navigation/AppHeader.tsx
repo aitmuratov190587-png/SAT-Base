@@ -45,9 +45,9 @@ export default function AppHeader({ onOpenAITutor }: AppHeaderProps) {
         {/* Mobile-only logo */}
         <Link to="/" className="flex items-center gap-2 md:hidden group">
           <img
-            src="/images/avatar-blue.png"
+            src="/images/satbase-icon.png"
             alt="SATBase"
-            className="w-7 h-7 object-contain select-none pointer-events-none"
+            className="w-7 h-7 object-contain rounded-md select-none pointer-events-none"
           />
           <span className="font-display font-bold text-base tracking-tight text-ink">
             SAT<span className="text-accent" style={{ color: 'var(--color-accent)' }}>BASE</span>

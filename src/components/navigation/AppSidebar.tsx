@@ -69,12 +69,12 @@ export default function AppSidebar({ onOpenAITutor }: AppSidebarProps) {
             title="SATBase - Return to Welcome Page"
             className={`flex items-center gap-3 group ${!sidebarOpen ? 'w-full justify-center' : ''}`}
           >
-            {/* Cosmo Mascot Avatar */}
+            {/* SATBase Official Brand Icon */}
             <div className="w-8 h-8 flex items-center justify-center shrink-0">
               <img
-                src="/images/avatar-blue.png"
-                alt="SATBase Cosmo Mascot"
-                className="w-8 h-8 object-contain animate-float select-none pointer-events-none group-hover:rotate-6 transition-transform"
+                src="/images/satbase-icon.png"
+                alt="SATBase"
+                className="w-8 h-8 object-contain rounded-md select-none pointer-events-none group-hover:scale-105 transition-transform"
               />
             </div>
 
