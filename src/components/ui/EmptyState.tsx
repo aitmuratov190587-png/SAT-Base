@@ -60,7 +60,7 @@ export function EmptyState({
         ) : actionLabel && actionHref ? (
           <a
             href={actionHref}
-            className="inline-flex items-center justify-center font-sans font-medium transition-all duration-150 select-none cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] active:translate-y-[1px] active:scale-[0.99] text-sm px-4 py-2 rounded-[var(--radius-sm)] bg-accent text-white hover:bg-accent-hover shadow-xs"
+            className="inline-flex items-center justify-center font-sans font-medium transition-all duration-150 select-none cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-accent)] active:translate-y-[1px] active:scale-[0.99] text-sm px-4 py-2 rounded-[var(--radius-sm)] bg-accent text-accent-contrast hover:bg-accent-hover shadow-xs"
           >
             {actionLabel}
           </a>

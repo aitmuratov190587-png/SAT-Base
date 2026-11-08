@@ -23,8 +23,8 @@
   --color-ink-rgb: 24 21 17;
   --color-ink-2: #574F44;         /* Secondary graphite ink */
   --color-ink-2-rgb: 87 79 68;
-  --color-ink-muted: #8C8274;     /* Muted metadata */
-  --color-ink-muted-rgb: 140 130 116;
+  --color-ink-muted: #6C6356;     /* Muted metadata (WCAG AA >= 4.5:1 on paper, surface, paper-2) */
+  --color-ink-muted-rgb: 108 99 86;
 
   /* Structural Lines & Borders */
   --color-line: #E8E0D2;          /* Subtle paper line */
@@ -37,6 +37,7 @@
   --color-accent-rgb: 255 91 46;
   --color-accent-hover: #E4481C;  /* Signal Orange hover */
   --color-accent-subtle: #FFF0EB; /* Soft peach wash */
+  --color-accent-contrast: #181511; /* WCAG AA 5.88:1 text on accent in all themes */
 
   /* Editorial Accent Palette */
   --color-cobalt: #2B59C3;        /* Editorial Cobalt */
@@ -81,8 +82,8 @@
   --color-ink-rgb: 244 241 234;
   --color-ink-2: #B4ACA0;         /* Secondary warm dust */
   --color-ink-2-rgb: 180 172 160;
-  --color-ink-muted: #7A7265;     /* Muted labels */
-  --color-ink-muted-rgb: 122 114 101;
+  --color-ink-muted: #989083;     /* Muted labels (WCAG AA >= 4.5:1 on paper, surface, paper-2) */
+  --color-ink-muted-rgb: 152 144 131;
 
   /* Structural Lines & Borders */
   --color-line: #262B37;          /* Muted dark line */
@@ -95,6 +96,7 @@
   --color-accent-rgb: 255 91 46;
   --color-accent-hover: #FF744D;
   --color-accent-subtle: #2A1712;
+  --color-accent-contrast: #181511; /* WCAG AA 5.88:1 text on accent in all themes */
 
   /* Editorial Accent Palette (Dark Mode) */
   --color-cobalt: #6D93EE;

@@ -48,7 +48,7 @@ export default function WelcomeLanding() {
     <main className="relative min-h-screen overflow-hidden bg-paper text-ink transition-colors duration-200">
       <header className="relative z-20 mx-auto flex h-[76px] max-w-7xl items-center justify-between border-b border-line px-5 sm:px-8">
         <Link to="/welcome" className="flex items-center gap-2.5">
-          <img src="/images/avatar-blue.png" alt="" className="h-9 w-9 object-contain" />
+          <img src="/images/avatar-blue.png" alt="" width="36" height="36" className="h-9 w-9 object-contain" />
           <span className="text-[15px] font-bold tracking-[-.04em] text-ink font-display">SAT<span className="text-accent">BASE</span></span>
           <span className="hidden rounded-md border border-line px-1.5 py-1 text-[8px] font-mono tracking-widest text-ink-2 sm:inline">UZ</span>
         </Link>
@@ -89,7 +89,7 @@ export default function WelcomeLanding() {
               <Button
                 variant="accent"
                 size="lg"
-                className="min-h-12 px-6 font-bold !text-white shadow-xs"
+                className="min-h-12 px-6 font-bold text-accent-contrast shadow-xs"
                 rightIcon={<ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />}
               >
                 Explore your workspace
@@ -180,7 +180,7 @@ export default function WelcomeLanding() {
           {companions.map((companion) => {
             const active = companion.src === selected;
             return <button key={companion.id} onClick={() => chooseCompanion(companion.src)} aria-pressed={active} className={`avatar-option ${active ? 'avatar-option-selected ring-2 ring-accent' : 'border border-line'} flex min-w-0 flex-col items-center rounded-2xl p-2.5 sm:p-4 bg-surface transition-all`}>
-              <img src={companion.src} alt="" className="h-12 w-12 object-contain sm:h-16 sm:w-16" />
+              <img src={companion.src} alt={companion.name} loading="lazy" decoding="async" width="64" height="64" className="h-12 w-12 object-contain sm:h-16 sm:w-16" />
               <span className="mt-1 truncate text-[9px] font-semibold text-ink sm:mt-2 sm:text-[11px]">{companion.name}</span>
             </button>;
           })}
@@ -194,7 +194,7 @@ export default function WelcomeLanding() {
             <Button
               variant="accent"
               size="md"
-              className="font-bold !text-white shadow-xs"
+              className="font-bold text-accent-contrast shadow-xs"
               rightIcon={<ArrowRight className="h-4 w-4" />}
             >
               Enter SATBase

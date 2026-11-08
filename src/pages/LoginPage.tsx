@@ -114,7 +114,7 @@ export default function LoginPage() {
                 <form onSubmit={handleEmailSignIn} className="space-y-3">
                   <label htmlFor="email" className="block text-[10px] font-medium text-ink-2">Email address</label>
                   <input id="email" type="email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@example.com" required className="w-full rounded-[13px] border border-line bg-paper-2 px-3.5 py-3 text-xs text-ink outline-none transition placeholder:text-ink-2/60 focus:border-accent" />
-                  <button type="submit" disabled={emailLoading || !email.trim()} className="flex w-full items-center justify-center gap-2 rounded-[13px] bg-accent px-4 py-3 text-xs font-bold text-white transition hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-50">{emailLoading ? 'Sending secure link…' : 'Send me a sign-in link'} <ArrowRight className="h-3.5 w-3.5" /></button>
+                  <button type="submit" disabled={emailLoading || !email.trim()} className="flex w-full items-center justify-center gap-2 rounded-[13px] bg-accent px-4 py-3 text-xs font-bold text-accent-contrast transition hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-50">{emailLoading ? 'Sending secure link…' : 'Send me a sign-in link'} <ArrowRight className="h-3.5 w-3.5" /></button>
                   <button type="button" onClick={() => { setShowEmailInput(false); setErrorMessage(''); }} className="w-full py-1 text-[10px] text-ink-2 hover:text-ink">Back to sign-in options</button>
                 </form>
               )}

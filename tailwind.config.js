@@ -15,6 +15,7 @@ export default {
         ink: {
           DEFAULT: 'rgb(var(--color-ink-rgb) / <alpha-value>)',
           2: 'rgb(var(--color-ink-2-rgb) / <alpha-value>)',
+          3: 'rgb(var(--color-ink-muted-rgb) / <alpha-value>)',
           muted: 'rgb(var(--color-ink-muted-rgb) / <alpha-value>)',
         },
         line: {
@@ -26,6 +27,7 @@ export default {
           DEFAULT: 'rgb(var(--color-accent-rgb) / <alpha-value>)',
           hover: 'var(--color-accent-hover)',
           subtle: 'var(--color-accent-subtle)',
+          contrast: 'var(--color-accent-contrast)',
         },
         // Editorial Palette
         cobalt: 'rgb(var(--color-cobalt-rgb) / <alpha-value>)',

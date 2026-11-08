@@ -54,7 +54,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button
     primary:
       'bg-ink text-paper group hover:decoration-accent hover:underline hover:decoration-2 hover:underline-offset-4 shadow-xs disabled:bg-ink disabled:text-paper/40 disabled:hover:no-underline',
     accent:
-      'bg-accent !text-white hover:bg-accent-hover shadow-xs disabled:bg-accent disabled:!text-white/40',
+      'bg-accent text-accent-contrast hover:bg-accent-hover shadow-xs disabled:bg-accent disabled:text-accent-contrast/40',
     secondary:
       'bg-surface text-ink border border-line hover:border-line-strong hover:bg-paper-2 shadow-xs disabled:bg-surface disabled:border-line disabled:text-ink/40',
     ghost:
