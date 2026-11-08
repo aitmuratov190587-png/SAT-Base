@@ -72,17 +72,21 @@ export default function WelcomeLanding() {
       {/* ── 1. HEADER ── */}
       <header className="sticky top-0 z-40 border-b border-line bg-paper/90 backdrop-blur-xs">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-          <Link to="/welcome" className="flex items-center gap-2.5 group">
+          <Link to="/welcome" className="flex items-center group py-1" title="SATBase">
             <img
-              src="/images/satbase-icon.png"
-              alt="SATBase"
-              width="34"
-              height="34"
-              className="h-8.5 w-8.5 object-contain rounded-lg transition-transform group-hover:scale-105 shadow-xs"
+              src="/images/satbase-logo-full.png"
+              alt="SATBase - SAT Preparation Platform"
+              width="144"
+              height="48"
+              className="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105 select-none pointer-events-none dark:hidden"
             />
-            <span className="text-xl font-bold tracking-tight font-display">
-              SAT<span className="text-accent">BASE</span>
-            </span>
+            <img
+              src="/images/satbase-logo-dark.png"
+              alt="SATBase - SAT Preparation Platform"
+              width="144"
+              height="48"
+              className="h-10 sm:h-11 w-auto object-contain transition-transform group-hover:scale-105 select-none pointer-events-none hidden dark:block"
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-7 text-xs font-medium text-ink-2">

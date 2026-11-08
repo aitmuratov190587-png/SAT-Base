@@ -69,23 +69,26 @@ export default function AppSidebar({ onOpenAITutor }: AppSidebarProps) {
             title="SATBase - Return to Welcome Page"
             className={`flex items-center gap-3 group ${!sidebarOpen ? 'w-full justify-center' : ''}`}
           >
-            {/* SATBase Official Brand Icon */}
-            <div className="w-8 h-8 flex items-center justify-center shrink-0">
-              <img
-                src="/images/satbase-icon.png"
-                alt="SATBase"
-                className="w-8 h-8 object-contain rounded-md select-none pointer-events-none group-hover:scale-105 transition-transform"
-              />
-            </div>
-
-            {sidebarOpen && (
-              <div className="truncate">
-                <div className="flex items-center">
-                  <span className="font-display font-bold text-lg tracking-tight text-ink">
-                    SAT<span className="text-accent" style={{ color: 'var(--color-accent)' }}>BASE</span>
-                  </span>
-                </div>
-                <p className="text-[11px] text-ink-2 font-sans -mt-0.5">Digital SAT Prep</p>
+            {sidebarOpen ? (
+              <div className="flex items-center py-1">
+                <img
+                  src="/images/satbase-logo-full.png"
+                  alt="SATBase - SAT Preparation Platform"
+                  className="h-10 w-auto max-w-[185px] object-contain select-none pointer-events-none group-hover:scale-105 transition-transform dark:hidden"
+                />
+                <img
+                  src="/images/satbase-logo-dark.png"
+                  alt="SATBase - SAT Preparation Platform"
+                  className="h-10 w-auto max-w-[185px] object-contain select-none pointer-events-none group-hover:scale-105 transition-transform hidden dark:block"
+                />
+              </div>
+            ) : (
+              <div className="w-8.5 h-8.5 flex items-center justify-center shrink-0">
+                <img
+                  src="/images/satbase-icon.png"
+                  alt="SATBase"
+                  className="w-8.5 h-8.5 object-contain select-none pointer-events-none group-hover:scale-105 transition-transform"
+                />
               </div>
             )}
           </Link>

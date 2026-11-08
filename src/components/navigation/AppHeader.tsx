@@ -43,15 +43,17 @@ export default function AppHeader({ onOpenAITutor }: AppHeaderProps) {
       {/* Left: Mobile Brand & Global Search */}
       <div className="flex items-center gap-3">
         {/* Mobile-only logo */}
-        <Link to="/" className="flex items-center gap-2 md:hidden group">
+        <Link to="/" className="flex items-center md:hidden group" title="SATBase">
           <img
-            src="/images/satbase-icon.png"
+            src="/images/satbase-logo-full.png"
             alt="SATBase"
-            className="w-7 h-7 object-contain rounded-md select-none pointer-events-none"
+            className="h-8 w-auto object-contain select-none pointer-events-none dark:hidden"
           />
-          <span className="font-display font-bold text-base tracking-tight text-ink">
-            SAT<span className="text-accent" style={{ color: 'var(--color-accent)' }}>BASE</span>
-          </span>
+          <img
+            src="/images/satbase-logo-dark.png"
+            alt="SATBase"
+            className="h-8 w-auto object-contain select-none pointer-events-none hidden dark:block"
+          />
         </Link>
 
         {/* Global Search Bar */}
