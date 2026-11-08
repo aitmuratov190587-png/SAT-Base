@@ -1,5 +1,9 @@
+export type QuestionSource = 'collegeboard' | 'original' | 'unknown';
+
 export interface Question {
   id: string;
+  source: QuestionSource;
+  license_note: string;
   domain: string; // e.g. 'Algebra', 'Geometry and Trigonometry', 'Craft and Structure', etc.
   difficulty: 'Easy' | 'Medium' | 'Hard';
   questionText: string; // The stimulus/prompt
@@ -12,6 +16,8 @@ export interface Question {
 export const SAT_QUESTIONS_MOCK: Question[] = [
   {
     id: 'sat-q1',
+    source: 'original',
+    license_note: 'SATBase original demo questions',
     domain: 'Craft and Structure',
     section: 'Reading & Writing',
     difficulty: 'Medium',
@@ -29,6 +35,8 @@ export const SAT_QUESTIONS_MOCK: Question[] = [
   },
   {
     id: 'sat-q2',
+    source: 'original',
+    license_note: 'SATBase original demo questions',
     domain: 'Algebra',
     section: 'Math',
     difficulty: 'Easy',
@@ -46,6 +54,8 @@ export const SAT_QUESTIONS_MOCK: Question[] = [
   },
   {
     id: 'sat-q3',
+    source: 'original',
+    license_note: 'SATBase original demo questions',
     domain: 'Geometry and Trigonometry',
     section: 'Math',
     difficulty: 'Hard',
@@ -63,6 +73,8 @@ export const SAT_QUESTIONS_MOCK: Question[] = [
   },
   {
     id: 'sat-q4',
+    source: 'original',
+    license_note: 'SATBase original demo questions',
     domain: 'Information and Ideas',
     section: 'Reading & Writing',
     difficulty: 'Hard',
@@ -81,6 +93,8 @@ export const SAT_QUESTIONS_MOCK: Question[] = [
   },
   {
     id: 'sat-q5',
+    source: 'original',
+    license_note: 'SATBase original demo questions',
     domain: 'Standard English Conventions',
     section: 'Reading & Writing',
     difficulty: 'Medium',

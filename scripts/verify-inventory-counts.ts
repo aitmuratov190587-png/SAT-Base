@@ -1,0 +1,60 @@
+import { CROSS_TEXT_QUESTIONS } from '../src/data/crossTextQuestions';
+import {
+  LINEAR_EQUATIONS_ONE_QUESTIONS,
+  LINEAR_EQUATIONS_TWO_QUESTIONS,
+  LINEAR_FUNCTIONS_QUESTIONS,
+  SYSTEMS_OF_EQUATIONS_QUESTIONS,
+  LINEAR_INEQUALITIES_QUESTIONS,
+  EQUIVALENT_EXPRESSIONS_QUESTIONS,
+  NONLINEAR_EQUATIONS_QUESTIONS,
+  NONLINEAR_FUNCTIONS_QUESTIONS,
+  PROBLEMSOLVINGRATIOS_QUESTIONS,
+  PROBLEMSOLVINGPERCENTAGES_QUESTIONS,
+  PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS,
+  PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS,
+  PROBLEMSOLVINGPROBABILITY_QUESTIONS,
+  PROBLEMSOLVINGINFERENCE_QUESTIONS,
+  PROBLEMSOLVINGSTUDIES_QUESTIONS,
+} from '../src/data/math';
+import { FLASH_RUSH_QUESTIONS } from '../src/data/flashRushMock';
+import { SAT_QUESTIONS_MOCK } from '../src/data/satQuestionsMock';
+
+const allQuestions = [
+  ...CROSS_TEXT_QUESTIONS,
+  ...LINEAR_EQUATIONS_ONE_QUESTIONS,
+  ...LINEAR_EQUATIONS_TWO_QUESTIONS,
+  ...LINEAR_FUNCTIONS_QUESTIONS,
+  ...SYSTEMS_OF_EQUATIONS_QUESTIONS,
+  ...LINEAR_INEQUALITIES_QUESTIONS,
+  ...EQUIVALENT_EXPRESSIONS_QUESTIONS,
+  ...NONLINEAR_EQUATIONS_QUESTIONS,
+  ...NONLINEAR_FUNCTIONS_QUESTIONS,
+  ...PROBLEMSOLVINGRATIOS_QUESTIONS,
+  ...PROBLEMSOLVINGPERCENTAGES_QUESTIONS,
+  ...PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS,
+  ...PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS,
+  ...PROBLEMSOLVINGPROBABILITY_QUESTIONS,
+  ...PROBLEMSOLVINGINFERENCE_QUESTIONS,
+  ...PROBLEMSOLVINGSTUDIES_QUESTIONS,
+  ...FLASH_RUSH_QUESTIONS,
+  ...SAT_QUESTIONS_MOCK,
+];
+
+const counts = {
+  collegeboard: 0,
+  original: 0,
+  unknown: 0,
+};
+
+for (const q of allQuestions) {
+  if (q.source === 'collegeboard') counts.collegeboard++;
+  else if (q.source === 'original') counts.original++;
+  else if (q.source === 'unknown') counts.unknown++;
+  else throw new Error(`Unknown source value: ${(q as any).source}`);
+}
+
+console.log('=== VERIFIED INVENTORY BREAKDOWN ===');
+console.log('Total questions:', allQuestions.length);
+console.log('College Board (satqb-*):', counts.collegeboard);
+console.log('Original (mock/demo):', counts.original);
+console.log('Unknown (docx / crossText):', counts.unknown);

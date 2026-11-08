@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import {
   Bookmark,
   Slash,
@@ -8,9 +8,10 @@ import {
   X,
   Send,
   Check,
+  ArrowLeft,
 } from 'lucide-react';
-import { CROSS_TEXT_QUESTIONS } from '../data/crossTextQuestions';
 import { QUESTION_REGISTRY, PracticeQuestion } from '../data/questionRegistry';
+import { EmptyState } from '../components/ui/EmptyState';
 import { useAuth } from '../contexts/AuthContext';
 import { useApp } from '../contexts/AppContext';
 import { calculateSAElo, QuestionDifficulty, SATSection } from '../lib/saEloService';
@@ -48,7 +49,7 @@ export default function TopicPracticeArena() {
   const { topicId: urlTopicId } = useParams<{ topicId?: string }>();
   const activeTopicId = (!urlTopicId || urlTopicId === 'cross-text') ? 'rw-crf-1' : urlTopicId;
   const topicMeta = QUESTION_REGISTRY[activeTopicId] || QUESTION_REGISTRY['rw-crf-1'];
-  const questions: PracticeQuestion[] = (topicMeta?.questions as PracticeQuestion[]) || CROSS_TEXT_QUESTIONS;
+  const questions: PracticeQuestion[] = (topicMeta?.questions as PracticeQuestion[]) || [];
 
   const { user } = useAuth();
   const { profile, updateProfile, refreshStatistics } = useApp();
@@ -57,8 +58,8 @@ export default function TopicPracticeArena() {
 
   // Active question index
   const [currentIndex, setCurrentIndex] = useState<number>(0);
-  const currentQ: PracticeQuestion = questions[currentIndex] || questions[0];
-  const isMath = topicMeta?.section === 'math' || (!('text1' in currentQ) && !('passage' in currentQ));
+  const currentQ: PracticeQuestion | undefined = questions[currentIndex] || questions[0];
+  const isMath = topicMeta?.section === 'math' || Boolean(currentQ && !('text1' in currentQ) && !('passage' in currentQ));
 
   // Active session calculation (Requirement 7: Question counter must come from active session 20, NOT dataset 317)
   const sessionBatch = Math.floor(currentIndex / PRACTICE_SESSION_SIZE);
@@ -501,13 +502,30 @@ export default function TopicPracticeArena() {
     }, 600);
   };
 
-  if (!currentQ) {
+  if (!currentQ || questions.length === 0) {
     return (
-      <div className="min-h-screen bg-paper flex items-center justify-center text-ink font-sans">
-        <div className="text-center">
-          <div className="w-8 h-8 border-2 border-accent border-t-transparent rounded-full animate-spin mx-auto mb-3" />
-          <p className="text-xs text-ink-2">Loading practice session...</p>
-        </div>
+      <div className="min-h-screen bg-paper flex flex-col font-sans">
+        <header className="h-14 border-b border-line bg-paper/95 backdrop-blur px-6 flex items-center justify-between">
+          <Link
+            to="/questions"
+            className="flex items-center gap-2 text-ink hover:text-accent font-semibold text-sm transition-colors"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span>Back to Question Bank</span>
+          </Link>
+          <span className="text-sm font-medium text-ink-2">
+            {topicMeta?.topicName || 'Practice Topic'}
+          </span>
+        </header>
+
+        <main className="flex-1 flex items-center justify-center p-6">
+          <EmptyState
+            headline="More questions coming soon"
+            description={`We are currently authoring and verifying original practice questions for ${topicMeta?.topicName || 'this topic'}. Check back soon!`}
+            actionLabel="Back to Question Bank"
+            actionHref="/questions"
+          />
+        </main>
       </div>
     );
   }

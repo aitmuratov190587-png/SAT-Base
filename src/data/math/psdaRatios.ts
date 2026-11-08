@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-3c8fdc40",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 1,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -20,6 +22,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d28c29e1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 2,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -53,6 +57,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-555939d2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 3,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -86,6 +92,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3f5398a6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 4,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -119,6 +127,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b4912cc5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 5,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -152,6 +162,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-825b7490",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 6,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -168,6 +180,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-86636d8f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 7,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -184,6 +198,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fe4c1c9e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 8,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -200,6 +216,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3310c2ab",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -216,6 +234,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-000259aa",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 10,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -249,6 +269,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-312ba47c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -282,6 +304,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8e528129",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 12,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -298,6 +322,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-15617f62",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 13,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -331,6 +357,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-be35c117",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 14,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -364,6 +392,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e3d49511",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 15,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -397,6 +427,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3f236a64",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 16,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -430,6 +462,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-da9ffcf6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 17,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -463,6 +497,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9fa781f8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 18,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -479,6 +515,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6310adbc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 19,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -512,6 +550,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2d16d62c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 20,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -528,6 +568,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-69f6717f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 21,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -561,6 +603,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c3d78831",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 22,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -594,6 +638,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b5bc47d5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 23,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -627,6 +673,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fea831fc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 24,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -643,6 +691,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-aeeaec96",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 25,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -676,6 +726,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e7133228",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 26,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -709,6 +761,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-181cc4d6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 27,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -742,6 +796,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e9841407",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 28,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -775,6 +831,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0d125b35",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 29,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -808,6 +866,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1b403590",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 30,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -841,6 +901,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c81499e1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 31,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -857,6 +919,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0700a2d5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 32,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -873,6 +937,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3638f413",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 33,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -889,6 +955,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-445dd032",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 34,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -922,6 +990,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fe1ec415",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 35,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -955,6 +1025,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ba62b0b0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 36,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -988,6 +1060,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-939c46d1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 37,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1021,6 +1095,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7cd1c6db",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 38,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1054,6 +1130,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8637294f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 39,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1070,6 +1148,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-24ad9dcb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 40,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1103,6 +1183,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e21d10a7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 41,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1119,6 +1201,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7d721177",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 42,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1152,6 +1236,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d0d9ede4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 43,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1168,6 +1254,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1d945139",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 44,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1201,6 +1289,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-06a152cd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 45,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1234,6 +1324,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8917ce38",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 46,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1267,6 +1359,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ec787383",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 47,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1283,6 +1377,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7e6c745f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 48,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1316,6 +1412,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-85b33aa8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 49,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1349,6 +1447,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-873d2838",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 50,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1365,6 +1465,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2cdefcb1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 51,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1398,6 +1500,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c7c6445f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 52,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1431,6 +1535,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-73ddfdac",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 53,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1447,6 +1553,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-61b87506",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 54,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1463,6 +1571,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4c5ea142",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 55,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1496,6 +1606,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3ac09984",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 56,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1529,6 +1641,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-61f61789",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 57,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1545,6 +1659,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c74df824",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 58,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1561,6 +1677,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1b96c116",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 59,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1594,6 +1712,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5154615f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 60,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1610,6 +1730,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-eb672707",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 61,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1626,6 +1748,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7270d642",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 62,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1659,6 +1783,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8bf3f67a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 63,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1692,6 +1818,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-cb4894f9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 64,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1708,6 +1836,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-50b99b2d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 65,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1741,6 +1871,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c47256ca",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 66,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1774,6 +1906,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-551c52b9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 67,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1807,6 +1941,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1180401d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 68,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1840,6 +1976,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f6cbb04a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 69,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1873,6 +2011,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-568bc2a4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 70,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1906,6 +2046,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-96c3e32d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 71,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1922,6 +2064,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-94660ba8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 72,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1938,6 +2082,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c2e7fa6d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 73,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1954,6 +2100,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-21e539a0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 74,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -1987,6 +2135,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4837406c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 75,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2003,6 +2153,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-99550621",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 76,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2036,6 +2188,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3318d37b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 77,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2052,6 +2206,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-89c39d77",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 78,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2068,6 +2224,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7d093333",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 79,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2101,6 +2259,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-674a4084",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 80,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2134,6 +2294,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-808f7d6c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 81,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2167,6 +2329,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b73025e2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 82,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2200,6 +2364,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-20b69297",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 83,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2233,6 +2399,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-81d0f1e6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 84,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2249,6 +2417,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-11b06e35",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 85,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2282,6 +2452,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d7a3179d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 86,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2298,6 +2470,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d6456c7a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 87,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2331,6 +2505,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4347a032",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 88,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2364,6 +2540,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-de799680",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 89,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2397,6 +2575,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-51c9d65f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 90,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2430,6 +2610,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-763e6769",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 91,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -2463,6 +2645,8 @@ export const PROBLEMSOLVINGRATIOS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4e375d1f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 92,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",

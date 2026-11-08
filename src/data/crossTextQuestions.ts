@@ -1,6 +1,8 @@
 // Auto-generated Digital SAT Cross-Text Connections Question Bank
 // Total 248 Real Questions with Passages, Prompts, 4 Options, and Explanations
 
+export type QuestionSource = 'collegeboard' | 'original' | 'unknown';
+
 export interface CrossTextOption {
   letter: string;
   text: string;
@@ -8,6 +10,8 @@ export interface CrossTextOption {
 
 export interface CrossTextQuestion {
   id: string;
+  source: QuestionSource;
+  license_note: string;
   sourceFile: string;
   domain: string;
   topic: string;
@@ -24,6 +28,8 @@ export interface CrossTextQuestion {
 export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   {
     "id": "ctc-001",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -55,6 +61,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-002",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -86,6 +94,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-003",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -117,6 +127,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-004",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -148,6 +160,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-005",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -179,6 +193,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-006",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -210,6 +226,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-007",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -241,6 +259,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-008",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -272,6 +292,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-009",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -303,6 +325,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-010",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -334,6 +358,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-011",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -365,6 +391,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-012",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -396,6 +424,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-013",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -427,6 +457,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-014",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -458,6 +490,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-015",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -489,6 +523,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-016",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -520,6 +556,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-017",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -551,6 +589,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-018",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -582,6 +622,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-019",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -613,6 +655,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-020",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -644,6 +688,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-021",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -675,6 +721,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-022",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -706,6 +754,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-023",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -737,6 +787,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-024",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Question_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -768,6 +820,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-025",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -799,6 +853,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-026",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -830,6 +886,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-027",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -861,6 +919,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-028",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -892,6 +952,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-029",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -923,6 +985,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-030",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -954,6 +1018,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-031",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -985,6 +1051,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-032",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1016,6 +1084,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-033",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1047,6 +1117,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-034",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1078,6 +1150,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-035",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1109,6 +1183,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-036",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1140,6 +1216,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-037",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1171,6 +1249,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-038",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1202,6 +1282,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-039",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1233,6 +1315,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-040",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1264,6 +1348,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-041",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1295,6 +1381,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-042",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1326,6 +1414,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-043",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1357,6 +1447,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-044",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1388,6 +1480,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-045",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1419,6 +1513,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-046",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1450,6 +1546,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-047",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1481,6 +1579,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-048",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Advanced_Bank",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1512,6 +1612,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-049",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1543,6 +1645,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-050",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1574,6 +1678,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-051",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1605,6 +1711,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-052",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1636,6 +1744,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-053",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1667,6 +1777,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-054",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1698,6 +1810,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-055",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1729,6 +1843,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-056",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1760,6 +1876,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-057",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1791,6 +1909,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-058",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1822,6 +1942,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-059",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1853,6 +1975,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-060",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1884,6 +2008,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-061",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1915,6 +2041,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-062",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1946,6 +2074,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-063",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -1977,6 +2107,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-064",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2008,6 +2140,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-065",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2039,6 +2173,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-066",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2070,6 +2206,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-067",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2101,6 +2239,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-068",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2132,6 +2272,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-069",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2163,6 +2305,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-070",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2194,6 +2338,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-071",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2225,6 +2371,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-072",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2256,6 +2404,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-073",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2287,6 +2437,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-074",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2318,6 +2470,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-075",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2349,6 +2503,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-076",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2380,6 +2536,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-077",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2411,6 +2569,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-078",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2442,6 +2602,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-079",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2473,6 +2635,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-080",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2504,6 +2668,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-081",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2535,6 +2701,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-082",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2566,6 +2734,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-083",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2597,6 +2767,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-084",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2628,6 +2800,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-085",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2659,6 +2833,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-086",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2690,6 +2866,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-087",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2721,6 +2899,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-088",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2752,6 +2932,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-089",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2783,6 +2965,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-090",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2814,6 +2998,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-091",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2845,6 +3031,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-092",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2876,6 +3064,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-093",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2907,6 +3097,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-094",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2938,6 +3130,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-095",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -2969,6 +3163,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-096",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3000,6 +3196,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-097",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3031,6 +3229,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-098",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3062,6 +3262,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-099",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3093,6 +3295,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-100",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3124,6 +3328,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-101",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3155,6 +3361,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-102",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3186,6 +3394,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-103",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3217,6 +3427,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-104",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3248,6 +3460,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-105",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3279,6 +3493,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-106",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3310,6 +3526,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-107",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3341,6 +3559,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-108",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3372,6 +3592,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-109",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3403,6 +3625,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-110",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3434,6 +3658,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-111",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3465,6 +3691,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-112",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3496,6 +3724,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-113",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3527,6 +3757,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-114",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3558,6 +3790,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-115",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3589,6 +3823,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-116",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3620,6 +3856,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-117",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3651,6 +3889,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-118",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3682,6 +3922,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-119",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3713,6 +3955,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-120",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3744,6 +3988,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-121",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3775,6 +4021,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-122",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3806,6 +4054,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-123",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3837,6 +4087,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-124",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3868,6 +4120,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-125",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3899,6 +4153,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-126",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3930,6 +4186,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-127",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3961,6 +4219,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-128",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -3992,6 +4252,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-129",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4023,6 +4285,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-130",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4054,6 +4318,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-131",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4085,6 +4351,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-132",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4116,6 +4384,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-133",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4147,6 +4417,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-134",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4178,6 +4450,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-135",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4209,6 +4483,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-136",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4240,6 +4516,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-137",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4271,6 +4549,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-138",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4302,6 +4582,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-139",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4333,6 +4615,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-140",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4364,6 +4648,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-141",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4395,6 +4681,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-142",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4426,6 +4714,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-143",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4457,6 +4747,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-144",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4488,6 +4780,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-145",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4519,6 +4813,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-146",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4550,6 +4846,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-147",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4581,6 +4879,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-148",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4612,6 +4912,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-149",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4643,6 +4945,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-150",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4674,6 +4978,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-151",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4705,6 +5011,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-152",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4736,6 +5044,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-153",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4767,6 +5077,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-154",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4798,6 +5110,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-155",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4829,6 +5143,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-156",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4860,6 +5176,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-157",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4891,6 +5209,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-158",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4922,6 +5242,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-159",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4953,6 +5275,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-160",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -4984,6 +5308,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-161",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5015,6 +5341,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-162",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5046,6 +5374,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-163",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5077,6 +5407,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-164",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5108,6 +5440,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-165",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5139,6 +5473,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-166",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5170,6 +5506,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-167",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5201,6 +5539,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-168",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5232,6 +5572,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-169",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5263,6 +5605,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-170",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5294,6 +5638,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-171",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5325,6 +5671,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-172",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5356,6 +5704,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-173",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5387,6 +5737,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-174",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5418,6 +5770,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-175",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5449,6 +5803,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-176",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5480,6 +5836,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-177",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5511,6 +5869,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-178",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5542,6 +5902,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-179",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5573,6 +5935,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-180",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5604,6 +5968,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-181",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5635,6 +6001,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-182",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5666,6 +6034,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-183",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5697,6 +6067,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-184",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5728,6 +6100,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-185",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5759,6 +6133,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-186",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5790,6 +6166,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-187",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5821,6 +6199,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-188",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5852,6 +6232,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-189",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5883,6 +6265,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-190",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5914,6 +6298,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-191",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5945,6 +6331,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-192",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -5976,6 +6364,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-193",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6007,6 +6397,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-194",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6038,6 +6430,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-195",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6069,6 +6463,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-196",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6100,6 +6496,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-197",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6131,6 +6529,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-198",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6162,6 +6562,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-199",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6193,6 +6595,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-200",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6224,6 +6628,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-201",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6255,6 +6661,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-202",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6286,6 +6694,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-203",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6317,6 +6727,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-204",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6348,6 +6760,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-205",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6379,6 +6793,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-206",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6410,6 +6826,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-207",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6441,6 +6859,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-208",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6472,6 +6892,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-209",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6503,6 +6925,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-210",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6534,6 +6958,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-211",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6565,6 +6991,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-212",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6596,6 +7024,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-213",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6627,6 +7057,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-214",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6658,6 +7090,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-215",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6689,6 +7123,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-216",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6720,6 +7156,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-217",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6751,6 +7189,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-218",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6782,6 +7222,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-219",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6813,6 +7255,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-220",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6844,6 +7288,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-221",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6875,6 +7321,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-222",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6906,6 +7354,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-223",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6937,6 +7387,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-224",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6968,6 +7420,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-225",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -6999,6 +7453,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-226",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7030,6 +7486,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-227",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7061,6 +7519,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-228",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7092,6 +7552,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-229",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7123,6 +7585,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-230",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7154,6 +7618,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-231",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7185,6 +7651,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-232",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7216,6 +7684,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-233",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7247,6 +7717,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-234",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7278,6 +7750,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-235",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7309,6 +7783,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-236",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7340,6 +7816,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-237",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7371,6 +7849,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-238",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7402,6 +7882,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-239",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7433,6 +7915,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-240",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7464,6 +7948,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-241",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7495,6 +7981,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-242",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7526,6 +8014,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-243",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7557,6 +8047,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-244",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7588,6 +8080,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-245",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7619,6 +8113,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-246",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7650,6 +8146,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-247",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",
@@ -7681,6 +8179,8 @@ export const CROSS_TEXT_QUESTIONS: CrossTextQuestion[] = [
   },
   {
     "id": "ctc-248",
+    "source": "unknown",
+    "license_note": "Unverified source origin; pending license review",
     "sourceFile": "SAT_Cross_Text_Connections_Batch2_100",
     "domain": "Craft and Structure",
     "topic": "Cross-Text Connections",

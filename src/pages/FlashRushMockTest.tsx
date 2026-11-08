@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import BluebookHeader from '../components/bluebook/BluebookHeader';
 import BluebookFooter, { QuestionStatus } from '../components/bluebook/BluebookFooter';
 import MathReferenceModal from '../components/bluebook/MathReferenceModal';
@@ -8,7 +8,8 @@ import ModuleReviewScreen from '../components/bluebook/ModuleReviewScreen';
 import ModuleBreakModal from '../components/bluebook/ModuleBreakModal';
 import KatexMath, { FormattedMathText } from '../components/ui/KatexMath';
 import { useApp } from '../contexts/AppContext';
-import { Bookmark, Slash } from 'lucide-react';
+import { Bookmark, Slash, ArrowLeft } from 'lucide-react';
+import { EmptyState } from '../components/ui/EmptyState';
 import {
   answerQuestion,
   createSession,
@@ -276,6 +277,32 @@ export default function FlashRushMockTest() {
   };
 
   if (!activeQuestion) {
+    if (!questions || questions.length === 0) {
+      return (
+        <div className="min-h-screen bg-paper flex flex-col justify-between font-sans text-ink">
+          <header className="h-14 border-b border-line bg-paper/95 backdrop-blur px-6 flex items-center justify-between">
+            <Link
+              to="/mock-tests"
+              className="flex items-center gap-2 text-ink hover:text-accent font-semibold text-sm transition-colors"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              <span>Back to Mock Tests</span>
+            </Link>
+            <span className="text-sm font-medium text-ink-2">FlashRush Diagnostic</span>
+          </header>
+
+          <main className="flex-1 flex items-center justify-center p-6">
+            <EmptyState
+              headline="More questions coming soon"
+              description="Diagnostic mock test questions are currently being updated with verified original content. Check back soon!"
+              actionLabel="Back to Mock Tests"
+              actionHref="/mock-tests"
+            />
+          </main>
+        </div>
+      );
+    }
+
     return (
       <div className="min-h-screen bg-paper flex items-center justify-center text-ink">
         <div className="text-center">

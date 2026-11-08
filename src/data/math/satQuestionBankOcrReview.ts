@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-2f0a43b2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 234,
     "topicId": "m-alg-1",
     "topic": "Linear equations in one variable",
@@ -20,6 +22,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5cf1bbc9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 256,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -53,6 +57,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-590d662d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 262,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -69,6 +75,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-13294295",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 263,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -102,6 +110,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-33e4af6b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 266,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -135,6 +145,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2493c767",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 299,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -168,6 +180,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c4d49134",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 309,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -201,6 +215,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c01f4a95",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 312,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -217,6 +233,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2ecce641",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 319,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -233,6 +251,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e86a06fe",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 334,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -266,6 +286,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0ea7ef01",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 351,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -299,6 +321,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8368afd1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 254,
     "topicId": "m-alg-2",
     "topic": "Linear equations in two variables",
@@ -332,6 +356,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2e0290c3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 261,
     "topicId": "m-alg-2",
     "topic": "Linear equations in two variables",
@@ -365,6 +391,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-174885f8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 304,
     "topicId": "m-alg-2",
     "topic": "Linear equations in two variables",
@@ -398,6 +426,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-571174f3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 221,
     "topicId": "m-alg-4",
     "topic": "Systems of two linear equations in two variables",
@@ -414,6 +444,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6e50ce28",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 276,
     "topicId": "m-alg-4",
     "topic": "Systems of two linear equations in two variables",
@@ -447,6 +479,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4b06557b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 295,
     "topicId": "m-alg-4",
     "topic": "Systems of two linear equations in two variables",
@@ -463,6 +497,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e25f0807",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 220,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -479,6 +515,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3f5375d9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 242,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -512,6 +550,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-aad7e1b9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 323,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -545,6 +585,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0bd33265",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 347,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -561,6 +603,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bbb0359a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 246,
     "topicId": "m-alg-2",
     "topic": "Linear equations in two variables",
@@ -594,6 +638,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5f46fc76",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 309,
     "topicId": "m-alg-4",
     "topic": "Systems of two linear equations in two variables",
@@ -627,6 +673,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3726e079",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-dat-1",
     "topic": "Ratios, rates, proportional relationships, and units",
@@ -643,6 +691,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d65b9a87",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 26,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -676,6 +726,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d94018fd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 40,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -709,6 +761,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e24765e6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 14,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -725,6 +779,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b3547a10",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 28,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -758,6 +814,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e97fd3f8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 47,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -791,6 +849,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9b9da812",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 49,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -824,6 +884,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-70a2776f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 63,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -857,6 +919,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bc59c2d9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 64,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -890,6 +954,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d4413871",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -906,6 +972,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fde6f3bb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 27,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -939,6 +1007,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a520ba07",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 28,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -972,6 +1042,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d9137a84",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 77,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1005,6 +1077,8 @@ export const SAT_QUESTION_BANK_OCR_REVIEW_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-36b6f8ba",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 81,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",

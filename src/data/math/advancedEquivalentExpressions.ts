@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-f5c3e3b8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 1,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -37,6 +39,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-72ebc024",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 2,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -70,6 +74,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dd4ab4c4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 3,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -103,6 +109,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b8caaf84",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 4,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -136,6 +144,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e312081b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 5,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -169,6 +179,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-52931bfa",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 6,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -202,6 +214,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-075b29b0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 7,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -235,6 +249,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ad2ec615",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 8,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -268,6 +284,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-42c71eb5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -301,6 +319,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-371cbf6b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 10,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -334,6 +354,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a05bd3a4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -367,6 +389,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c3b116d7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 12,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -400,6 +424,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-40c09d66",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 13,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -416,6 +442,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3206b905",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 14,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -449,6 +477,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5ba187d4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 15,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -482,6 +512,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-38c90632",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 16,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -498,6 +530,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b4a6ed81",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 17,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -514,6 +548,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-34847f8a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 18,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -547,6 +583,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-253985c2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 19,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -580,6 +618,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4ac59df6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 20,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -613,6 +653,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-70482e20",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 21,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -646,6 +688,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8452c42b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 22,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -679,6 +723,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ea6d05bb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 23,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -695,6 +741,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0536ad4f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 24,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -728,6 +776,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1d3fee25",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 25,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -761,6 +811,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d8789a4c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 26,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -796,6 +848,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   
   {
     "id": "satqb-5b6af6b1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 29,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -829,6 +883,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a255ae72",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 30,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -862,6 +918,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1e7a1deb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 31,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -895,6 +953,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-00165291",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 32,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -911,6 +971,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-772de699",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 33,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -944,6 +1006,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-02489d55",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 34,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -977,6 +1041,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5355c0ef",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 35,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -993,6 +1059,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a1bf1c4e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 36,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1026,6 +1094,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c81b6c57",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 37,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1059,6 +1129,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6d04c89d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 38,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1092,6 +1164,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e51bf5b1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 39,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1125,6 +1199,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-60fdb4d4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 40,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1158,6 +1234,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-967ef685",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 41,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1191,6 +1269,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4a5af623",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 42,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1224,6 +1304,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a0b4103e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 43,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1257,6 +1339,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-565428e1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 44,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1273,6 +1357,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-49efde89",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 45,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1306,6 +1392,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5805e747",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 46,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1339,6 +1427,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c6e85cd7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 47,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1355,6 +1445,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-04887c7b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 48,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1388,6 +1480,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8f82ad81",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 49,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1421,6 +1515,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-26eb61c1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 50,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1454,6 +1550,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9ed9f54d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 51,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1487,6 +1585,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-18c7c3e0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 52,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1520,6 +1620,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-294db8ec",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 53,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1553,6 +1655,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f237ccfc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 54,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1569,6 +1673,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a391ed22",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 55,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1585,6 +1691,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1be909aa",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 56,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1618,6 +1726,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bdb0aa23",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 57,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1651,6 +1761,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-beb86a0c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 58,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1684,6 +1796,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6e06a0a7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 59,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1717,6 +1831,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ad038c19",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 60,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1750,6 +1866,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-290cdc2c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 61,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1783,6 +1901,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-abc61109",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 62,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1816,6 +1936,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-499cb491",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 63,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1849,6 +1971,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-482a445b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 64,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1882,6 +2006,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-91aa9aa9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 65,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1915,6 +2041,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-20291f47",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 66,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1948,6 +2076,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-42f8e4b4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 67,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1964,6 +2094,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c8a5c221",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 68,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -1997,6 +2129,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-67e866b5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 69,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2030,6 +2164,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fd65f47f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 70,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2063,6 +2199,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-12e7faf8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 71,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2096,6 +2234,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-24016dee",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 72,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2129,6 +2269,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-89fc23af",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 73,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2162,6 +2304,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c3a72da5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 74,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2195,6 +2339,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-911c415b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 75,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2211,6 +2357,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-16de54c7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 76,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2228,6 +2376,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   
   {
     "id": "satqb-f89e1d6f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 78,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2261,6 +2411,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-df0ef054",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 79,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2294,6 +2446,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3e9cc0c2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 80,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2327,6 +2481,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7348f046",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 81,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2360,6 +2516,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b47419f4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 82,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2393,6 +2551,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8838a672",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 83,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2426,6 +2586,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0b3d25c5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 84,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2459,6 +2621,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e117d3b8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 85,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2492,6 +2656,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-50338a48",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 86,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2525,6 +2691,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-127b2759",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 87,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2558,6 +2726,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-efc469c4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 88,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2591,6 +2761,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dc67c130",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 89,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2624,6 +2796,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fb96a5b3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 90,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2657,6 +2831,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7355b9d9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 91,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2690,6 +2866,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-df747160",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 92,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2723,6 +2901,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1dd13816",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 93,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2739,6 +2919,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2289b199",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 94,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2772,6 +2954,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e597050f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 95,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2805,6 +2989,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5dd53f73",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 96,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2838,6 +3024,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1e8d7183",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 97,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2871,6 +3059,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0354c7de",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 98,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2904,6 +3094,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-508344ac",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 99,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2937,6 +3129,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c602140f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 100,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -2970,6 +3164,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fd4b2aa0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 101,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -3003,6 +3199,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5d93c782",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 102,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -3036,6 +3234,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-974d33dc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 103,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",
@@ -3069,6 +3269,8 @@ export const EQUIVALENT_EXPRESSIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d4d513ff",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 104,
     "topicId": "m-adv-1",
     "topic": "Equivalent expressions",

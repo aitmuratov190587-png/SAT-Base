@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-a5b069b4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 1,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -37,6 +39,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f890dc20",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 2,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -70,6 +74,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d3b9c8d8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 3,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -103,6 +109,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-608cf8e2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 4,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -136,6 +144,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4c774b00",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 5,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -169,6 +179,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-29fa7970",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 6,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -202,6 +214,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-52f9a246",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 7,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -235,6 +249,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a456cfd2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 8,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -251,6 +267,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-15d87c0f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -284,6 +302,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8736334b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 10,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -317,6 +337,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c88e0663",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -350,6 +372,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3f2ee20a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 12,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -383,6 +407,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f6c18a66",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 13,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -416,6 +442,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fe6a49d6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 14,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -449,6 +477,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d0efc1dd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 15,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -482,6 +512,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-80f1f3a9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 16,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -515,6 +547,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-190be2fc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 17,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -531,6 +565,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-db88a933",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 18,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -564,6 +600,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c178d4da",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 19,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -597,6 +635,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-457d2f2c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 20,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -630,6 +670,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c3d65f93",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 21,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -663,6 +705,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d73a67d7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 22,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -696,6 +740,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-35bec412",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 23,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -712,6 +758,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6c9444cd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 24,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -728,6 +776,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-07f2829b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 25,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -744,6 +794,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-241f1db7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 26,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -777,6 +829,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-578e26ae",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 27,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -810,6 +864,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ecbdbe84",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 28,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -843,6 +899,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f8a322d9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 29,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -876,6 +934,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-12dae628",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 30,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -909,6 +969,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1142af44",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 31,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -942,6 +1004,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1e8ccffd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 32,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -975,6 +1039,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a29e89fc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 33,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -991,6 +1057,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ea95087d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 34,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1024,6 +1092,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e7d48c8a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 35,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1057,6 +1127,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7b65bb28",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 36,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1090,6 +1162,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-be00d896",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 37,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1123,6 +1197,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-560fab82",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 38,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1139,6 +1215,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1f4c57d7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 39,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1172,6 +1250,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4b09f783",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 40,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1188,6 +1268,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3aa0642c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 41,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1204,6 +1286,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bfa8a85c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 42,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1237,6 +1321,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fa7a0164",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 43,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1270,6 +1356,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-708590d7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 44,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1303,6 +1391,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bf47ad54",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 45,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1336,6 +1426,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f52123e0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 46,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1352,6 +1444,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7760c516",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 47,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1368,6 +1462,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-40f0ee70",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 48,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1384,6 +1480,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-374b18f9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 49,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1417,6 +1515,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4ff597db",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 50,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1450,6 +1550,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c54b92a2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 51,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1483,6 +1585,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5c3c2e3c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 52,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1516,6 +1620,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-66f03086",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 53,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1549,6 +1655,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9110c120",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 54,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1582,6 +1690,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d1db8def",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 55,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1615,6 +1725,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4626102e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 56,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1648,6 +1760,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-55cfaf22",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 57,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1681,6 +1795,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-820d7a73",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 58,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1697,6 +1813,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6e3ab4bf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 59,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1730,6 +1848,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-881ef5f5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 60,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1746,6 +1866,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4bb25495",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 61,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1779,6 +1901,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-57481175",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 62,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1812,6 +1936,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-98958ae8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 63,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1828,6 +1954,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-391ae4b2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 64,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1861,6 +1989,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-57f45509",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 65,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1894,6 +2024,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2a59eb45",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 66,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1910,6 +2042,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-79340403",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 67,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1926,6 +2060,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-93779b53",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 68,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1959,6 +2095,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9d935bd8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 69,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -1992,6 +2130,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a067c926",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 70,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2025,6 +2165,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9e2bf782",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 71,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2058,6 +2200,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a9647302",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 72,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2091,6 +2235,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8193e8cd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 73,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2107,6 +2253,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7b1a3200",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 74,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2140,6 +2288,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-54d93874",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 75,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2156,6 +2306,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-869a32f1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 76,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2189,6 +2341,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-559476f4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 77,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2205,6 +2359,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6670e407",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 78,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2238,6 +2394,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c78bb2b8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 79,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2271,6 +2429,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-94237701",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 80,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2287,6 +2447,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-cf2be18d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 81,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",
@@ -2320,6 +2482,8 @@ export const PROBLEMSOLVINGONEVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-25fc031a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 82,
     "topicId": "m-dat-3",
     "topic": "One-variable data: Distributions and measures of center and spread",

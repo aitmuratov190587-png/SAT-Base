@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   {
     "id": "m-alg-3-001",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 1,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -37,6 +39,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-002",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 2,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -70,6 +74,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-003",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 3,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -103,6 +109,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-004",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 4,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -136,6 +144,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-005",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 5,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -169,6 +179,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-006",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 6,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -202,6 +214,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-007",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 7,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -235,6 +249,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-008",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 8,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -268,6 +284,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-009",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 9,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -301,6 +319,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-010",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 10,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -334,6 +354,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-011",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 11,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -367,6 +389,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-012",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 12,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -400,6 +424,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-013",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 13,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -433,6 +459,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-014",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 14,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -466,6 +494,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-015",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 15,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -499,6 +529,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-016",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 16,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -532,6 +564,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-017",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 17,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -565,6 +599,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-018",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 18,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -598,6 +634,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-019",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 19,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -631,6 +669,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-020",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 20,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -664,6 +704,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-021",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 21,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -697,6 +739,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-022",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 22,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -730,6 +774,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-023",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 23,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -763,6 +809,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-024",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 24,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -796,6 +844,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-025",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 25,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -829,6 +879,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-026",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 26,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -862,6 +914,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-027",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 27,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -895,6 +949,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-028",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 28,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -928,6 +984,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-029",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 29,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -961,6 +1019,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-030",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 30,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -994,6 +1054,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-031",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 31,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1027,6 +1089,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-032",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 32,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1060,6 +1124,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-033",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 33,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1093,6 +1159,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-034",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 34,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1126,6 +1194,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-035",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 35,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1159,6 +1229,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-036",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 36,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1192,6 +1264,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-037",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 37,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1225,6 +1299,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-038",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 38,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1258,6 +1334,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-039",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 39,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1291,6 +1369,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-040",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 40,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1324,6 +1404,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-041",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 41,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1357,6 +1439,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-042",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 42,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1390,6 +1474,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-043",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 43,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1423,6 +1509,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-044",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 44,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1456,6 +1544,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-045",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 45,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1489,6 +1579,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-046",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 46,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1522,6 +1614,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-047",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 47,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1555,6 +1649,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-048",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 48,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1588,6 +1684,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-049",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 49,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1621,6 +1719,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-050",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 50,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1654,6 +1754,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-051",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 51,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1687,6 +1789,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-052",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 52,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1720,6 +1824,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-053",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 53,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1753,6 +1859,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-054",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 54,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1786,6 +1894,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-055",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 55,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1819,6 +1929,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-056",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 56,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1852,6 +1964,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-057",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 57,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1885,6 +1999,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-058",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 58,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1918,6 +2034,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-059",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 59,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1951,6 +2069,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-060",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 60,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -1984,6 +2104,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-061",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 61,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2017,6 +2139,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-062",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 62,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2050,6 +2174,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-063",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 63,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2083,6 +2209,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-064",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 64,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2116,6 +2244,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-065",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 65,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2149,6 +2279,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-066",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 66,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2182,6 +2314,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-067",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 67,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2215,6 +2349,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-068",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 68,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2248,6 +2384,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-069",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 69,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2281,6 +2419,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-070",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 70,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2314,6 +2454,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-071",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 71,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2347,6 +2489,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-072",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 72,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2380,6 +2524,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-073",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 73,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2413,6 +2559,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-074",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 74,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2446,6 +2594,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-075",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 75,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2479,6 +2629,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-076",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 76,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2512,6 +2664,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-077",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 77,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2545,6 +2699,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-078",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 78,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2578,6 +2734,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-079",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 79,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2611,6 +2769,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-080",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 80,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2644,6 +2804,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-081",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 81,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2677,6 +2839,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-082",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 82,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2710,6 +2874,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-083",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 83,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2743,6 +2909,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-084",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 84,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2776,6 +2944,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-085",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 85,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2809,6 +2979,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-086",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 86,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2842,6 +3014,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-087",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 87,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2875,6 +3049,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-088",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 88,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2908,6 +3084,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-089",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 89,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2941,6 +3119,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-090",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 90,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -2974,6 +3154,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-091",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 91,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3007,6 +3189,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-092",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 92,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3040,6 +3224,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-093",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 93,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3073,6 +3259,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-094",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 94,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3106,6 +3294,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-095",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 95,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3139,6 +3329,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-096",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 96,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3172,6 +3364,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-097",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 97,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3205,6 +3399,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-098",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 98,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3238,6 +3434,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-099",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 99,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3271,6 +3469,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-100",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 100,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3304,6 +3504,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-101",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 101,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3337,6 +3539,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-102",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 102,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3370,6 +3574,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-103",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 103,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3403,6 +3609,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-104",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 104,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3436,6 +3644,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-105",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 105,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3469,6 +3679,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-106",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 106,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3502,6 +3714,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-107",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 107,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3535,6 +3749,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-108",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 108,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3568,6 +3784,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-109",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 109,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3601,6 +3819,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-110",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 110,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3634,6 +3854,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-111",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 111,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3667,6 +3889,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-112",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 112,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3700,6 +3924,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-113",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 113,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3733,6 +3959,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-114",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 114,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3766,6 +3994,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-115",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 115,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3799,6 +4029,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-116",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 116,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3832,6 +4064,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-117",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 117,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3865,6 +4099,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-118",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 118,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3898,6 +4134,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-119",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 119,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3931,6 +4169,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-120",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 120,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3964,6 +4204,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-121",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 121,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -3997,6 +4239,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-122",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 122,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4030,6 +4274,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-123",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 123,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4063,6 +4309,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-124",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 124,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4096,6 +4344,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-125",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 125,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4129,6 +4379,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-126",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 126,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4162,6 +4414,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-127",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 127,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4195,6 +4449,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-128",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 128,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4228,6 +4484,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-129",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 129,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4261,6 +4519,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-130",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 130,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4294,6 +4554,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-131",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 131,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4327,6 +4589,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-132",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 132,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4360,6 +4624,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-133",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 133,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4393,6 +4659,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-134",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 134,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4426,6 +4694,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-135",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 135,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4459,6 +4729,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-136",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 136,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4492,6 +4764,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-137",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 137,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4525,6 +4799,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-138",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 138,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4558,6 +4834,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-139",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 139,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4591,6 +4869,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-140",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 140,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4624,6 +4904,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-141",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 141,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4657,6 +4939,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-142",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 142,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4690,6 +4974,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-143",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 143,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4723,6 +5009,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-144",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 144,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4756,6 +5044,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-145",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 145,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4789,6 +5079,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-146",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 146,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4822,6 +5114,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-147",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 147,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4855,6 +5149,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-148",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 148,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4888,6 +5184,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-149",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 149,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4921,6 +5219,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-150",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 150,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4954,6 +5254,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-151",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 151,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -4987,6 +5289,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-152",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 152,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5020,6 +5324,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-153",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 153,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5053,6 +5359,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-154",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 154,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5086,6 +5394,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-155",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 155,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5119,6 +5429,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-156",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 156,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5152,6 +5464,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-157",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 157,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5185,6 +5499,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-158",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 158,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5218,6 +5534,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-159",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 159,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5251,6 +5569,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-160",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 160,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5284,6 +5604,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-161",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 161,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5317,6 +5639,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-162",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 162,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5350,6 +5674,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-163",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 163,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5383,6 +5709,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-164",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 164,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5416,6 +5744,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-165",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 165,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5449,6 +5779,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-166",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 166,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5482,6 +5814,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-167",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 167,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5515,6 +5849,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-168",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 168,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5548,6 +5884,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-169",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 169,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5581,6 +5919,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-170",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 170,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5614,6 +5954,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-171",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 171,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5647,6 +5989,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-172",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 172,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5680,6 +6024,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-173",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 173,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5713,6 +6059,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-174",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 174,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5746,6 +6094,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-175",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 175,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5779,6 +6129,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-176",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 176,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5812,6 +6164,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-177",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 177,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5845,6 +6199,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-178",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 178,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5878,6 +6234,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-179",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 179,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5911,6 +6269,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-180",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 180,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5944,6 +6304,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-181",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 181,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -5977,6 +6339,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-182",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 182,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6010,6 +6374,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-183",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 183,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6043,6 +6409,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-184",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 184,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6076,6 +6444,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-185",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 185,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6109,6 +6479,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-186",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 186,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6142,6 +6514,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-187",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 187,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6175,6 +6549,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-188",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 188,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6208,6 +6584,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-189",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 189,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6241,6 +6619,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-190",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 190,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6274,6 +6654,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-191",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 191,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6307,6 +6689,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-192",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 192,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6340,6 +6724,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-193",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 193,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6373,6 +6759,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-194",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 194,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6406,6 +6794,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-195",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 195,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6439,6 +6829,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-196",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 196,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6472,6 +6864,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-197",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 197,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6505,6 +6899,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-198",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 198,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6538,6 +6934,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-199",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 199,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6571,6 +6969,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-200",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 200,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6604,6 +7004,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-201",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 201,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6637,6 +7039,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-202",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 202,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6670,6 +7074,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-203",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 203,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6703,6 +7109,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-204",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 204,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6736,6 +7144,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-205",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 205,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6769,6 +7179,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-206",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 206,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6802,6 +7214,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-207",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 207,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6835,6 +7249,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-208",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 208,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6868,6 +7284,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-209",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 209,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6901,6 +7319,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "m-alg-3-210",
+    "source": "unknown",
+    "license_note": "Unverified source origin (DOCX import); pending license review",
     "num": 210,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6934,6 +7354,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3d1070c9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 211,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -6967,6 +7389,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bd9eb2b5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 212,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7000,6 +7424,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1480dd5c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 213,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7033,6 +7459,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0d6ab461",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 214,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7066,6 +7494,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-520c8177",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 215,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7099,6 +7529,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-88e13c8c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 216,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7132,6 +7564,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8c5e6702",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 217,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7165,6 +7599,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-548a4929",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 218,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7198,6 +7634,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2b15d65f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 219,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7231,6 +7669,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3a3b95df",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 220,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7264,6 +7704,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-be9cb6a2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 221,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7297,6 +7739,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-84664a7c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 222,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7330,6 +7774,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e62cfe5f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 223,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7346,6 +7792,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7fac16fb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 224,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7362,6 +7810,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-06fc1726",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 225,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7395,6 +7845,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d4572f55",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 226,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7428,6 +7880,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e3cf671f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 227,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7444,6 +7898,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6863c7ce",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 228,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7477,6 +7933,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0b332f00",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 229,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7493,6 +7951,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8b9960b2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 230,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7526,6 +7986,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7e3f8363",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 231,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7559,6 +8021,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0eae6be1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 232,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7592,6 +8056,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-361f97c7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 233,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7625,6 +8091,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-447fa970",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 234,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7641,6 +8109,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3dffe9d2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 235,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7674,6 +8144,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c039b198",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 236,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7707,6 +8179,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-27198699",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 237,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7740,6 +8214,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c1bd5301",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 238,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7756,6 +8232,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bf36c815",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 239,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7789,6 +8267,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0d391910",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 240,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7805,6 +8285,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-620fe971",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 241,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7838,6 +8320,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-58c7daed",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 242,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7871,6 +8355,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-17d80dc3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 243,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7887,6 +8373,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1d18794b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 244,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7920,6 +8408,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b3abf40f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 245,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7953,6 +8443,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1c29bfd1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 246,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -7986,6 +8478,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e470e19d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 247,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8019,6 +8513,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-af711d1b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 248,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8052,6 +8548,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f7e39fe9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 249,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8068,6 +8566,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-415ab1d2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 250,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8101,6 +8601,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1a2a0f59",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 251,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8134,6 +8636,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e9908930",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 252,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8167,6 +8671,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ee1f63c0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 253,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8200,6 +8706,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-114ae8a9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 254,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8233,6 +8741,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b51c173d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 255,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8266,6 +8776,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c81f1c2f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 256,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8282,6 +8794,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4702da8f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 257,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8315,6 +8829,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b988eeec",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 258,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8331,6 +8847,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0d5495a6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 259,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8347,6 +8865,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fc4a0d2a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 260,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8380,6 +8900,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3e9eaffc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 261,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8413,6 +8935,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-af2ba762",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 262,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8446,6 +8970,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a775af14",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 263,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8479,6 +9005,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9551cd91",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 264,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8512,6 +9040,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7b17f86a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 265,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8528,6 +9058,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ebd457f4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 266,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8544,6 +9076,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d1f50dbe",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 267,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8577,6 +9111,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6c5c2a81",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 268,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8610,6 +9146,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-adf60b28",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 269,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8643,6 +9181,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b8cbe394",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 270,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8676,6 +9216,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dae126d7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 271,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8709,6 +9251,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-12983c1e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 272,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8742,6 +9286,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-aeaba0b6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 273,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8758,6 +9304,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-70d9516e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 274,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8791,6 +9339,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4e97f862",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 275,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8824,6 +9374,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3174f07d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 276,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8857,6 +9409,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-271f7e3f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 277,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8890,6 +9444,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f79fffba",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 278,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8923,6 +9479,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a9039591",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 279,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8956,6 +9514,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a396ed75",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 280,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -8989,6 +9549,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-50f4cb9c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 281,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9022,6 +9584,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c651cc56",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 282,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9055,6 +9619,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c22b5f25",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 283,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9088,6 +9654,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e4a588ca",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 284,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9121,6 +9689,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-11e1ab81",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 285,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9154,6 +9724,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4fe4fd7c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 286,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9170,6 +9742,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-979b0b8d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 287,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9203,6 +9777,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a309803e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 288,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9236,6 +9812,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bf883fde",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 289,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9269,6 +9847,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2f34cd1c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 290,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9302,6 +9882,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3462d850",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 291,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9335,6 +9917,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fe6f9678",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 292,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9368,6 +9952,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3122fc7b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 293,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9384,6 +9970,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-23dedddd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 294,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9417,6 +10005,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c8fb6bcb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 295,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9450,6 +10040,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a91a2b75",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 296,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9466,6 +10058,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-56dc8045",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 297,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9499,6 +10093,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0b0fa68b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 298,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9515,6 +10111,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6989c80a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 299,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9548,6 +10146,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bc638f2d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 300,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9581,6 +10181,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9d9fe1e6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 301,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9614,6 +10216,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-255996a6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 302,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9647,6 +10251,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a1696f3e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 303,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9680,6 +10286,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4b0c156b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 304,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9713,6 +10321,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-868fc236",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 305,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9746,6 +10356,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7e1bff94",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 306,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9779,6 +10391,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-946ab892",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 307,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9812,6 +10426,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a7e2859a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 308,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9845,6 +10461,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-343aaff6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 309,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9878,6 +10496,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0cadb20e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 310,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9911,6 +10531,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-346d5c2e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 311,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9944,6 +10566,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-13909d78",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 312,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -9977,6 +10601,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-68f343c9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 313,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10010,6 +10636,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-042aa429",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 314,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10043,6 +10671,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-de6fe450",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 315,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10076,6 +10706,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-63d03c0b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 316,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10092,6 +10724,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4f89e4d4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 317,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10108,6 +10742,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-cee5b352",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 318,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10141,6 +10777,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-78391fcc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 319,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10174,6 +10812,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b2fe7ab6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 320,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10207,6 +10847,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1bc11c4e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 321,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10240,6 +10882,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-23c5d458",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 322,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10273,6 +10917,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-113b938e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 323,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10306,6 +10952,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fe287f7e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 324,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10339,6 +10987,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6efcc0a3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 325,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10372,6 +11022,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-776cfa7c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 326,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10405,6 +11057,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-73b5f330",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 327,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10438,6 +11092,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-295a41f0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 328,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10471,6 +11127,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e103300e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 329,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10504,6 +11162,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-97eab129",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 330,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10537,6 +11197,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-daad7c32",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 331,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10570,6 +11232,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-023c0a8d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 332,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10603,6 +11267,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a5882327",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 333,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10636,6 +11302,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1f0966db",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 334,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10652,6 +11320,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c387583f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 335,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10668,6 +11338,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-441558e7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 336,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10701,6 +11373,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2eef7e61",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 337,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10734,6 +11408,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f0773a55",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 338,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10767,6 +11443,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0c490cd5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 339,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10800,6 +11478,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a232aa96",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 340,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10833,6 +11513,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-53487897",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 341,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10866,6 +11548,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1ecaa9c0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 342,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10899,6 +11583,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3ce92ce8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 343,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10915,6 +11601,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8a6de407",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 344,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10931,6 +11619,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8643d906",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 345,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10964,6 +11654,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bbf9e5ce",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 346,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -10997,6 +11689,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a4d6fbec",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 347,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -11013,6 +11707,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-67d63e19",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 348,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -11046,6 +11742,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-41fdc0b8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 349,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -11079,6 +11777,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8ad64841",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 350,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -11112,6 +11812,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5907e072",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 351,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -11145,6 +11847,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a73a5c22",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 352,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -11178,6 +11882,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1993561d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 353,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -11211,6 +11917,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5ad6bc97",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 354,
     "topicId": "m-alg-3",
     "topic": "Linear functions",
@@ -11227,6 +11935,8 @@ export const LINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a8e6bd75",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 355,
     "topicId": "m-alg-3",
     "topic": "Linear functions",

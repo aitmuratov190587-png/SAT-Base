@@ -3,7 +3,11 @@ export interface QuestionOption {
   text: string;
 }
 
+export type QuestionSource = 'collegeboard' | 'original' | 'unknown';
+
 export interface MockQuestion {
+  source: QuestionSource;
+  license_note: string;
   id: string;
   section: 'reading_writing' | 'math';
   module: 1 | 2;
@@ -28,6 +32,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   // ── SECTION 1: READING AND WRITING (10 QUESTIONS) ──
   {
     id: 'rw-1',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 1,
@@ -51,6 +57,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'rw-2',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 2,
@@ -74,6 +82,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'rw-3',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 3,
@@ -97,6 +107,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'rw-4',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 4,
@@ -131,6 +143,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'rw-5',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 5,
@@ -154,6 +168,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'rw-6',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 6,
@@ -189,6 +205,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'rw-7',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 7,
@@ -212,6 +230,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'rw-8',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 8,
@@ -246,6 +266,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'rw-9',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 9,
@@ -281,6 +303,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'rw-10',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'reading_writing',
     module: 1,
     number: 10,
@@ -318,6 +342,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   // ── SECTION 2: MATH MODULE (10 QUESTIONS) ──
   {
     id: 'm-1',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 1,
@@ -339,6 +365,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'm-2',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 2,
@@ -361,6 +389,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'm-3',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 3,
@@ -382,6 +412,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'm-4',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 4,
@@ -404,6 +436,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'm-5',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 5,
@@ -426,6 +460,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'm-6',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 6,
@@ -448,6 +484,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'm-7',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 7,
@@ -477,6 +515,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'm-8',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 8,
@@ -499,6 +539,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'm-9',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 9,
@@ -520,6 +562,8 @@ export const FLASH_RUSH_QUESTIONS: MockQuestion[] = [
   },
   {
     id: 'm-10',
+    source: 'original',
+    license_note: 'SATBase original diagnostic mock questions',
     section: 'math',
     module: 2,
     number: 10,

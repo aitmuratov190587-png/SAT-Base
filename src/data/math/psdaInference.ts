@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-85939da5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 1,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -37,6 +39,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-affb2315",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 2,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -70,6 +74,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-90eed2e5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 3,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -103,6 +109,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3e1bd4e2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 4,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -136,6 +144,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-53d97af5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 5,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -169,6 +179,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f8f79e11",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 6,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -202,6 +214,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2c76bcce",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 7,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -235,6 +249,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e03f3477",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 8,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -268,6 +284,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a2162ea1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -301,6 +319,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e7d9649f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 10,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -334,6 +354,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9bedc4a0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -367,6 +389,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f85bbf7a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 12,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -400,6 +424,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fc46af57",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 13,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -433,6 +459,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-308084c5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 14,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -466,6 +494,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f04d40b2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 15,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -499,6 +529,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f4b3672a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 16,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -532,6 +564,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0108ac2d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 17,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -565,6 +599,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2bab1399",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 18,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -598,6 +634,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4096a482",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 19,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -631,6 +669,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-da978ee6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 20,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -664,6 +704,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9ba3e283",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 21,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -697,6 +739,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-97631565",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 22,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -730,6 +774,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1e562f24",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 23,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -763,6 +809,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-89f8d08a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 24,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -796,6 +844,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6a305cd0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 25,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -829,6 +879,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-916ffe9b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 26,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -862,6 +914,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8173f32b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 27,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",
@@ -895,6 +949,8 @@ export const PROBLEMSOLVINGINFERENCE_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9ee22c16",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 28,
     "topicId": "m-dat-6",
     "topic": "Inference from sample statistics and margin of error",

@@ -36,14 +36,24 @@ const CONSTELLATION_STARS: Star[] = [
   { id: 'alg3', name: 'Nonlinear Functions', domain: 'Math', x: 75, y: 185, lit: true, labelPosition: 'right' },
 ];
 
+const activeQuestionCount = Number(
+  (typeof import.meta !== 'undefined' && import.meta?.env?.VITE_INCLUDED_QUESTION_COUNT) ||
+  (typeof process !== 'undefined' && process.env?.VITE_INCLUDED_QUESTION_COUNT) ||
+  25
+);
+const questionCountLabel =
+  activeQuestionCount >= 100
+    ? `${Math.floor(activeQuestionCount / 100) * 100}+ practice questions`
+    : `${activeQuestionCount} practice questions`;
+
 const FAQS = [
   {
     q: 'Is it free to start practicing?',
-    a: 'Yes. You can start practicing immediately with full access to 2,600+ questions, skill diagnostics, and our 14-day study scheduling at no cost.',
+    a: `Yes. You can start practicing immediately with full access to ${questionCountLabel.toLowerCase()}, skill diagnostics, and our 14-day study scheduling at no cost.`,
   },
   {
     q: 'How does SATBase compare to the actual Digital SAT?',
-    a: 'SATBase replicates the Bluebook-style testing experience: the exact 2-module structure for Reading & Writing and Math, official module timing, question flagging, and the embedded College Board Desmos calculator.',
+    a: 'SATBase replicates the Bluebook-style testing experience: the standard 2-module structure for Reading & Writing and Math, realistic module timing, question flagging, and the embedded Desmos graphing calculator.',
   },
   {
     q: 'Does Cosmo give away answers during practice or tests?',
@@ -245,11 +255,11 @@ export default function WelcomeLanding() {
                 <div className="pt-2 text-xs sm:text-sm text-ink-muted flex flex-wrap items-center gap-x-4 gap-y-1.5 font-medium">
                   <span className="flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent" />
-                    2,600+ practice questions
+                    {questionCountLabel}
                   </span>
                   <span className="flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent" />
-                    29 official skills
+                    29 syllabus skills
                   </span>
                   <span className="flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-accent" />
@@ -580,7 +590,7 @@ export default function WelcomeLanding() {
                     <path d="M 30 30 Q 15 25 12 10 M 20 12 L 12 10 L 10 18" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                   <p className="font-serif italic text-base text-ink leading-snug">
-                    Bluebook-style exam screen featuring official module clocks and embedded College Board Desmos.
+                    Bluebook-style exam screen featuring standard module clocks and embedded Desmos graphing calculator.
                   </p>
                 </div>
               </div>
@@ -739,9 +749,9 @@ export default function WelcomeLanding() {
                     <Clock3 className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="text-base font-bold text-paper">Official 2-module structure</h3>
+                    <h3 className="text-base font-bold text-paper">Standard 2-module structure</h3>
                     <p className="text-sm text-paper/80 mt-1 leading-relaxed">
-                      Practice with official test timing: 27 questions per Reading & Writing module (32 min) and 22 questions per Math module (35 min).
+                      Practice with realistic test timing: 27 questions per Reading & Writing module (32 min) and 22 questions per Math module (35 min).
                     </p>
                   </div>
                 </div>
@@ -751,9 +761,9 @@ export default function WelcomeLanding() {
                     <Calculator className="w-6 h-6" />
                   </div>
                   <div>
-                    <h3 className="text-base font-bold text-paper">College Board Desmos embedded</h3>
+                    <h3 className="text-base font-bold text-paper">Embedded Desmos calculator</h3>
                     <p className="text-sm text-paper/80 mt-1 leading-relaxed">
-                      Use the exact graphing calculator approved for the Digital SAT, with full plotting, table, and slider capabilities.
+                      Use the standard embedded Desmos graphing calculator, with full plotting, table, and slider capabilities.
                     </p>
                   </div>
                 </div>

@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-954943a4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 1,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -37,6 +39,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1baffbcf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 2,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -70,6 +74,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-65c49824",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 3,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -86,6 +92,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-05195d8a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 4,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -102,6 +110,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-28ff3966",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 5,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -135,6 +145,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-58a71e06",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 6,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -168,6 +180,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4aaa9c42",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 7,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -201,6 +215,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bd90f87e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 8,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -234,6 +250,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0ea56bb2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -267,6 +285,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0231050d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 10,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -283,6 +303,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-993000da",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -316,6 +338,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e9fb7774",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 12,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -349,6 +373,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8705ecba",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 13,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -382,6 +408,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-022e9894",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 14,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -398,6 +426,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-63573fea",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 15,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -431,6 +461,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-191d167b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 16,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -464,6 +496,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-93724cc6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 17,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -497,6 +531,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8bb94668",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 18,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -530,6 +566,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d693f563",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 19,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -546,6 +584,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bb7c8186",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 20,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -579,6 +619,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1fbd3b67",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 21,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -612,6 +654,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7cab9fe1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 22,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -645,6 +689,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-121dc44f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 23,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -678,6 +724,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-29c177e6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 24,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -711,6 +759,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8a714fa1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 25,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -744,6 +794,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8784bc84",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 26,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -777,6 +829,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8e2e424e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 27,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -810,6 +864,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e635aede",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 28,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -843,6 +899,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-67c0200a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 29,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -859,6 +917,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-40e7a1a9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 30,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -875,6 +935,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-699af7b3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 31,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -891,6 +953,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-709e04de",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 32,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -924,6 +988,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-949cd96b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 33,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -957,6 +1023,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-28c6bd8c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 34,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -990,6 +1058,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3a6ed720",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 35,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1023,6 +1093,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-284303f1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 36,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1056,6 +1128,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ba61d95f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 37,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1089,6 +1163,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8cbf1415",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 38,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1122,6 +1198,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-58ba7239",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 39,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1138,6 +1216,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-96a45430",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 40,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1171,6 +1251,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5267c3c7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 41,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1204,6 +1286,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b2f6f17d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 42,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1237,6 +1321,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9c44f828",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 43,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1270,6 +1356,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c256b723",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 44,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1286,6 +1374,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-273b7f37",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 45,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1319,6 +1409,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7ed0d098",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 46,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1352,6 +1444,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-20845d36",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 47,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1368,6 +1462,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-86684ce9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 48,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1401,6 +1497,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-623dbebb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 49,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1417,6 +1515,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2afd3cec",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 50,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1450,6 +1550,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2e92cc21",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 51,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1466,6 +1568,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7f84b136",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 52,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1482,6 +1586,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-77cf4fa6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 53,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1498,6 +1604,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2d31caae",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 54,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1531,6 +1639,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ba0e23b0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 55,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1564,6 +1674,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-194ae3b1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 56,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1597,6 +1709,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a8fabad0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 57,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1630,6 +1744,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8c5dbd3e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 58,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1646,6 +1762,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-94c65646",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 59,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1662,6 +1780,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-54cb53cf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 60,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1678,6 +1798,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7b731fc3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 61,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1694,6 +1816,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e9f4521a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 62,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1710,6 +1834,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1c2f50a6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 63,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1743,6 +1869,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dccdb20c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 64,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1759,6 +1887,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6feae9c3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 65,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1792,6 +1922,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-73362607",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 66,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1808,6 +1940,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3d73a58b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 67,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1824,6 +1958,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a51e6f93",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 68,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1840,6 +1976,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a0b165f8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 69,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1873,6 +2011,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-34e18ce4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 70,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1906,6 +2046,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-048811bd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 71,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1939,6 +2081,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-566759ef",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 72,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -1972,6 +2116,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6e4a60dd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 73,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2005,6 +2151,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ad1d6adb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 74,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2038,6 +2186,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-040f2a84",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 75,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2054,6 +2204,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-41b71b4e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 76,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2087,6 +2239,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-eaab8bc1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 77,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2103,6 +2257,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8213b1b3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 78,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2119,6 +2275,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-34f8cd89",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 79,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2152,6 +2310,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-25faa756",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 80,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2168,6 +2328,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ad911622",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 81,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2201,6 +2363,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-98818acf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 82,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2217,6 +2381,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d72a2b4d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 83,
     "topicId": "m-dat-2",
     "topic": "Percentages",
@@ -2250,6 +2416,8 @@ export const PROBLEMSOLVINGPERCENTAGES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-771ee744",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 84,
     "topicId": "m-dat-2",
     "topic": "Percentages",

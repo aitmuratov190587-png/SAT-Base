@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-eccbf957",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 1,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -37,6 +39,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b1b5300b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 2,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -70,6 +74,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1353b86e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 3,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -103,6 +109,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d89c1513",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 4,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -136,6 +144,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e1ad3d41",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 5,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -169,6 +179,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-46545dd6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 6,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -202,6 +214,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-16cea46c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 7,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -235,6 +249,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b680e76d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 8,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -268,6 +284,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0301c5dc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -301,6 +319,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0ae37ff3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 10,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -334,6 +354,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-47624288",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -367,6 +389,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e438ec3f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 12,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -400,6 +424,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-60caadfd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 13,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -433,6 +459,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-89ff6a0a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 14,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -449,6 +477,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e5b5fbdd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 15,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -482,6 +512,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1fc4f47b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 16,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -515,6 +547,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2905ded0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 17,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -548,6 +582,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2df8f293",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 18,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -564,6 +600,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ec7b0eb8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 19,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -597,6 +635,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-79201024",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 20,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -630,6 +670,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-585de39a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 21,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -646,6 +688,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-12dbe3de",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 22,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -679,6 +723,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-912cd125",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 23,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -712,6 +758,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6a715bed",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 24,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -728,6 +776,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-589cd7a6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 25,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -761,6 +811,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ed6b7e5f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 26,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -777,6 +829,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9ce8cbbe",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 27,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -810,6 +864,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-30db8f77",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 28,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -826,6 +882,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2a08d878",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 29,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -859,6 +917,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-38a9ac45",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 30,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -892,6 +952,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a478f9f5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 31,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -925,6 +987,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dae79de4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 32,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -958,6 +1022,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b6569d0e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 33,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -991,6 +1057,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5dc386fb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 34,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1024,6 +1092,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-014c47ab",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 35,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1040,6 +1110,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1b8e412e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 36,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1073,6 +1145,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f496d2c0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 37,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1106,6 +1180,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-89f20d9e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 38,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1139,6 +1215,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b8150b17",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 39,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1172,6 +1250,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1dcea480",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 40,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1205,6 +1285,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c943acba",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 41,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1238,6 +1320,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a3384df0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 42,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1271,6 +1355,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0a99e5bb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 43,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1304,6 +1390,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4e527894",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 44,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1337,6 +1425,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-46b2e169",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 45,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1353,6 +1443,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ecf8d15f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 46,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1386,6 +1478,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f8696cd8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 47,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",
@@ -1419,6 +1513,8 @@ export const PROBLEMSOLVINGPROBABILITY_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e9ed719f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 48,
     "topicId": "m-dat-5",
     "topic": "Probability and conditional probability",

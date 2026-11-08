@@ -16,6 +16,7 @@ import { PracticeQuestion } from '../../data/questionRegistry';
 import { answersMatch } from '../../lib/answerMatching';
 import MathQuestionDisplay, { StudentProducedResponseInput } from './MathQuestionDisplay';
 import MathExplanationDisplay from './MathExplanationDisplay';
+import { EmptyState } from '../ui/EmptyState';
 
 interface TopicPracticeModalProps {
   isOpen: boolean;
@@ -35,17 +36,22 @@ export default function TopicPracticeModal({
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const [seconds, setSeconds] = useState<number>(0);
   const [isTimerRunning, setIsTimerRunning] = useState<boolean>(true);
+  const [tentativeOption, setTentativeOption] = useState<string | null>(null);
 
   // Statistics per question: { [questionId]: { timeSeconds: number; selectedOption: string; isCorrect: boolean } }
   const [recordedStats, setRecordedStats] = useState<
     Record<string, { timeSeconds: number; selectedOption: string; isCorrect: boolean }>
   >({});
 
-  const currentQ = questions[currentIndex] || questions[0];
-  const isMathQuestion = ('section' in currentQ && currentQ.section === 'math') || !currentQ?.text1;
-  const correctAnswerDisplay = currentQ?.options.length
-    ? `Choice ${currentQ.correctAnswer}`
-    : currentQ && 'correctValue' in currentQ ? currentQ.correctValue : currentQ?.correctAnswer;
+  const currentQ = questions && questions.length > 0 ? (questions[currentIndex] || questions[0]) : undefined;
+  const isMathQuestion = currentQ ? (('section' in currentQ && currentQ.section === 'math') || !currentQ?.text1) : false;
+  const correctAnswerDisplay = currentQ
+    ? currentQ.options.length
+      ? `Choice ${currentQ.correctAnswer}`
+      : 'correctValue' in currentQ
+      ? currentQ.correctValue
+      : currentQ.correctAnswer
+    : '';
 
   // Per-Question Timer: Starts at 0 when question opens, runs until answer is selected
   useEffect(() => {
@@ -69,17 +75,36 @@ export default function TopicPracticeModal({
     return () => clearInterval(timer);
   }, [currentIndex, isOpen, currentQ?.id]);
 
-  if (!isOpen || !currentQ) return null;
-
-  const currentRecord = recordedStats[currentQ.id];
+  const currentRecord = currentQ ? recordedStats[currentQ.id] : undefined;
   const isAnswered = Boolean(currentRecord);
-
-  // Tentative selection before user clicks "Check" button
-  const [tentativeOption, setTentativeOption] = useState<string | null>(null);
 
   useEffect(() => {
     setTentativeOption(currentRecord?.selectedOption || null);
   }, [currentIndex, currentQ?.id, currentRecord?.selectedOption]);
+
+  if (!isOpen) return null;
+
+  if (!currentQ || questions.length === 0) {
+    return (
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-ink/40 backdrop-blur-xs animate-fade-in font-sans">
+        <div className="relative w-full max-w-lg bg-surface border border-line rounded-[var(--radius-lg)] p-8 shadow-notebook">
+          <button
+            onClick={onClose}
+            className="absolute top-4 right-4 p-1.5 rounded-full text-ink-muted hover:text-ink hover:bg-paper-2 transition-colors"
+            aria-label="Close modal"
+          >
+            <X className="w-5 h-5" />
+          </button>
+          <EmptyState
+            headline="More questions coming soon"
+            description={`We are currently authoring and verifying original practice questions for ${topicTitle}. Check back soon!`}
+            actionLabel="Close"
+            onAction={onClose}
+          />
+        </div>
+      </div>
+    );
+  }
 
   // Handle clicking an option (tentative selection)
   const handleOptionClick = (letter: string) => {
@@ -226,7 +251,7 @@ export default function TopicPracticeModal({
             </div>
 
             {/* If answered, show recorded time summary */}
-            {isAnswered && (
+            {currentRecord && (
               <div className="flex items-center gap-2 text-xs font-mono">
                 <span className="text-ink-2">
                   Question Time:{' '}
@@ -293,7 +318,7 @@ export default function TopicPracticeModal({
           {currentQ.options.length > 0 && (
           <div className="space-y-2.5">
             {currentQ.options.map((opt) => {
-              const isSubmitted = isAnswered && currentRecord.selectedOption === opt.letter;
+              const isSubmitted = isAnswered && currentRecord?.selectedOption === opt.letter;
               const isTentativelySelected = !isAnswered && tentativeOption === opt.letter;
               const isCorrectOption = opt.letter.toUpperCase() === currentQ.correctAnswer.toUpperCase();
 
@@ -374,14 +399,14 @@ export default function TopicPracticeModal({
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2 font-mono font-bold text-accent text-xs uppercase tracking-wider">
                   <Sparkles className="w-4 h-4 fill-current" />
-                  <span>Official Solution & Explanation</span>
+                  <span>Solution & Explanation</span>
                 </div>
                 <span
                   className={`text-xs font-mono font-bold ${
-                    currentRecord.isCorrect ? 'text-moss' : 'text-berry'
+                    currentRecord?.isCorrect ? 'text-moss' : 'text-berry'
                   }`}
                 >
-                  {currentRecord.isCorrect ? '✓ Correct Choice' : '✗ Incorrect Choice'}
+                  {currentRecord?.isCorrect ? '✓ Correct Choice' : '✗ Incorrect Choice'}
                 </span>
               </div>
 
@@ -404,7 +429,7 @@ export default function TopicPracticeModal({
                   </strong>
                 </span>
                 <span>
-                  Time Logged: <strong className="font-extrabold text-ink">{currentRecord.timeSeconds} seconds</strong>
+                  Time Logged: <strong className="font-extrabold text-ink">{currentRecord?.timeSeconds ?? 0} seconds</strong>
                 </span>
               </div>
             </div>

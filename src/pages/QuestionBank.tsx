@@ -7,7 +7,6 @@ import {
 } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import TopicPracticeModal from '../components/practice/TopicPracticeModal';
-import { CROSS_TEXT_QUESTIONS } from '../data/crossTextQuestions';
 import { useAuth } from '../contexts/AuthContext';
 import { fetchAllUserProgress, TopicProgressSummary } from '../lib/progressService';
 import { QUESTION_REGISTRY } from '../data/questionRegistry';
@@ -697,9 +696,13 @@ export default function QuestionBank() {
       <TopicPracticeModal
         isOpen={practiceModalOpen}
         onClose={() => setPracticeModalOpen(false)}
-        topicTitle={activePracticeTopic?.name || 'Cross-Text Connections'}
-        domainTitle={activePracticeTopic?.domain || 'Craft and Structure'}
-        questions={CROSS_TEXT_QUESTIONS}
+        topicTitle={activePracticeTopic?.name || 'Practice Topic'}
+        domainTitle={activePracticeTopic?.domain || 'Curriculum'}
+        questions={
+          activePracticeTopic
+            ? QUESTION_REGISTRY[activePracticeTopic.id]?.questions || []
+            : []
+        }
       />
     </div>
   );

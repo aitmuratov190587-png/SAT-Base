@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-beca03de",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 1,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -37,6 +39,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-512bd5b4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 2,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -53,6 +57,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-301faf80",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 3,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -69,6 +75,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-128c75e2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 4,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -85,6 +93,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-71b74a44",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 5,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -118,6 +128,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7f2524bf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 6,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -151,6 +163,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-02060533",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 7,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -184,6 +198,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-358f18bc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 8,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -200,6 +216,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ebed7dc6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -233,6 +251,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-39714777",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 10,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -266,6 +286,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a9084ca4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -299,6 +321,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2c6f214f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 12,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -332,6 +356,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-781c2f6e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 13,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -365,6 +391,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-cb29c54c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 14,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -398,6 +426,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6abec9a8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 15,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -431,6 +461,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-52b1700c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 16,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -464,6 +496,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ff8c5844",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 17,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -497,6 +531,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f423771c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 18,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -530,6 +566,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8e1da169",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 19,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -563,6 +601,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1d3c5c95",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 20,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -596,6 +636,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-07bcecac",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 21,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -629,6 +671,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-02add2d2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 22,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -662,6 +706,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-788bfd56",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 23,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -695,6 +741,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-40491607",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 24,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -711,6 +759,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-369b7bb7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 25,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -744,6 +794,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f89af023",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 26,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -777,6 +829,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7902bed0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 27,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -810,6 +864,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3cf2698e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 28,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -843,6 +899,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-768b60d2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 29,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -876,6 +934,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e53add44",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 30,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -909,6 +969,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9654add7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 31,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -942,6 +1004,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4618501a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 32,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -975,6 +1039,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-263f9937",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 33,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1008,6 +1074,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-926c246b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 34,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1041,6 +1109,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4dd4efcf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 35,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1074,6 +1144,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2992ac30",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 36,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1107,6 +1179,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-841ef26c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 37,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1140,6 +1214,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b39d74a0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 38,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1173,6 +1249,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-95d1c344",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 39,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1206,6 +1284,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d135f4bf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 40,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1222,6 +1302,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b0543157",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 41,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1255,6 +1337,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ffdfe1e1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 42,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1288,6 +1372,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d4950429",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 43,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1321,6 +1407,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-752055d1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 44,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1354,6 +1442,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-271ffad7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 45,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1387,6 +1477,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-837e9da7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 46,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1420,6 +1512,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dd3b1e1a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 47,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1436,6 +1530,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7bbfbe70",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 48,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1469,6 +1565,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-35e05e19",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 49,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1502,6 +1600,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-821e724e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 50,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1518,6 +1618,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-341ba5db",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 51,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1551,6 +1653,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d8e84431",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 52,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1584,6 +1688,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-18e35375",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 53,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1617,6 +1723,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ce508fb0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 54,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1633,6 +1741,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a1e65979",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 55,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1666,6 +1776,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2fec8bf4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 56,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1699,6 +1811,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e166aca6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 57,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1732,6 +1846,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-de91a6fc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 58,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1748,6 +1864,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-50e40f08",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 59,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1764,6 +1882,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c4259674",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 60,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1797,6 +1917,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-be0c419e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 61,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1830,6 +1952,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8462b105",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 62,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1863,6 +1987,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ce579859",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 63,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1896,6 +2022,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2f51abc2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 64,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1929,6 +2057,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d139cf4b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 65,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1962,6 +2092,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9afe2370",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 66,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -1995,6 +2127,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bd4d0e0c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 67,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2028,6 +2162,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c13016f9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 68,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2044,6 +2180,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-203774bc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 69,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2077,6 +2215,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c4cd5bcc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 70,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2110,6 +2250,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dc77e0dc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 71,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2143,6 +2285,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0a74365c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 72,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2159,6 +2303,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-735a0a00",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 73,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2192,6 +2338,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-68607eca",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 74,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2225,6 +2373,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-78d5f91a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 75,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2258,6 +2408,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d675744f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 76,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2291,6 +2443,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5acbdc30",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 77,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2324,6 +2478,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5377d9cf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 78,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2357,6 +2513,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f2d60b99",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 79,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2390,6 +2548,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f880f910",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 80,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2424,6 +2584,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   
   {
     "id": "satqb-67f4b449",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 82,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2457,6 +2619,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c95686e9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 83,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2473,6 +2637,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-44076c7d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 84,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2506,6 +2672,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1f353a9e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 85,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2539,6 +2707,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-270cf326",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 86,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2572,6 +2742,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-769b612d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 87,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2605,6 +2777,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-75915e3c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 88,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2638,6 +2812,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f44a29a8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 89,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2671,6 +2847,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-92f812bb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 90,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2704,6 +2882,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7bf77c19",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 91,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2737,6 +2917,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2f4eafcc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 92,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2753,6 +2935,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0121a235",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 93,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2786,6 +2970,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9da41c80",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 94,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2819,6 +3005,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d71f6dbf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 95,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2852,6 +3040,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-20722644",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 96,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2885,6 +3075,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7fe7cf26",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 97,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2918,6 +3110,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-bba18ecb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 98,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2951,6 +3145,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-668f1863",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 99,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -2967,6 +3163,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-70753f99",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 100,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3000,6 +3198,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6676f055",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 101,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3033,6 +3233,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-53c07bf9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 102,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3066,6 +3268,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-90bcaa61",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 103,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3082,6 +3286,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dd8ac009",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 104,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3115,6 +3321,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-58dcc59f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 105,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3131,6 +3339,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2d1614a1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 106,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3164,6 +3374,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dbe9b217",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 107,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3180,6 +3392,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-16aa9758",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 108,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3213,6 +3427,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2f8a580c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 109,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3246,6 +3462,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-84dd43f8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 110,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3262,6 +3480,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-94ff3e2d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 111,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3278,6 +3498,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-59d1f4b5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 112,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3311,6 +3533,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-281a4f3b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 113,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3344,6 +3568,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-72ae8a87",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 114,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3377,6 +3603,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b3b07f0c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 115,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3410,6 +3638,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-95eeeb5b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 116,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3443,6 +3673,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-99c5e794",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 117,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3476,6 +3708,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-100030d9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 118,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3492,6 +3726,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-09f58996",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 119,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3508,6 +3744,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d84a514a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 120,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3541,6 +3779,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7ba694f3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 121,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3574,6 +3814,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c7a187a7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 122,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3607,6 +3849,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ef926848",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 123,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3640,6 +3884,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-635f54ee",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 124,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3673,6 +3919,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a26c29f7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 125,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3706,6 +3954,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-99269e03",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 126,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3739,6 +3989,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-893c7519",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 127,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3755,6 +4007,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e1391dd6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 128,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3788,6 +4042,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3ea87153",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 129,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3821,6 +4077,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4209aefe",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 130,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3854,6 +4112,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f1fa0821",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 131,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3887,6 +4147,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9833d0e3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 132,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3920,6 +4182,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5bf0f84a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 133,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3953,6 +4217,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c048055c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 134,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -3986,6 +4252,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-70ebd3d0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 135,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4019,6 +4287,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-70fb357b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 136,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4052,6 +4322,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0f9f8ea7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 137,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4068,6 +4340,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-de39858a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 138,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4101,6 +4375,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d41cf4d3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 139,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4134,6 +4410,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1178f2df",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 140,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4150,6 +4428,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-45df91ee",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 141,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4183,6 +4463,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7f87deff",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 142,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4199,6 +4481,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-97158b3a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 143,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4232,6 +4516,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-84e8cc72",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 144,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4265,6 +4551,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0ad5012e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 145,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4298,6 +4586,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d8ace155",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 146,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4331,6 +4621,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5a74f696",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 147,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4364,6 +4656,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1863e3be",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 148,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4380,6 +4674,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4d425cef",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 149,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4413,6 +4709,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-cbc4c163",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 150,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4429,6 +4727,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-cd358b89",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 151,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4462,6 +4762,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c1eead73",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 152,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4495,6 +4797,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f1c81b3b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 153,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4511,6 +4815,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c19d1fb0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 154,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4527,6 +4833,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f678483b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 155,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4543,6 +4851,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-04b985e6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 156,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4576,6 +4886,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6d9e01a2",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 157,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4592,6 +4904,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0af701e7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 158,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4625,6 +4939,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9f2ecade",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 159,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4641,6 +4957,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2cf7f039",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 160,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4674,6 +4992,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-083ef63a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 161,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4690,6 +5010,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0e61101e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 162,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4723,6 +5045,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7a6d06bf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 163,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4739,6 +5063,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-04bbce67",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 164,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4755,6 +5081,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4880eecb",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 165,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4788,6 +5116,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-79ba511a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 166,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4821,6 +5151,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dcf63c94",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 167,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4854,6 +5186,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-50418728",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 168,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4870,6 +5204,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f5e8ccf1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 169,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4903,6 +5239,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fe62f031",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 170,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4936,6 +5274,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-02c67921",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 171,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4952,6 +5292,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2b1a27cd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 172,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -4968,6 +5310,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1073d70c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 173,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5001,6 +5345,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-aa95fb33",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 174,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5034,6 +5380,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1fe10d97",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 175,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5067,6 +5415,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5f07b257",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 176,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5083,6 +5433,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-08d03fe4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 177,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5116,6 +5468,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-befeb95f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 178,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5132,6 +5486,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3918e8bc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 179,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5165,6 +5521,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7eed640d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 180,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5198,6 +5556,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-de362c2f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 181,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5231,6 +5591,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-43926bd9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 182,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5247,6 +5609,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7e5a3640",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 183,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5280,6 +5644,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-39652e93",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 184,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5313,6 +5679,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f25a34aa",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 185,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5329,6 +5697,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4d7064a6",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 186,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5362,6 +5732,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-52e589f9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 187,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5395,6 +5767,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7e6ea718",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 188,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5428,6 +5802,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4993b828",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 189,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5461,6 +5837,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1853bb35",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 190,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5494,6 +5872,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a8ae0d22",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 191,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5527,6 +5907,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3e28a622",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 192,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5560,6 +5942,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-981aca65",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 193,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5593,6 +5977,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-161126cf",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 194,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5626,6 +6012,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a7711fe8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 195,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5659,6 +6047,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7a4475df",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 196,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5692,6 +6082,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1a722d7d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 197,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5725,6 +6117,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6e7ae9fc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 198,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5741,6 +6135,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-0de8359f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 199,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5774,6 +6170,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ee05c84e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 200,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5807,6 +6205,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5c00c2c1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 201,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5840,6 +6240,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-405c5ced",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 202,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",
@@ -5873,6 +6275,8 @@ export const NONLINEAR_FUNCTIONS_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-48f83c34",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 203,
     "topicId": "m-adv-3",
     "topic": "Nonlinear functions",

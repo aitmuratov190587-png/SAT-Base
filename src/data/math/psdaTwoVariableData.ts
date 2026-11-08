@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-1adb39f0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 1,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -37,6 +39,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-82aaa0a1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 2,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -70,6 +74,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-83272c51",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 3,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -103,6 +109,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8baf2118",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 4,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -136,6 +144,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ac5b6558",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 5,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -169,6 +179,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fb866265",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 6,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -202,6 +214,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4a2264b3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 7,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -235,6 +249,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-15ce8207",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 8,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -268,6 +284,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9bb4107c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -284,6 +302,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-632cf8f9",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 10,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -317,6 +337,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2e74e403",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -350,6 +372,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2e8027b0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 12,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -383,6 +407,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9a144a01",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 13,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -416,6 +442,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-03a16790",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 14,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -449,6 +477,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d6af3572",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 15,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -482,6 +512,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-74dee52b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 16,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -515,6 +547,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9d88a3e3",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 17,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -548,6 +582,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-dbd89c59",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 18,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -581,6 +617,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-f46139df",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 19,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -614,6 +652,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7ac5d686",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 20,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -647,6 +687,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d230e963",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 21,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -680,6 +722,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7fd284ac",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 22,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -713,6 +757,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e17babed",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 23,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -746,6 +792,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-1e1027a7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 24,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -779,6 +827,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-13f67ddc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 25,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -812,6 +862,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3d985614",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 26,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -845,6 +897,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c9dd92b1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 27,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -878,6 +932,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a6b2fcce",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 28,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -911,6 +967,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7b52985c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 29,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -927,6 +985,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ad7dbb22",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 30,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -943,6 +1003,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-16988f9c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 31,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -976,6 +1038,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-3c5b19ef",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 32,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1009,6 +1073,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ae32cc3c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 33,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1042,6 +1108,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c5ee6ac0",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 34,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1075,6 +1143,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-43744269",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 35,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1108,6 +1178,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d0430601",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 36,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1124,6 +1196,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9296553d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 37,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1157,6 +1231,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d6121490",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 38,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1190,6 +1266,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b58dbf88",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 39,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1206,6 +1284,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-ab7740a8",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 40,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1239,6 +1319,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-90ba8f98",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 41,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1272,6 +1354,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-2e511919",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 42,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1305,6 +1389,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-38525983",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 43,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1338,6 +1424,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-c141366d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 44,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1371,6 +1459,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8156d446",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 45,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1387,6 +1477,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e821a26d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 46,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1420,6 +1512,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9eb896c5",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 47,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1453,6 +1547,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-d112bc9d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 48,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1486,6 +1582,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5c24c861",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 49,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1519,6 +1617,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-5f3ee607",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 50,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1552,6 +1652,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4cc05491",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 51,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1585,6 +1687,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-661dfddd",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 52,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1618,6 +1722,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-a03b7e02",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 53,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1651,6 +1757,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-79137c1b",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 54,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1684,6 +1792,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-fdfc90e4",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 55,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1717,6 +1827,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-e9129a5c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 56,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1750,6 +1862,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9b5b23fc",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 57,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1783,6 +1897,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-af142f8d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 58,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1816,6 +1932,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-50b2807e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 59,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1849,6 +1967,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-24a1e6a7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 60,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1882,6 +2002,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9d95e7ad",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 61,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1915,6 +2037,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-39aa146d",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 62,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1948,6 +2072,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-58171b5e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 63,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -1981,6 +2107,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-8d63b6f1",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 64,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",
@@ -2014,6 +2142,8 @@ export const PROBLEMSOLVINGTWOVARIABLEDATA_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-cf0ae57a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 65,
     "topicId": "m-dat-4",
     "topic": "Two-variable data: Models and scatterplots",

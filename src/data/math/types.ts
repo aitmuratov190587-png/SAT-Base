@@ -1,3 +1,5 @@
+export type QuestionSource = 'collegeboard' | 'original' | 'unknown';
+
 export interface MathOption {
   letter: string;
   text: string;
@@ -5,6 +7,8 @@ export interface MathOption {
 
 export interface MathQuestion {
   id: string;
+  source: QuestionSource;
+  license_note: string;
   num: number;
   topicId: string;
   topic: string;

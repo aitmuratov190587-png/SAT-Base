@@ -4,6 +4,8 @@ import { MathQuestion } from './types';
 export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   {
     "id": "satqb-1ea09200",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 1,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -37,6 +39,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-37930b2a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 2,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -70,6 +74,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b4f5a7ca",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 3,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -103,6 +109,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-9bf4c545",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 4,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -136,6 +144,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7d68096f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 5,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -169,6 +179,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-7ce2830a",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 6,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -202,6 +214,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-642519d7",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 7,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -235,6 +249,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-82dfb646",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 8,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -268,6 +284,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-b695711c",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 9,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -301,6 +319,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-aa43b41f",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 10,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -334,6 +354,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-4a422e3e",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 11,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
@@ -367,6 +389,8 @@ export const PROBLEMSOLVINGSTUDIES_QUESTIONS: MathQuestion[] = [
   },
   {
     "id": "satqb-6fca0144",
+    "source": "collegeboard",
+    "license_note": "College Board SAT Suite Question Bank export; not licensed for redistribution",
     "num": 12,
     "topicId": "m-dat-7",
     "topic": "Evaluating statistical claims: Observational studies and experiments",
