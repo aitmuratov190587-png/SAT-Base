@@ -137,6 +137,58 @@ export function getLocalKnowledgeResponse(
   const q = query.toLowerCase().trim();
   if (!q) return null;
 
+  // 1b. Greetings & SAT Introduction (English & Uzbek)
+  if (
+    q === 'salom' ||
+    q === 'assalomu alaykum' ||
+    q === 'hello' ||
+    q === 'hi' ||
+    q === 'hey' ||
+    q.startsWith('salom ') ||
+    q.startsWith('assalomu alaykum ') ||
+    q.includes('sat haqida') ||
+    q.includes('sat nima') ||
+    q.includes('what is sat') ||
+    q.includes('about sat') ||
+    q.includes('sat test')
+  ) {
+    const isUzbek =
+      q.includes('salom') ||
+      q.includes('assalomu alaykum') ||
+      q.includes('haqida') ||
+      q.includes('malumot') ||
+      q.includes('nima');
+
+    return {
+      reply: isUzbek
+        ? `### 🪐 Salom! Men Cosmo — sizning Sokratik SAT ustozingizman!
+
+Men sizga Digital SAT imtihoniga mukammal tayyorgarlik ko'rishda yordam beraman:
+
+1. **Digital SAT formati**: Imtihon 2 ta asosiy bo'limdan iborat — **Reading & Writing** (har biri 32 daqiqalik 2 ta modul) va **Math** (har biri 35 daqiqalik 2 ta modul, o'rnatilgan Desmos kalkulyatori bilan).
+2. **Cosmo Sokratik yordamchi**: Men shunchaki to'g'ri javobni aytib bermayman, balki bosqichma-bosqich ishoralar (Hint 1-3) berib, to'g'ri yechimga o'zingiz yetishingizga yo'naltiraman!
+3. **Mavzular**: Math (Algebra, Advanced Math, Problem-Solving, Geometry) hamda Reading & Writing bo'yicha har qanday savolingizni berishingiz mumkin.
+
+Quyidagi tugmalardan birini bosing yoki savolingizni yozing!`
+        : `### 🪐 Hello! I'm Cosmo, your Socratic SAT guide!
+
+I'm here to help you master the Digital SAT:
+
+1. **Digital SAT Format**: 2 sections — **Reading & Writing** (two 32-min modules, 54 questions) and **Math** (two 35-min modules, 44 questions) with built-in Desmos calculator.
+2. **Socratic Guidance**: During practice, I don't spoil answers — I provide progressive hints (1 to 3) and check your steps so you build genuine test-day intuition!
+3. **Core Topics**: Feel free to ask about Math formulas, Desmos tricks, Reading & Writing strategies, or pacing targets.
+
+Select a quick topic below or ask me any question!`,
+      source: 'knowledge_base',
+      suggestedActions: [
+        'Math Reference Sheet',
+        'Desmos Calculator Tricks',
+        'Pacing Strategy',
+        'SA-ELO & Score Tiers',
+      ],
+    };
+  }
+
   // 2. Direct Reference Formula Query Check
   const formulaMatch = getFormulaByName(q);
   if (formulaMatch) {
@@ -372,6 +424,14 @@ function getFriendlyErrorMessage(code?: string, rawMessage?: string): string {
     default:
       if (rawMessage?.includes('30 messages') || rawMessage?.includes('rate limit')) {
         return 'You used your 30 messages for today. Come back tomorrow for more AI tutoring!';
+      }
+      if (
+        rawMessage?.includes('Edge Function') ||
+        rawMessage?.includes('Failed to send') ||
+        rawMessage?.includes('fetch') ||
+        rawMessage?.includes('NetworkError')
+      ) {
+        return "I'm temporarily having trouble connecting to the cloud engine, but my local knowledge base is ready! Feel free to ask about formulas, Desmos tricks, or pacing strategies.";
       }
       return rawMessage || 'Cosmo is temporarily resting. Please try again shortly.';
   }

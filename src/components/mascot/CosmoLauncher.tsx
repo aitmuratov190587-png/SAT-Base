@@ -1,5 +1,5 @@
 import React from 'react';
-import { CosmoMascot, MascotState } from './CosmoMascot';
+import { MascotState } from './CosmoMascot';
 import { X } from 'lucide-react';
 
 export interface CosmoLauncherProps {
@@ -53,19 +53,30 @@ export const CosmoLauncher: React.FC<CosmoLauncherProps> = ({
         aria-haspopup="dialog"
         aria-describedby="cosmo-launcher-tooltip"
         disabled={isSleeping}
-        className={`group relative flex items-center justify-center p-2 rounded-full bg-surface border transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+        data-mascot-state={effectiveMascotState}
+        className={`group relative flex items-center justify-center p-1 bg-transparent border-0 transition-transform duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-xl ${
           isSleeping
-            ? 'opacity-70 cursor-not-allowed border-line'
-            : 'border-line hover:border-line-strong hover:shadow-notebook-hover active:scale-95 shadow-notebook cursor-pointer'
-        } ${isOpen ? 'ring-2 ring-accent/40 border-accent' : ''}`}
+            ? 'opacity-60 cursor-not-allowed grayscale'
+            : 'hover:scale-110 active:scale-95 cursor-pointer drop-shadow-md hover:drop-shadow-lg'
+        }`}
       >
-        {/* Animated Cosmo Vector Mascot */}
-        <CosmoMascot
-          state={effectiveMascotState}
-          size="md"
-          interactive={false}
-          showAura={!isSleeping && (isOpen || state === 'celebrating' || state === 'thinking')}
-        />
+        {/* Original Cosmo Mascot Image */}
+        <div
+          data-mascot-state={effectiveMascotState}
+          className="relative w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center"
+        >
+          <img
+            src="/images/avatar-blue.png"
+            alt="Cosmo"
+            width="64"
+            height="64"
+            className={`w-full h-full object-contain pointer-events-none select-none transition-transform duration-200 ${
+              !isSleeping && (effectiveMascotState === 'talking' || effectiveMascotState === 'celebrating')
+                ? 'animate-bounce'
+                : ''
+            }`}
+          />
+        </div>
 
         {/* Close State Indicator Badge */}
         {isOpen && (

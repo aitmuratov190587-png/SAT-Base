@@ -21,8 +21,17 @@ function getCorsHeaders(req: Request) {
     .map((o) => o.trim())
     .filter(Boolean);
 
+  const isLocalDev =
+    origin === "http://localhost:5173" ||
+    origin === "http://127.0.0.1:5173" ||
+    origin === "http://localhost:3000" ||
+    origin === "http://127.0.0.1:3000" ||
+    /^http:\/\/localhost:\d+$/.test(origin) ||
+    /^http:\/\/127\.0\.0\.1:\d+$/.test(origin);
+
   const isAllowed =
     allowedList.includes(origin) ||
+    isLocalDev ||
     (allowedList.some((o) => o.includes("vercel.app")) &&
       /^https:\/\/[a-zA-Z0-9-]+\.vercel\.app$/.test(origin));
 

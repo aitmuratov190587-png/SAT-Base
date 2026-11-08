@@ -16,7 +16,7 @@ import { supabase } from '../../lib/supabaseClient';
 import { TutorContext } from '../../lib/tutorValidator';
 import KatexMath, { FormattedMathText } from '../ui/KatexMath';
 import Button from '../ui/Button';
-import { CosmoMascot, MascotState } from '../mascot/CosmoMascot';
+import { MascotState } from '../mascot/CosmoMascot';
 import { queryCosmoAssistant } from '../../lib/cosmoAssistantService';
 import { UNIVERSAL_QUICK_ACTIONS } from '../../lib/cosmoKnowledge';
 
@@ -408,12 +408,16 @@ export default function AITutorDrawer({
         {/* Header with Live Synchronized Cosmo Mascot */}
         <div className="px-5 py-3.5 border-b border-line flex items-center justify-between shrink-0 bg-paper">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-full bg-paper-2 border border-line flex items-center justify-center shrink-0 shadow-xs">
-              <CosmoMascot
-                state={effectiveMascotState}
-                size="sm"
-                interactive={false}
-                showAura={effectiveMascotState === 'thinking' || effectiveMascotState === 'celebrating'}
+            <div
+              className="relative w-9 h-9 flex items-center justify-center shrink-0"
+              data-mascot-state={effectiveMascotState}
+            >
+              <img
+                src="/images/avatar-blue.png"
+                alt="Cosmo"
+                width="36"
+                height="36"
+                className="w-full h-full object-contain pointer-events-none select-none"
               />
             </div>
             <div>
