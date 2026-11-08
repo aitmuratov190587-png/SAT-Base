@@ -1,0 +1,454 @@
+
+
+FlashRush SAT Diagnostic
+
+Mock Test — Set 2 (10 English + 10 Math)
+
+
+How this mock test works
+
+Format: Digital SAT Standard (10 Reading & Writing + 10 Math). Each section contains 10 original questions calibrated to realistic Digital SAT difficulty tiers: 3 Easy, 4 Medium, and 3 Hard.
+
+• 3 Easy questions × 60 points = 180 points
+
+• 4 Medium questions × 80 points = 320 points
+
+• 3 Hard questions × 100 points = 300 points
+
+Total per section = 800 points. Combined score (English + Math) = out of 1600, same scale as the real SAT.
+
+
+
+Section 1: Reading and Writing Module (10 Questions)
+
+Choose the best answer for each question.
+
+Question 1  [Easy]
+
+Craft and Structure: Words in Context
+
+Because the archived letters of the 19th-century botanist were brittle and vulnerable to environmental degradation, the preservation team handled them with extreme _______ during the digitization process.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) indifference
+
+B) caution
+
+C) haste
+
+D) hostility
+
+Question 2  [Easy]
+
+Standard English Conventions: Boundaries
+
+During the solar eclipse, streetlights automatically illuminated across the city _______ many nocturnal animals briefly began their evening routines.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) city, and
+
+B) city, so that
+
+C) city and
+
+D) city
+
+Question 3  [Easy]
+
+Craft and Structure: Transitions
+
+The desert pupfish can survive in geothermal pools where water temperatures exceed 100°F. _______, it can endure near-freezing temperatures during harsh desert winters, demonstrating remarkable physiological plasticity.
+
+Which choice completes the text with the most logical transition?
+
+A) However,
+
+B) Likewise,
+
+C) In contrast,
+
+D) As a result,
+
+Question 4  [Medium]
+
+Information and Ideas: Central Ideas
+
+Urban planning scholar Teresa Montoya argues that the economic vitality of mid-sized industrial cities is frequently mismeasured by traditional metrics such as commercial real estate values. According to Montoya, these indicators reflect speculative investments rather than sustainable community well-being. A more accurate appraisal requires tracking micro-enterprises, neighborhood civic organizations, and local employment retention rates — factors that reflect steady, distributed economic health rather than volatile asset bubbles.
+
+Which choice best states the main idea of the text?
+
+A) Commercial real estate transactions provide the most reliable forecast for long-term municipal solvency.
+
+B) Traditional economic metrics fail to reflect the true stability of mid-sized industrial cities, which is better evaluated through community-level indicators.
+
+C) Mid-sized industrial cities face steeper economic declines than larger metropolitan areas due to speculative real estate investments.
+
+D) Neighborhood civic organizations are primarily responsible for stabilizing municipal budgets in deindustrialized regions.
+
+Question 5  [Medium]
+
+Standard English Conventions: Form, Structure, and Sense
+
+A team of geophysicists, analyzing seismic wave anomalies recorded along the subduction boundary, _______ discovered that the mantle transition zone contains far more trapped volatile water than previously estimated.
+
+Which choice completes the text so that it conforms to the conventions of Standard English?
+
+A) have
+
+B) has
+
+C) are
+
+D) were
+
+Question 6  [Medium]
+
+Information and Ideas: Command of Evidence (Textual)
+
+Ecologist Dr. Liam Vance hypothesized that urban trees planted in isolated street pits experience significantly greater drought stress than trees planted in interconnected green corridors, primarily because fragmented root zones restrict soil moisture sharing via common mycorrhizal networks. To test this, Vance monitored pre-dawn leaf water potential (where lower, more negative values indicate greater water stress) in mature red oaks across both environments during an extended midsummer dry spell.
+
+Which finding, if true, would most directly support Dr. Vance's hypothesis?
+
+A) Red oaks in isolated street pits exhibited significantly lower pre-dawn leaf water potentials than red oaks in interconnected corridors.
+
+B) Leaf water potentials remained identical across both groups of trees throughout the duration of the midsummer dry spell.
+
+C) Trees in interconnected green corridors absorbed less total ground moisture because of increased competition among neighboring roots.
+
+D) Isolated street pit trees displayed greater overall root mass development than trees growing in contiguous parkland soil.
+
+Question 7  [Medium]
+
+Craft and Structure: Words in Context
+
+While the architectural firm initially maintained that its timber-frame stadium proposal was entirely practical, building regulators remained _______, pointing out that local fire codes explicitly prohibited mass timber structures of that scale.
+
+Which choice completes the text with the most logical and precise word or phrase?
+
+A) vindicated
+
+B) dubitative
+
+C) dubious
+
+D) enthusiastic
+
+Question 8  [Hard]
+
+Information and Ideas: Inferences / Logic Completion
+
+Philosophers of science often contrast reductionism — the premise that complex macroscopic phenomena can be fully explained by the behavior of their fundamental micro-constituents — with emergentism, which posits that novel macroscopic properties arise that are genuinely irreducible. While reductionist frameworks have proven exceptionally powerful in physical chemistry, their explanatory utility becomes problematic when applied to ecological trophic cascades. In an apex predator reintroduction, for instance, ecosystem restructuring is shaped by dynamic behavioral feedback loops across multiple trophic levels that cannot be deduced solely from the metabolic or genetic traits of individual organisms. Thus, treating trophic cascades strictly as aggregates of isolated component traits _______
+
+Which choice most logically completes the text?
+
+A) validates the reductionist assumption that macroscopic systems mirror the fundamental properties of their constituent parts.
+
+B) overlooks systemic interactions that determine the macroscopic behavior of the ecosystem.
+
+C) demonstrates that individual metabolic characteristics are completely irrelevant to ecological modeling.
+
+D) confirms that emergentist explanations are incompatible with empirical biological observation.
+
+Question 9  [Hard]
+
+Information and Ideas: Cross-Text Connections
+
+Text 1:
+
+Behavioral economists have long championed automatic enrollment in corporate retirement plans as an unalloyed public good. By making participation the default option, companies leverage inertia to elevate employee enrollment rates from roughly 40% to upwards of 90%. Proponents maintain that default architecture systematically corrects the widespread human tendency to procrastinate on long-term financial security.
+
+ 
+
+Text 2:
+
+Financial analyst Elena Rostova cautions that default enrollment designs frequently produce unintended negative distortions. When enrolled automatically, the vast majority of employees never adjust the plan's conservative default contribution rates (typically 2% to 3%) or conservative asset allocation models. Over several decades, this "default anchoring" leaves employees with substantially less accumulated wealth than if they had been actively prompted to deliberate and select contribution rates matched to their actual retirement horizons.
+
+Based on the texts, how would Elena Rostova (Text 2) most likely respond to the proponents' view in Text 1?
+
+A) By arguing that automatic enrollment fails to increase initial employee participation rates in retirement plans.
+
+B) By contending that the psychological inertia leveraged by default enrollment ultimately locks participants into suboptimal savings trajectories.
+
+C) By asserting that actively prompting employees always results in 100% participation across corporate retirement programs.
+
+D) By disputing the idea that employees possess an innate tendency to procrastinate on personal financial planning.
+
+Question 10  [Hard]
+
+Information and Ideas: Command of Evidence (Quantitative / Rhetorical Synthesis)
+
+While researching historical linguistic evolution, a student collected the following notes on loanword assimilation in early modern trade dialects:
+
+• Language A (Maritime Malay) borrowed hundreds of naval technical terms from Portuguese between 1511 and 1640.
+
+• Morphological analysis indicates that 88% of these borrowings underwent immediate phonological adaptation to conform to indigenous phonetic constraints.
+
+• Language B (Ottoman Turkish) concurrently incorporated Persian administrative terminology, yet over 70% of these lexical items retained their original Persian phonology and orthography.
+
+• Linguists attribute this difference to the social prestige attached to Persian in elite Ottoman administrative courts, compared to the purely utilitarian nature of Portuguese maritime trade terms in Southeast Asia.
+
+The student wants to contrast the linguistic treatment of borrowed terms between the two languages. Which choice most effectively uses relevant information from the notes to accomplish this goal?
+
+A) While Language A rapidly modified Portuguese trade loanwords to match indigenous phonetics, Language B largely preserved original Persian phonology due to the elite prestige of Persian.
+
+B) Between 1511 and 1640, Maritime Malay borrowed naval vocabulary from Portuguese, whereas Ottoman Turkish borrowed administrative terms from Persian.
+
+C) Linguists study both Language A and Language B to examine how social prestige affects loanword assimilation.
+
+D) Although 88% of Portuguese terms in Maritime Malay were phonologically adapted, Ottoman Turkish courts also required extensive specialized terminology.
+
+
+
+Section 2: Math Module (10 Questions)
+
+Calculator permitted for all questions.
+
+Question 1  [Easy]
+
+Algebra: Linear Equations
+
+If 4(2x − 3) + 7 = 35, what is the value of 2x − 3?
+
+A) 4
+
+B) 7
+
+C) 8
+
+D) 11
+
+Question 2  [Easy]
+
+Advanced Math: Quadratic Expressions
+
+Which of the following is equivalent to the expression (3x² + 5x − 7) − (x² − 2x + 4)?
+
+A) 2x² + 3x − 11
+
+B) 2x² + 7x − 11
+
+C) 2x² + 7x − 3
+
+D) 4x² + 3x − 3
+
+Question 3  [Easy]
+
+Problem-Solving and Data Analysis: Percentages & Proportions
+
+A laboratory sample contains 450 grams of a chemical solution. If 36% of the solution by mass is distilled water, how many grams of distilled water are in the sample?
+
+A) 125
+
+B) 144
+
+C) 162
+
+D) 180
+
+Question 4  [Medium]
+
+Algebra: Systems of Linear Equations
+
+3x + 4y = 26
+
+6x − y = 7
+
+Consider the system of equations above. What is the value of xy?
+
+A) 6
+
+B) 10
+
+C) 12
+
+D) 15
+
+Question 5  [Medium]
+
+Geometry and Trigonometry: Circles and Coordinate Geometry
+
+In the xy-plane, a circle is defined by the equation x² + y² − 8x + 6y = 24. What is the length of the circle's radius?
+
+A) 5
+
+B) 7
+
+C) 10
+
+D) 49
+
+Question 6  [Medium]
+
+Advanced Math: Non-linear Functions
+
+A rational function is given by f(x) = (2x² − 8) / (x² − 5x + 6). For which of the following values of x does f(x) have a removable discontinuity (a hole in the graph)?
+
+A) x = −2
+
+B) x = 2
+
+C) x = 3
+
+D) x = 4
+
+Question 7  [Medium]
+
+Problem-Solving and Data Analysis: Probability & Two-Way Tables
+
+Two-way table — Quality control inventory:
+
+Batch Alpha — Passed: 144, Failed: 16, Total: 160
+
+Batch Beta — Passed: 216, Failed: 24, Total: 240
+
+Total — Passed: 360, Failed: 40, Total: 400
+
+If an item that passed inspection is selected at random from the quality control inventory, what is the probability that it came from Batch Alpha?
+
+A) 0.36
+
+B) 0.40
+
+C) 0.45
+
+D) 0.60
+
+Question 8  [Hard]
+
+Advanced Math: Quadratic Discriminants & Parameter Conditions
+
+y = x² + kx + 13
+
+y = 2x − 3
+
+For what positive value of k does the quadratic system above have exactly one real solution (x, y)?
+
+A) 6
+
+B) 8
+
+C) 10
+
+D) 12
+
+Question 9  [Hard]
+
+Geometry and Trigonometry: Triangle Trigonometry
+
+In right triangle ABC, angle C is 90°. If sin(A) = 3/5 and the perimeter of triangle ABC is 72 units, what is the length of side BC (the side opposite angle A)?
+
+A) 12
+
+B) 18
+
+C) 24
+
+D) 30
+
+Question 10  [Hard]
+
+Advanced Math: Exponential Function Forms & Equivalent Constants
+
+A radioactive isotope decays according to N(t) = N₀ · (1/2)^(t/24), where t is time in hours and N₀ is the initial mass. If this relationship is rewritten as N(t) = N₀ · (1 − r)^(t/6), what is the value of r?
+
+A) 1 − (1/2)^(1/4)
+
+B) (1/2)^(1/4)
+
+C) 1 − (1/2)^4
+
+D) 1/4
+
+
+
+Answer Key & Full Explanations
+
+Reading & Writing
+
+R&W — Q1   [Easy · 60 pts]   Correct answer: B
+
+The documents are "brittle and vulnerable," requiring "caution."
+
+R&W — Q2   [Easy · 60 pts]   Correct answer: A
+
+Joins two independent clauses with a coordinating conjunction preceded by a comma (", and").
+
+R&W — Q3   [Easy · 60 pts]   Correct answer: B
+
+Adds an analogous capability of temperature tolerance; "Likewise" links the two complementary examples.
+
+R&W — Q4   [Medium · 80 pts]   Correct answer: B
+
+Summarizes Montoya's argument against commercial real estate and in favor of local community metrics.
+
+R&W — Q5   [Medium · 80 pts]   Correct answer: B
+
+The grammatical subject is singular: "A team" (prepositional phrases do not affect subject-verb agreement). Hence, singular verb "has".
+
+R&W — Q6   [Medium · 80 pts]   Correct answer: A
+
+Lower water potential equals higher water stress; finding lower values in isolated pits confirms the hypothesis directly.
+
+R&W — Q7   [Medium · 80 pts]   Correct answer: C
+
+The regulators questioned the claim due to fire code conflicts; "dubious" (skeptical/doubtful) precisely fits the sentence.
+
+R&W — Q8   [Hard · 100 pts]   Correct answer: B
+
+The passage shows that systemic feedback loops cannot be explained by isolated traits; treating them as mere aggregates ignores vital interactions.
+
+R&W — Q9   [Hard · 100 pts]   Correct answer: B
+
+Text 2 points out that automatic defaults cause employees to stick with low default rates for decades, creating long-term detriment.
+
+R&W — Q10   [Hard · 100 pts]   Correct answer: A
+
+Effectively contrasts both languages' phonological approaches along with the explanatory social prestige rationale.
+
+
+
+Math
+
+Math — Q1   [Easy · 60 pts]   Correct answer: B
+
+4(2x − 3) = 35 − 7 = 28. Dividing by 4 gives (2x − 3) = 7. (No need to solve for x.)
+
+Math — Q2   [Easy · 60 pts]   Correct answer: B
+
+Combine like terms: 3x² − x² = 2x²; 5x − (−2x) = 7x; −7 − 4 = −11.
+
+Math — Q3   [Easy · 60 pts]   Correct answer: C
+
+450 × 0.36 = 162 grams.
+
+Math — Q4   [Medium · 80 pts]   Correct answer: B
+
+Multiply the second equation by 4: 24x − 4y = 28. Add to the first: 27x = 54 ⇒ x = 2. Then y = 6(2) − 7 = 5. Product xy = 2 × 5 = 10.
+
+Math — Q5   [Medium · 80 pts]   Correct answer: B
+
+Complete the square: (x − 4)² + (y + 3)² = 24 + 16 + 9 = 49. Radius r = √49 = 7.
+
+Math — Q6   [Medium · 80 pts]   Correct answer: B
+
+Factor numerator and denominator: 2(x − 2)(x + 2) / [(x − 2)(x − 3)]. The common factor (x − 2) cancels, creating a removable discontinuity at x = 2.
+
+Math — Q7   [Medium · 80 pts]   Correct answer: B
+
+Restricted condition: passed inspection (total = 360). From Batch Alpha: 144. Probability = 144 / 360 = 0.40.
+
+Math — Q8   [Hard · 100 pts]   Correct answer: C
+
+Setting the equations equal gives x² + kx + 13 = 2x − 3, so x² + (k − 2)x + 16 = 0. For exactly one real solution, the discriminant must equal 0: (k − 2)² − 4(1)(16) = 0, so (k − 2)² = 64, giving k − 2 = ±8. The positive value is k = 10.
+
+Math — Q9   [Hard · 100 pts]   Correct answer: B
+
+sin(A) = BC / AB = 3/5, a standard 3k–4k–5k triangle. Perimeter = 3k + 4k + 5k = 12k = 72 ⇒ k = 6. Side BC = 3k = 18.
+
+Math — Q10   [Hard · 100 pts]   Correct answer: A
+
+(1/2)^(t/24) = [(1/2)^(1/4)]^(t/6) = (1 − r)^(t/6). Thus 1 − r = (1/2)^(1/4) ⇒ r = 1 − (1/2)^(1/4).
+
+

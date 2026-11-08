@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Outer Badge -->
+  <rect width="64" height="64" rx="16" fill="#FBF8F3"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" stroke="#DFDBD3" stroke-width="2"/>
+  
+  <!-- Antenna stem & coral tip -->
+  <line x1="32" y1="8" x2="32" y2="17" stroke="#111418" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="7" r="4.5" fill="#FF5B2E" stroke="#111418" stroke-width="2"/>
+  
+  <!-- Robot Head / Outer Shell -->
+  <rect x="11" y="17" width="42" height="36" rx="10" fill="#FFFFFF" stroke="#111418" stroke-width="3"/>
+  
+  <!-- Side Bolts -->
+  <rect x="7" y="29" width="4" height="12" rx="2" fill="#DFDBD3" stroke="#111418" stroke-width="2"/>
+  <rect x="53" y="29" width="4" height="12" rx="2" fill="#DFDBD3" stroke="#111418" stroke-width="2"/>
+  
+  <!-- Cobalt Visor Screen -->
+  <rect x="16" y="23" width="32" height="23" rx="6" fill="#2B59C3"/>
+  
+  <!-- Friendly Glowing Eyes -->
+  <circle cx="25" cy="33" r="3.5" fill="#FFFFFF"/>
+  <circle cx="39" cy="33" r="3.5" fill="#FFFFFF"/>
+  <circle cx="26.5" cy="31.5" r="1.2" fill="#93C5FD"/>
+  <circle cx="40.5" cy="31.5" r="1.2" fill="#93C5FD"/>
+  
+  <!-- Cheerful Smile -->
+  <path d="M28 40 Q32 43 36 40" stroke="#93C5FD" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+</svg>

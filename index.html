@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SATBase — Digital SAT Preparation</title>
+    <meta name="description" content="Authentic Digital SAT practice with timed 2-module exam simulations, embedded College Board Desmos, adaptive micro-ratings, and Socratic AI tutoring." />
+    <meta name="theme-color" content="#FBF8F3" />
+    <link rel="canonical" href="https://PROD_DOMAIN/" />
+
+    <!-- Icons & Manifest -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://PROD_DOMAIN/" />
+    <meta property="og:title" content="SATBase — Digital SAT Preparation" />
+    <meta property="og:description" content="Authentic Digital SAT practice with timed 2-module exam simulations, embedded College Board Desmos, adaptive micro-ratings, and Socratic AI tutoring." />
+    <meta property="og:image" content="https://PROD_DOMAIN/images/og-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://PROD_DOMAIN/" />
+    <meta name="twitter:title" content="SATBase — Digital SAT Preparation" />
+    <meta name="twitter:description" content="Authentic Digital SAT practice with timed 2-module exam simulations, embedded College Board Desmos, adaptive micro-ratings, and Socratic AI tutoring." />
+    <meta name="twitter:image" content="https://PROD_DOMAIN/images/og-card.png" />
+
+    <!-- Typography & KaTeX -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('satbase_theme') || localStorage.getItem('theme');
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = (saved === 'light' || saved === 'dark') ? saved : (systemDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /welcome
+Allow: /privacy
+Allow: /terms
+Allow: /favicon.svg
+Allow: /manifest.webmanifest
+Allow: /images/
+Allow: /assets/
+Disallow: /questions
+Disallow: /mock-tests
+Disallow: /analytics
+Disallow: /study-plan
+Disallow: /practice/
+Disallow: /onboarding
+Disallow: /profile
+Disallow: /diagnostic/
+Disallow: /login
+Disallow: /design-system
+
+Sitemap: https://PROD_DOMAIN/sitemap.xml

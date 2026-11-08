@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+*.tsbuildinfo
+
+# env files
+.env
+.env.*
+!.env.example
+
+# backups and temporary
+*.backup
+supabase/.temp/
+CREDENTIALS.txt
+scratch/
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# logs
+*.log
+npm-debug.log*
