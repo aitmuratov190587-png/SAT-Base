@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 
 declare global {
   interface Window {
@@ -15,6 +15,37 @@ declare global {
   }
 }
 
+let katexLoadPromise: Promise<void> | null = null;
+
+/**
+ * Dynamically loads KaTeX assets on-demand only when a math component is mounted.
+ * Keeps initial bundle and non-math pages lean and fast.
+ */
+export function loadKatexOnDemand(): Promise<void> {
+  if (typeof window === 'undefined') return Promise.resolve();
+  if (window.katex) return Promise.resolve();
+  if (katexLoadPromise) return katexLoadPromise;
+
+  katexLoadPromise = new Promise((resolve) => {
+    if (!document.getElementById('katex-css')) {
+      const link = document.createElement('link');
+      link.id = 'katex-css';
+      link.rel = 'stylesheet';
+      link.href = 'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css';
+      document.head.appendChild(link);
+    }
+
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js';
+    script.async = true;
+    script.onload = () => resolve();
+    script.onerror = () => resolve();
+    document.head.appendChild(script);
+  });
+
+  return katexLoadPromise;
+}
+
 interface KatexMathProps {
   math: string;
   displayMode?: boolean;
@@ -26,6 +57,20 @@ interface KatexMathProps {
  * with a graceful typographic fallback in Fraunces/serif styling.
  */
 export default function KatexMath({ math, displayMode = false, className = '' }: KatexMathProps) {
+  const [katexLoaded, setKatexLoaded] = useState(
+    typeof window !== 'undefined' && Boolean(window.katex)
+  );
+
+  useEffect(() => {
+    if (!katexLoaded) {
+      loadKatexOnDemand().then(() => {
+        if (typeof window !== 'undefined' && window.katex) {
+          setKatexLoaded(true);
+        }
+      });
+    }
+  }, [katexLoaded]);
+
   const renderedHtml = useMemo(() => {
     if (typeof window === 'undefined' || !window.katex) {
       return null;
@@ -40,7 +85,7 @@ export default function KatexMath({ math, displayMode = false, className = '' }:
     } catch {
       return null;
     }
-  }, [math, displayMode]);
+  }, [math, displayMode, katexLoaded]);
 
   if (renderedHtml) {
     return (
