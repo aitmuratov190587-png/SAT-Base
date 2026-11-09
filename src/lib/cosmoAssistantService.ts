@@ -38,6 +38,7 @@ export interface CosmoQueryContext {
   officialExplanation?: string;
   userAnswer?: string;
   hintLevel?: number; // 0 - 3
+  image?: { mimeType: string; data: string }; // Optional screenshot / image
 }
 
 export interface CosmoAnswer {
@@ -420,10 +421,14 @@ function getFriendlyErrorMessage(code?: string, rawMessage?: string): string {
     case 'unauthorized':
       return 'Please sign in to chat with Cosmo.';
     case 'limit_reached':
-      return 'You used your 30 messages for today. Come back tomorrow for more AI tutoring!';
+      return rawMessage || 'You reached your daily AI questions limit. Upgrade your plan for more questions!';
+    case 'image_limit_reached':
+      return rawMessage || 'You reached your daily screenshot upload limit. Upgrade your plan to upload more screenshots!';
+    case 'circuit_breaker_active':
+      return 'Cosmo AI is temporarily at capacity for today across the platform to ensure high reliability. Platform knowledge and practice remain fully accessible!';
     default:
-      if (rawMessage?.includes('30 messages') || rawMessage?.includes('rate limit')) {
-        return 'You used your 30 messages for today. Come back tomorrow for more AI tutoring!';
+      if (rawMessage?.includes('limit reached') || rawMessage?.includes('rate limit')) {
+        return rawMessage || 'You reached your daily AI questions limit. Upgrade your plan for more questions!';
       }
       if (
         rawMessage?.includes('Edge Function') ||
@@ -563,6 +568,7 @@ Let's start with **Hint ${nextHint}/3** instead of spoiling the final answer rig
       body: {
         message: trimmed,
         context: safeContext,
+        image: context.image,
       },
     });
 
@@ -584,7 +590,7 @@ Let's start with **Hint ${nextHint}/3** instead of spoiling the final answer rig
       }
 
       // Quota exhausted: fallback to local knowledge if available
-      if (errCode === 'limit_reached' || errStr.includes('30 messages')) {
+      if (errCode === 'limit_reached' || errCode === 'image_limit_reached' || errStr.includes('limit reached')) {
         if (localMatch) {
           return {
             reply: `*[Daily AI quota reached — answered from Cosmo Universal Knowledge Base]*\n\n${localMatch.reply}`,
@@ -594,7 +600,7 @@ Let's start with **Hint ${nextHint}/3** instead of spoiling the final answer rig
           };
         }
         return {
-          reply: 'You used your 30 messages for today. Come back tomorrow for more interactive AI tutoring! In the meantime, you can ask me about SAT formulas, Desmos tricks, and platform guides anytime without burning quota.',
+          reply: errStr || 'You have reached your daily AI questions limit. Upgrade your plan for more questions! In the meantime, you can ask me about SAT formulas, Desmos tricks, and platform guides anytime without burning quota.',
           source: 'knowledge_base',
           remainingQuota: 0,
           suggestedActions: [
@@ -621,7 +627,7 @@ Let's start with **Hint ${nextHint}/3** instead of spoiling the final answer rig
     }
 
     if (data?.error) {
-      if (data.code === 'limit_reached' || String(data.error).includes('30 messages')) {
+      if (data.code === 'limit_reached' || data.code === 'image_limit_reached' || String(data.error).includes('limit reached')) {
         if (localMatch) {
           return {
             reply: `*[Daily AI quota reached — answered from Cosmo Universal Knowledge Base]*\n\n${localMatch.reply}`,
@@ -631,7 +637,7 @@ Let's start with **Hint ${nextHint}/3** instead of spoiling the final answer rig
           };
         }
         return {
-          reply: 'You used your 30 messages for today. Come back tomorrow for more interactive AI tutoring! In the meantime, you can ask me about SAT formulas, Desmos tricks, and platform guides anytime without burning quota.',
+          reply: data.error || 'You have reached your daily AI questions limit. Upgrade your plan for more questions! In the meantime, you can ask me about SAT formulas, Desmos tricks, and platform guides anytime without burning quota.',
           source: 'knowledge_base',
           remainingQuota: 0,
           suggestedActions: [

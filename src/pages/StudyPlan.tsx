@@ -40,6 +40,7 @@ import { EmptyState } from '../components/ui/EmptyState';
 import { Skeleton } from '../components/ui/Skeleton';
 import { Modal } from '../components/ui/Modal';
 import { Input } from '../components/ui/Input';
+import UpgradeModal from '../components/ui/UpgradeModal';
 
 /**
  * Pure date formatting helpers in UTC to avoid timezone shifts
@@ -82,7 +83,9 @@ function getDaysRemaining(examDateStr: string, todayStr: string): number {
 export default function StudyPlan() {
   const navigate = useNavigate();
   const { user } = useAuth();
-  const { profile, updateProfile, language, setLanguage } = useApp();
+  const { profile, updateProfile, language, setLanguage, canUse } = useApp();
+  const hasAutoPlan = canUse('auto_plan');
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
 
   const userId = user?.id || 'guest';
   const todayStr = useMemo(() => getTodayString(), []);
@@ -113,6 +116,14 @@ export default function StudyPlan() {
   const [editingTask, setEditingTask] = useState<Partial<PlanTask> | null>(null);
   const [isExamDateModalOpen, setIsExamDateModalOpen] = useState(false);
   const [inputExamDate, setInputExamDate] = useState<string>(profile?.satDate || '');
+
+  const handleOpenAutoPlan = () => {
+    if (!hasAutoPlan) {
+      setShowUpgradeModal(true);
+    } else {
+      setIsAutoPlanOpen(true);
+    }
+  };
 
   // Calculate 7 visible dates for the current view
   const visibleDates = useMemo(() => {
@@ -536,10 +547,15 @@ export default function StudyPlan() {
           <Button
             variant="accent"
             size="sm"
-            onClick={() => setIsAutoPlanOpen(true)}
+            onClick={handleOpenAutoPlan}
             leftIcon={<Sparkles className="w-3.5 h-3.5 text-white" />}
           >
-            Auto-plan
+            <span>Auto-plan</span>
+            {!hasAutoPlan && (
+              <span className="ml-1.5 px-1.5 py-0.2 rounded-full bg-white/20 text-[10px] uppercase font-mono font-bold tracking-wider">
+                Pro
+              </span>
+            )}
           </Button>
 
           <Button
@@ -640,7 +656,7 @@ export default function StudyPlan() {
             headline="No plan yet."
             description="Let Auto-plan build your first week."
             actionLabel="Generate study plan"
-            onAction={() => setIsAutoPlanOpen(true)}
+            onAction={handleOpenAutoPlan}
           />
         </div>
       ) : (
@@ -1295,6 +1311,13 @@ export default function StudyPlan() {
           />
         </div>
       </Modal>
+
+      {/* Upgrade Modal for Auto-plan feature gating */}
+      <UpgradeModal
+        isOpen={showUpgradeModal}
+        onClose={() => setShowUpgradeModal(false)}
+        highlightPlan="pro"
+      />
     </div>
   );
 }

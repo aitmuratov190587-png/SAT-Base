@@ -24,6 +24,7 @@ const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
 const DesignSystemPage = lazy(() => import('./pages/DesignSystemPage'));
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'));
 const TermsPage = lazy(() => import('./pages/TermsPage'));
+const PricingPage = lazy(() => import('./pages/PricingPage'));
 
 function ComingSoonPage({ title }: { title: string }) {
   const navigate = useNavigate();
@@ -52,6 +53,7 @@ export default function App() {
             {/* Public routes */}
             <Route path="/login" element={<LoginPage />} />
             <Route path="/welcome" element={<WelcomeLanding />} />
+            <Route path="/pricing" element={<PricingPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
             <Route path="/terms" element={<TermsPage />} />
 

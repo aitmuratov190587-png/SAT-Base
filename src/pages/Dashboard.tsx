@@ -21,6 +21,7 @@ import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import Badge from '../components/ui/Badge';
 import Skeleton from '../components/ui/Skeleton';
+import SkillConstellation from '../components/SkillConstellation';
 
 function formatDuration(seconds: number) {
   const hours = Math.floor(seconds / 3600);
@@ -664,9 +665,9 @@ export default function Dashboard() {
           </Card>
         </section>
 
-        {/* ── 8. Star-Map Section (Reserved for Step 4b) ── */}
-        <section data-section="star-map-step-4b" className="hidden" aria-hidden="true">
-          {/* Star-Map will be integrated in Step 4b */}
+        {/* ── 8. Skill Constellation Section (Step 4b) ── */}
+        <section data-section="star-map-step-4b" aria-label="Skill constellation" className="w-full">
+          <SkillConstellation />
         </section>
       </div>
     </>

@@ -10,52 +10,14 @@ import { useApp } from '../contexts/AppContext';
 import Button from '../components/ui/Button';
 import Tooltip from '../components/ui/Tooltip';
 import EmptyState from '../components/ui/EmptyState';
-
-interface FullLengthExam {
-  id: string;
-  number: string;
-  title: string;
-  meta: string;
-  status: 'not_started' | 'in_progress' | 'completed' | 'locked';
-  score?: number;
-  route?: string;
-}
-
-const FULL_LENGTH_TESTS: FullLengthExam[] = [
-  {
-    id: 'test-1',
-    number: '01',
-    title: 'Practice test 1',
-    meta: '98 questions · 134 min · Adaptive',
-    status: 'not_started',
-    route: '/mock-tests/flashrush',
-  },
-  {
-    id: 'test-2',
-    number: '02',
-    title: 'Practice test 2',
-    meta: '98 questions · 134 min · Adaptive',
-    status: 'locked',
-  },
-  {
-    id: 'test-3',
-    number: '03',
-    title: 'Practice test 3',
-    meta: '98 questions · 134 min · Adaptive',
-    status: 'locked',
-  },
-  {
-    id: 'test-4',
-    number: '04',
-    title: 'Practice test 4',
-    meta: '98 questions · 134 min · Adaptive',
-    status: 'locked',
-  },
-];
+import UpgradeModal from '../components/ui/UpgradeModal';
+import { MOCK_TESTS_CATALOG } from '../data/mockCatalog';
 
 export default function MockTests() {
-  const { profile, mockAttempts } = useApp();
+  const { profile, mockAttempts, isMockUnlocked } = useApp();
   const [focusMode, setFocusMode] = useState(false);
+  const [upgradeOpen, setUpgradeOpen] = useState(false);
+  const [upgradeFeature, setUpgradeFeature] = useState('');
 
   // Score Calculations
   const latestMock = mockAttempts[mockAttempts.length - 1];
@@ -195,72 +157,66 @@ export default function MockTests() {
         </div>
 
         <div className="space-y-3">
-          {FULL_LENGTH_TESTS.map((test) => (
-            <div
-              key={test.id}
-              className="p-4 sm:px-5 rounded-[var(--radius-sm)] border border-line bg-surface flex items-center justify-between gap-4 transition-colors hover:border-line-strong"
-            >
-              <div className="flex items-center gap-3.5 min-w-0">
-                <span className="font-display font-bold text-lg text-accent w-7 shrink-0">
-                  {test.number}
-                </span>
-                <div className="truncate">
-                  <h3 className="font-display font-semibold text-base text-ink truncate">
-                    {test.title}
-                  </h3>
-                  <p className="font-sans text-xs text-ink-2 mt-0.5">
-                    {test.meta}
-                  </p>
+          {MOCK_TESTS_CATALOG.map((test) => {
+            const unlocked = isMockUnlocked(test.testNumber);
+            return (
+              <div
+                key={test.id}
+                className="p-4 sm:px-5 rounded-[var(--radius-sm)] border border-line bg-surface flex items-center justify-between gap-4 transition-colors hover:border-line-strong"
+              >
+                <div className="flex items-center gap-3.5 min-w-0">
+                  <span className="font-display font-bold text-lg text-accent w-7 shrink-0">
+                    {test.number}
+                  </span>
+                  <div className="truncate">
+                    <div className="flex items-center gap-2">
+                      <h3 className="font-display font-semibold text-base text-ink truncate">
+                        {test.title}
+                      </h3>
+                      {!unlocked && (
+                        <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-accent/10 text-accent font-bold">
+                          Pro
+                        </span>
+                      )}
+                      {unlocked && test.testNumber <= 6 && (
+                        <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-moss/10 text-moss font-bold">
+                          Free
+                        </span>
+                      )}
+                    </div>
+                    <p className="font-sans text-xs text-ink-2 mt-0.5">
+                      {test.meta}
+                    </p>
+                  </div>
                 </div>
-              </div>
 
-              <div className="shrink-0 flex items-center gap-3">
-                {test.status === 'not_started' && (
-                  <>
-                    <span className="text-xs text-ink-2 font-sans hidden sm:inline">
-                      Not started
+                <div className="shrink-0 flex items-center gap-3">
+                  {!unlocked ? (
+                    <button
+                      onClick={() => {
+                        setUpgradeFeature(test.title);
+                        setUpgradeOpen(true);
+                      }}
+                      className="flex items-center gap-1.5 px-3 py-1.5 rounded-md border border-accent/40 bg-accent/5 hover:bg-accent/10 text-accent font-semibold text-xs transition cursor-pointer"
+                    >
+                      <Lock className="w-3.5 h-3.5" />
+                      <span>Unlock with Pro</span>
+                    </button>
+                  ) : test.status === 'coming_soon' ? (
+                    <span className="text-xs text-ink-muted font-sans pr-2">
+                      Coming soon
                     </span>
+                  ) : (
                     <Link to={test.route || '/mock-tests/flashrush'}>
                       <Button variant="secondary" size="sm">
                         Start
                       </Button>
                     </Link>
-                  </>
-                )}
-
-                {test.status === 'in_progress' && (
-                  <>
-                    <span className="text-xs text-mustard font-sans font-medium hidden sm:inline">
-                      In progress
-                    </span>
-                    <Link to={test.route || '/mock-tests/flashrush'}>
-                      <Button variant="accent" size="sm">
-                        Resume
-                      </Button>
-                    </Link>
-                  </>
-                )}
-
-                {test.status === 'completed' && (
-                  <div className="flex items-center gap-2">
-                    <span className="font-mono text-sm font-bold text-ink">
-                      {test.score} pts
-                    </span>
-                    <span className="text-xs text-moss font-sans">
-                      Completed
-                    </span>
-                  </div>
-                )}
-
-                {test.status === 'locked' && (
-                  <div className="flex items-center gap-1.5 text-xs text-ink-muted font-sans select-none">
-                    <Lock className="w-3.5 h-3.5 text-ink-muted" strokeWidth={1.5} />
-                    <span>Coming soon</span>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
@@ -343,6 +299,14 @@ export default function MockTests() {
           </div>
         )}
       </div>
+
+      {/* Upgrade Modal for locked tests */}
+      <UpgradeModal
+        isOpen={upgradeOpen}
+        onClose={() => setUpgradeOpen(false)}
+        featureName={upgradeFeature}
+        highlightPlan="pro"
+      />
     </div>
   );
 }

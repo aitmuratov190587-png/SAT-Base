@@ -2,6 +2,14 @@ import { createContext, useContext, useState, ReactNode, useEffect, useCallback 
 import { supabase } from '../lib/supabaseClient';
 import { useAuth } from './AuthContext';
 import { TutorContext } from '../lib/tutorValidator';
+import {
+  SubscriptionPlan,
+  PlanLimits,
+  PLAN_LIMITS,
+  resolveUserPlan,
+  canUseFeature,
+  isMockTestUnlocked,
+} from '../lib/plans';
 
 // ── SAT Official Test Dates 2026-2027 ──
 export const SAT_TEST_DATES = [
@@ -43,6 +51,8 @@ export interface UserProfile {
   testsTaken: number;
   questionsSolved: number;
   isSetupComplete: boolean;
+  plan: SubscriptionPlan;
+  planExpiresAt?: string | null;
 }
 
 export interface UserStatistics {
@@ -94,6 +104,11 @@ interface AppState {
   tutorInitialMessage?: string;
   openAITutor: (context?: TutorContext, initialMessage?: string) => void;
   closeAITutor: () => void;
+  plan: SubscriptionPlan;
+  isVip: boolean;
+  canUse: (feature: 'auto_plan' | 'full_analytics' | 'insights' | 'all_mocks') => boolean;
+  isMockUnlocked: (mockNumber: number) => boolean;
+  planLimits: PlanLimits;
 }
 
 const AppContext = createContext<AppState | undefined>(undefined);
@@ -126,14 +141,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setTutorInitialMessage(undefined);
   }, []);
 
-  // ── Language preference: default 'en', 'uz' if browser or saved ──
+  // ── Language preference: default 'en' ──
   const [language, setLanguageState] = useState<'en' | 'uz'>(() => {
     try {
       const saved = localStorage.getItem('satbase_language');
       if (saved === 'en' || saved === 'uz') return saved;
-      if (typeof navigator !== 'undefined' && navigator.language?.startsWith('uz')) {
-        return 'uz';
-      }
     } catch {}
     return 'en';
   });
@@ -320,6 +332,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
         testsTaken: 0,
         questionsSolved: 0,
         isSetupComplete: false,
+        plan: user.email === 'aitmuratov190587@gmail.com' ? 'vip' : 'free',
+        planExpiresAt: null,
       };
       setProfile(fallback);
       setShowSetupModal(true);
@@ -355,6 +369,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
         testsTaken: data.tests_taken || 0,
         questionsSolved: data.questions_solved || 0,
         isSetupComplete: data.is_setup_complete || false,
+        plan: data.email === 'aitmuratov190587@gmail.com' ? 'vip' : resolveUserPlan(data),
+        planExpiresAt: data.plan_expires_at || null,
       };
       setProfile(p);
       if (!p.isSetupComplete) {
@@ -462,6 +478,23 @@ export function AppProvider({ children }: { children: ReactNode }) {
     }
   };
 
+  const activePlan: SubscriptionPlan =
+    profile?.plan || (user?.email === 'aitmuratov190587@gmail.com' ? 'vip' : 'free');
+  const isVip = activePlan === 'vip' || user?.email === 'aitmuratov190587@gmail.com';
+  const canUse = useCallback(
+    (feature: 'auto_plan' | 'full_analytics' | 'insights' | 'all_mocks') => {
+      return canUseFeature(activePlan, feature);
+    },
+    [activePlan]
+  );
+  const isMockUnlocked = useCallback(
+    (mockNumber: number) => {
+      return isMockTestUnlocked(activePlan, mockNumber);
+    },
+    [activePlan]
+  );
+  const planLimits: PlanLimits = PLAN_LIMITS[activePlan] || PLAN_LIMITS.free;
+
   return (
     <AppContext.Provider
       value={{
@@ -486,6 +519,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
         tutorInitialMessage,
         openAITutor,
         closeAITutor,
+        plan: activePlan,
+        isVip,
+        canUse,
+        isMockUnlocked,
+        planLimits,
       }}
     >
       {children}
@@ -500,3 +538,5 @@ export function useApp(): AppState {
   }
   return context;
 }
+
+export const useAppContext = useApp;

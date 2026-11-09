@@ -5,12 +5,14 @@ import {
   TrendingUp,
   Sparkles,
   RefreshCw,
+  Lock,
 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { useApp } from '../contexts/AppContext';
 import { supabase } from '../lib/supabaseClient';
 import { buildAnalyticsFacts } from '../lib/factsBuilder';
 import { fetchAIInsight } from '../lib/insightsService';
+import UpgradeModal from '../components/ui/UpgradeModal';
 import {
   AnswerEvent,
   FlashRushAttempt,
@@ -30,7 +32,9 @@ type DateRange = '7d' | '30d' | 'all';
 export default function Analytics() {
   const navigate = useNavigate();
   const { user } = useAuth();
-  const { profile, language, setLanguage } = useApp();
+  const { profile, language, setLanguage, canUse } = useApp();
+  const hasFullAnalytics = canUse('full_analytics');
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
 
   const [dateRange, setDateRange] = useState<DateRange>('30d');
   const [loading, setLoading] = useState(true);
@@ -425,12 +429,19 @@ export default function Analytics() {
         </div>
 
         {/* ── 3. Score Over Time (Chart or EmptyState) ── */}
-        <div className="p-6 rounded-2xl bg-surface border border-line space-y-4">
+        <div className="relative p-6 rounded-2xl bg-surface border border-line space-y-4 overflow-hidden">
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="font-sans font-semibold text-sm sm:text-base text-ink">
-                Score over time
-              </h3>
+              <div className="flex items-center gap-2">
+                <h3 className="font-sans font-semibold text-sm sm:text-base text-ink">
+                  Score over time
+                </h3>
+                {!hasFullAnalytics && (
+                  <span className="px-2 py-0.5 rounded-full bg-accent/10 border border-accent/30 text-accent font-semibold text-[10px] uppercase tracking-wider">
+                    Pro
+                  </span>
+                )}
+              </div>
               <p className="text-xs text-ink-2 mt-0.5">
                 Your mock test scores over time.
               </p>
@@ -447,7 +458,24 @@ export default function Analytics() {
             </div>
           </div>
 
-          {loading ? (
+          {!hasFullAnalytics ? (
+            <div className="relative min-h-[180px] flex items-center justify-center rounded-xl bg-paper-2/50 border border-line p-6 text-center">
+              <div className="flex flex-col items-center max-w-sm">
+                <div className="w-10 h-10 rounded-full bg-accent/15 border border-accent/30 text-accent flex items-center justify-center mb-2.5 shadow-xs">
+                  <Lock className="w-5 h-5 text-accent" />
+                </div>
+                <h4 className="text-sm font-semibold text-ink mb-1">
+                  Score progression trend is a Pro feature
+                </h4>
+                <p className="text-xs text-ink-2 mb-3.5 leading-relaxed">
+                  Upgrade to Pro to visualize your full 200–1600 score trajectory, test-by-test deltas, and target pacing.
+                </p>
+                <Button variant="primary" size="sm" onClick={() => setShowUpgradeModal(true)}>
+                  Unlock with Pro ($5/mo)
+                </Button>
+              </div>
+            </div>
+          ) : loading ? (
             <div className="h-48 flex items-center justify-center">
               <Skeleton width="100%" height="160px" />
             </div>
@@ -643,17 +671,43 @@ export default function Analytics() {
           </div>
 
           {/* Time per Question by Section (RW target 71s, Math target 95s) */}
-          <div className="p-6 rounded-2xl bg-surface border border-line space-y-4">
-            <div>
-              <h3 className="font-sans font-semibold text-sm sm:text-base text-ink">
-                Pacing vs official targets
-              </h3>
-              <p className="text-xs text-ink-2 mt-0.5">
-                Target pace: 71s per question (RW) and 95s per question (Math).
-              </p>
+          <div className="relative p-6 rounded-2xl bg-surface border border-line space-y-4 overflow-hidden">
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="flex items-center gap-2">
+                  <h3 className="font-sans font-semibold text-sm sm:text-base text-ink">
+                    Pacing vs official targets
+                  </h3>
+                  {!hasFullAnalytics && (
+                    <span className="px-2 py-0.5 rounded-full bg-accent/10 border border-accent/30 text-accent font-semibold text-[10px] uppercase tracking-wider">
+                      Pro
+                    </span>
+                  )}
+                </div>
+                <p className="text-xs text-ink-2 mt-0.5">
+                  Target pace: 71s per question (RW) and 95s per question (Math).
+                </p>
+              </div>
             </div>
 
-            {loading ? (
+            {!hasFullAnalytics ? (
+              <div className="relative min-h-[140px] flex items-center justify-center rounded-xl bg-paper-2/50 border border-line p-5 text-center">
+                <div className="flex flex-col items-center max-w-xs">
+                  <div className="w-9 h-9 rounded-full bg-accent/15 border border-accent/30 text-accent flex items-center justify-center mb-2 shadow-xs">
+                    <Lock className="w-4 h-4 text-accent" />
+                  </div>
+                  <h4 className="text-xs sm:text-sm font-semibold text-ink mb-1">
+                    Pacing analytics is a Pro feature
+                  </h4>
+                  <p className="text-[11px] text-ink-2 mb-3 leading-relaxed">
+                    Compare your actual solve speeds against College Board test tempos.
+                  </p>
+                  <Button variant="primary" size="sm" onClick={() => setShowUpgradeModal(true)}>
+                    Unlock Pacing ($5/mo)
+                  </Button>
+                </div>
+              </div>
+            ) : loading ? (
               <div className="space-y-3">
                 <Skeleton width="100%" height="48px" />
                 <Skeleton width="100%" height="48px" />
@@ -781,12 +835,19 @@ export default function Analytics() {
         </div>
 
         {/* ── 7. Study Time Calendar Heatmap (Accent Tones) ── */}
-        <div className="p-6 rounded-2xl bg-surface border border-line space-y-4">
+        <div className="relative p-6 rounded-2xl bg-surface border border-line space-y-4 overflow-hidden">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <div>
-              <h3 className="font-sans font-semibold text-sm sm:text-base text-ink">
-                Study consistency
-              </h3>
+              <div className="flex items-center gap-2">
+                <h3 className="font-sans font-semibold text-sm sm:text-base text-ink">
+                  Study consistency
+                </h3>
+                {!hasFullAnalytics && (
+                  <span className="px-2 py-0.5 rounded-full bg-accent/10 border border-accent/30 text-accent font-semibold text-[10px] uppercase tracking-wider">
+                    Pro
+                  </span>
+                )}
+              </div>
               <p className="text-xs text-ink-2 mt-0.5">
                 Daily practice minutes over the last 4 weeks.
               </p>
@@ -799,46 +860,72 @@ export default function Analytics() {
             </div>
           </div>
 
-          {/* 4-week Heatmap Grid */}
-          <div className="pt-2">
-            <div className="grid grid-cols-7 sm:grid-cols-14 gap-1.5">
-              {Object.entries(heatmapDays).map(([dateStr, mins]) => {
-                let cellTone = 'bg-paper-2 border-line text-ink-2';
-                if (mins > 30) cellTone = 'bg-accent text-white font-bold';
-                else if (mins > 15) cellTone = 'bg-accent/60 text-white font-medium';
-                else if (mins > 0) cellTone = 'bg-accent/25 text-ink border-accent/40 font-medium';
+          {!hasFullAnalytics ? (
+            <div className="relative min-h-[140px] flex items-center justify-center rounded-xl bg-paper-2/50 border border-line p-5 text-center">
+              <div className="flex flex-col items-center max-w-xs">
+                <div className="w-9 h-9 rounded-full bg-accent/15 border border-accent/30 text-accent flex items-center justify-center mb-2 shadow-xs">
+                  <Lock className="w-4 h-4 text-accent" />
+                </div>
+                <h4 className="text-xs sm:text-sm font-semibold text-ink mb-1">
+                  Consistency heatmap is a Pro feature
+                </h4>
+                <p className="text-[11px] text-ink-2 mb-3 leading-relaxed">
+                  Track daily study habits, practice intensity, and 28-day momentum.
+                </p>
+                <Button variant="primary" size="sm" onClick={() => setShowUpgradeModal(true)}>
+                  Unlock Consistency Heatmap ($5/mo)
+                </Button>
+              </div>
+            </div>
+          ) : (
+            /* 4-week Heatmap Grid */
+            <div className="pt-2">
+              <div className="grid grid-cols-7 sm:grid-cols-14 gap-1.5">
+                {Object.entries(heatmapDays).map(([dateStr, mins]) => {
+                  let cellTone = 'bg-paper-2 border-line text-ink-2';
+                  if (mins > 30) cellTone = 'bg-accent text-white font-bold';
+                  else if (mins > 15) cellTone = 'bg-accent/60 text-white font-medium';
+                  else if (mins > 0) cellTone = 'bg-accent/25 text-ink border-accent/40 font-medium';
 
-                return (
-                  <div
-                    key={dateStr}
-                    className={`h-9 rounded-lg border flex flex-col items-center justify-center text-[10px] transition-all hover:scale-105 cursor-default ${cellTone}`}
-                    title={`${dateStr}: ${mins} minutes studied`}
-                  >
-                    <span className="font-mono text-[9px] opacity-70">
-                      {dateStr.slice(8)}
-                    </span>
-                    {mins > 0 && (
-                      <span className="font-mono text-[9px] leading-none">
-                        {mins}m
+                  return (
+                    <div
+                      key={dateStr}
+                      className={`h-9 rounded-lg border flex flex-col items-center justify-center text-[10px] transition-all hover:scale-105 cursor-default ${cellTone}`}
+                      title={`${dateStr}: ${mins} minutes studied`}
+                    >
+                      <span className="font-mono text-[9px] opacity-70">
+                        {dateStr.slice(8)}
                       </span>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
+                      {mins > 0 && (
+                        <span className="font-mono text-[9px] leading-none">
+                          {mins}m
+                        </span>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
 
-            {/* Heatmap Legend */}
-            <div className="flex items-center justify-end gap-2 pt-3 text-[11px] text-ink-2">
-              <span>Less</span>
-              <span className="w-3 h-3 rounded bg-paper-2 border border-line inline-block" />
-              <span className="w-3 h-3 rounded bg-accent/25 border border-accent/40 inline-block" />
-              <span className="w-3 h-3 rounded bg-accent/60 inline-block" />
-              <span className="w-3 h-3 rounded bg-accent inline-block" />
-              <span>More</span>
+              {/* Heatmap Legend */}
+              <div className="flex items-center justify-end gap-2 pt-3 text-[11px] text-ink-2">
+                <span>Less</span>
+                <span className="w-3 h-3 rounded bg-paper-2 border border-line inline-block" />
+                <span className="w-3 h-3 rounded bg-accent/25 border border-accent/40 inline-block" />
+                <span className="w-3 h-3 rounded bg-accent/60 inline-block" />
+                <span className="w-3 h-3 rounded bg-accent inline-block" />
+                <span>More</span>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
+
+      {/* Upgrade Modal */}
+      <UpgradeModal
+        isOpen={showUpgradeModal}
+        onClose={() => setShowUpgradeModal(false)}
+        highlightPlan="pro"
+      />
     </div>
   );
 }

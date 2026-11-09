@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react';
-import { Search, Flame, Sparkles } from 'lucide-react';
+import { Search, Flame, Sparkles, Crown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useApp } from '../../contexts/AppContext';
 import ThemeToggle from '../ThemeToggle';
@@ -12,11 +12,12 @@ export interface AppHeaderProps {
  * Cosmo Notebook Top Bar Navigation
  * - Global search with press "/" to focus
  * - Day streak chip in mustard
+ * - Plan badge linking to /pricing
  * - Theme toggle
  * - Clean 1px bottom border in var(--color-line), no heavy borders or shadows
  */
 export default function AppHeader({ onOpenAITutor }: AppHeaderProps) {
-  const { profile } = useApp();
+  const { profile, plan, isVip } = useApp();
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   const streak = profile?.streak ?? 0;
@@ -94,6 +95,31 @@ export default function AppHeader({ onOpenAITutor }: AppHeaderProps) {
           <span>{streak}d</span>
           <span className="text-[10px] opacity-75 hidden xs:inline font-normal">STREAK</span>
         </div>
+
+        {/* Plan Pill */}
+        <Link
+          to="/pricing"
+          title="View plan & pricing"
+          className="flex items-center transition-all hover:scale-105"
+        >
+          {isVip ? (
+            <span className="flex items-center gap-1 text-mustard bg-mustard/15 border border-mustard/40 px-2 py-0.5 rounded-full font-mono font-bold text-[10px] shadow-2xs">
+              <Crown className="w-3 h-3 text-mustard" /> VIP
+            </span>
+          ) : plan === 'ultra_pro' ? (
+            <span className="text-cobalt bg-cobalt/15 border border-cobalt/40 px-2 py-0.5 rounded-full font-mono font-bold text-[10px] shadow-2xs">
+              ULTRA
+            </span>
+          ) : plan === 'pro' ? (
+            <span className="text-accent bg-accent/15 border border-accent/40 px-2 py-0.5 rounded-full font-mono font-bold text-[10px] shadow-2xs">
+              PRO
+            </span>
+          ) : (
+            <span className="text-ink-2 bg-paper-2 border border-line px-2 py-0.5 rounded-full font-mono font-medium text-[10px] shadow-2xs">
+              FREE
+            </span>
+          )}
+        </Link>
 
         {/* Theme Toggle */}
         <ThemeToggle />

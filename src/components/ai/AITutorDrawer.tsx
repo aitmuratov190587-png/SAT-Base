@@ -11,6 +11,9 @@ import {
   BookOpen,
   CheckCircle2,
   Lock,
+  ImageIcon,
+  Trash2,
+  Crown,
 } from 'lucide-react';
 import { supabase } from '../../lib/supabaseClient';
 import { TutorContext } from '../../lib/tutorValidator';
@@ -19,6 +22,8 @@ import Button from '../ui/Button';
 import { MascotState } from '../mascot/CosmoMascot';
 import { queryCosmoAssistant } from '../../lib/cosmoAssistantService';
 import { UNIVERSAL_QUICK_ACTIONS } from '../../lib/cosmoKnowledge';
+import { useAppContext } from '../../contexts/AppContext';
+import UpgradeModal from '../ui/UpgradeModal';
 
 export interface AITutorDrawerProps {
   isOpen: boolean;
@@ -33,6 +38,10 @@ interface ChatMessage {
   content: string;
   timestamp: string;
   isError?: boolean;
+  image?: {
+    previewUrl: string;
+    name: string;
+  };
 }
 
 /**
@@ -120,19 +129,29 @@ export default function AITutorDrawer({
   context,
   initialMessage,
 }: AITutorDrawerProps) {
+  const { isVip, planLimits } = useAppContext();
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputQuery, setInputQuery] = useState(initialMessage || '');
   const [isLoading, setIsLoading] = useState(false);
   const [mascotState, setMascotState] = useState<MascotState>('idle');
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [remainingMessages, setRemainingMessages] = useState<number | null>(null);
+  const [remainingImages, setRemainingImages] = useState<number | null>(null);
   const [hintLevel, setHintLevel] = useState<number>(context?.hintLevel ?? 0);
   const [isConfirmingSolution, setIsConfirmingSolution] = useState(false);
   const [lastFailedMessage, setLastFailedMessage] = useState<string | null>(null);
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
+  const [attachedImage, setAttachedImage] = useState<{
+    name: string;
+    mimeType: string;
+    base64: string;
+    previewUrl: string;
+  } | null>(null);
 
   const drawerRef = useRef<HTMLElement>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
   const talkingTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const isMockMode = context?.mode === 'mock';
@@ -140,6 +159,9 @@ export default function AITutorDrawer({
     !isMockMode &&
     (context?.mode === 'practice' || context?.mode === 'results' || Boolean(context?.questionId));
   const isUniversalMode = !isMockMode && !isPracticeMode;
+
+  const dailyMessageCap = isVip ? 999999 : planLimits.tutor_per_day;
+  const dailyImageCap = isVip ? 999999 : planLimits.image_uploads_per_day;
 
   // Cleanup talking animation timer on unmount
   useEffect(() => {
@@ -187,12 +209,20 @@ export default function AITutorDrawer({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, onClose]);
 
-  // Load remaining messages from ai_usage on open
+  // Load remaining messages and image uploads from ai_usage on open
   useEffect(() => {
     if (!isOpen || isMockMode) return;
     let isMounted = true;
 
     const fetchRemaining = async () => {
+      if (isVip) {
+        if (isMounted) {
+          setRemainingMessages(999999);
+          setRemainingImages(999999);
+        }
+        return;
+      }
+
       try {
         const { data: { user } } = await supabase.auth.getUser();
         if (!user || !isMounted) return;
@@ -203,17 +233,22 @@ export default function AITutorDrawer({
 
         const { data } = await supabase
           .from('ai_usage')
-          .select('count')
+          .select('count, image_count')
           .eq('user_id', user.id)
           .eq('day', tashkentToday)
           .maybeSingle();
 
         if (isMounted) {
           const used = data?.count ?? 0;
-          setRemainingMessages(Math.max(0, 30 - used));
+          const imgUsed = data?.image_count ?? 0;
+          setRemainingMessages(Math.max(0, dailyMessageCap - used));
+          setRemainingImages(Math.max(0, dailyImageCap - imgUsed));
         }
       } catch {
-        // non-blocking fallback
+        if (isMounted) {
+          setRemainingMessages(dailyMessageCap);
+          setRemainingImages(dailyImageCap);
+        }
       }
     };
 
@@ -222,7 +257,54 @@ export default function AITutorDrawer({
     return () => {
       isMounted = false;
     };
-  }, [isOpen, isMockMode]);
+  }, [isOpen, isMockMode, isVip, dailyMessageCap, dailyImageCap]);
+
+  // Handle clipboard image paste
+  const handlePaste = (e: React.ClipboardEvent) => {
+    if (isMockMode || isLoading) return;
+    const items = e.clipboardData?.items;
+    if (!items) return;
+
+    for (let i = 0; i < items.length; i++) {
+      if (items[i].type.indexOf('image') !== -1) {
+        const file = items[i].getAsFile();
+        if (file) {
+          e.preventDefault();
+          processImageFile(file);
+          break;
+        }
+      }
+    }
+  };
+
+  const processImageFile = (file: File) => {
+    if (!file.type.startsWith('image/')) {
+      setErrorMessage('Please select an image file (PNG, JPG, or WEBP).');
+      return;
+    }
+    if (file.size > 5 * 1024 * 1024) {
+      setErrorMessage('Image size exceeds 5MB limit. Please crop or choose a smaller screenshot.');
+      return;
+    }
+    if (!isVip && remainingImages !== null && remainingImages <= 0) {
+      setErrorMessage(`You have reached your daily limit of ${dailyImageCap} image uploads.`);
+      setShowUpgradeModal(true);
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = () => {
+      const result = reader.result as string;
+      setAttachedImage({
+        name: file.name || 'screenshot.png',
+        mimeType: file.type || 'image/jpeg',
+        base64: result,
+        previewUrl: result,
+      });
+      setErrorMessage(null);
+    };
+    reader.readAsDataURL(file);
+  };
 
   // Sync hint level and reset errors when context changes
   useEffect(() => {
@@ -262,31 +344,43 @@ export default function AITutorDrawer({
   // Dispatch message via cosmoAssistantService
   const sendMessage = async (userText: string, overrideHintLevel?: number) => {
     const text = userText.trim();
-    if (!text || isLoading || isMockMode) return;
+    if ((!text && !attachedImage) || isLoading || isMockMode) return;
 
-    if (remainingMessages !== null && remainingMessages <= 0) {
-      setErrorMessage('You used your 30 messages for today. Come back tomorrow.');
+    if (!isVip && remainingMessages !== null && remainingMessages <= 0) {
+      setErrorMessage(`You have reached your daily limit of ${dailyMessageCap} questions. Upgrade your plan for more!`);
+      setShowUpgradeModal(true);
       return;
     }
 
     const currentHint = overrideHintLevel !== undefined ? overrideHintLevel : hintLevel;
+    const currentImg = attachedImage;
 
     const userMessage: ChatMessage = {
       id: String(Date.now()),
       role: 'user',
-      content: text,
+      content: text || (currentImg ? 'Analyze this question screenshot' : ''),
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+      image: currentImg ? { previewUrl: currentImg.previewUrl, name: currentImg.name } : undefined,
     };
 
     setMessages((prev) => [...prev, userMessage]);
     setInputQuery('');
+    setAttachedImage(null);
     setIsLoading(true);
     setMascotState('thinking');
     setErrorMessage(null);
     setLastFailedMessage(null);
 
+    // Optimistically decrement question remaining (and image remaining if attached)
+    if (!isVip && remainingMessages !== null) {
+      setRemainingMessages(Math.max(0, remainingMessages - 1));
+    }
+    if (!isVip && currentImg && remainingImages !== null) {
+      setRemainingImages(Math.max(0, remainingImages - 1));
+    }
+
     try {
-      const answer = await queryCosmoAssistant(text, {
+      const answer = await queryCosmoAssistant(text || 'Analyze this question screenshot', {
         mode: isMockMode
           ? 'mock'
           : isPracticeMode
@@ -301,12 +395,16 @@ export default function AITutorDrawer({
         correctAnswer: context?.correctAnswer,
         officialExplanation: context?.officialExplanation,
         userAnswer: context?.userAnswer,
+        image: currentImg ? { mimeType: currentImg.mimeType, data: currentImg.base64 } : undefined,
       });
 
       if (answer.error && !answer.reply) {
         setErrorMessage(answer.error);
         setLastFailedMessage(text);
         setMascotState('idle');
+        if (answer.error.toLowerCase().includes('limit') || answer.error.toLowerCase().includes('upgrade')) {
+          setShowUpgradeModal(true);
+        }
         return;
       }
 
@@ -328,7 +426,7 @@ export default function AITutorDrawer({
       }
 
       if (typeof answer.remainingQuota === 'number') {
-        setRemainingMessages(answer.remainingQuota);
+        setRemainingMessages(isVip ? 999999 : answer.remainingQuota);
       }
     } catch (err: unknown) {
       const errStr = err instanceof Error ? err.message : 'Connection failed';
@@ -431,15 +529,21 @@ export default function AITutorDrawer({
                     : 'Universal guide'}
                 </span>
               </div>
-              <p className="text-[11px] text-ink-2 mt-0.5" id="cosmo-dialog-status">
+              <div className="flex items-center gap-1.5 mt-0.5" id="cosmo-dialog-status">
                 {isMockMode ? (
-                  <span className="text-berry">Exam mode active</span>
+                  <span className="text-[11px] text-berry">Exam mode active</span>
+                ) : isVip ? (
+                  <span className="inline-flex items-center gap-1 text-[11px] font-mono font-semibold text-accent">
+                    <Crown className="w-3 h-3 text-accent" /> VIP Unlimited
+                  </span>
                 ) : remainingMessages !== null ? (
-                  <span className="font-mono">{remainingMessages} messages left today</span>
+                  <span className="text-[11px] font-mono text-ink-2">
+                    {remainingMessages} of {dailyMessageCap} questions left today
+                  </span>
                 ) : (
-                  <span>30 messages daily limit</span>
+                  <span className="text-[11px] font-mono text-ink-2">{dailyMessageCap} questions/day</span>
                 )}
-              </p>
+              </div>
             </div>
           </div>
 
@@ -590,7 +694,18 @@ export default function AITutorDrawer({
                 }`}
               >
                 {msg.role === 'user' ? (
-                  <p className="whitespace-pre-wrap select-text">{msg.content}</p>
+                  <div className="space-y-2">
+                    {msg.image && (
+                      <div className="rounded-xl overflow-hidden border border-paper/20 max-w-[220px]">
+                        <img
+                          src={msg.image.previewUrl}
+                          alt={msg.image.name}
+                          className="w-full max-h-44 object-cover"
+                        />
+                      </div>
+                    )}
+                    <p className="whitespace-pre-wrap select-text">{msg.content}</p>
+                  </div>
                 ) : (
                   <TutorMessageRenderer content={msg.content} />
                 )}
@@ -726,6 +841,19 @@ export default function AITutorDrawer({
           </div>
         )}
 
+        {/* Daily limit reached upgrade banner */}
+        {!isMockMode && !isVip && remainingMessages !== null && remainingMessages <= 0 && (
+          <div className="mx-4 mb-2 p-3 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-between gap-2 shrink-0">
+            <div className="text-xs">
+              <span className="font-semibold text-ink">Daily limit reached ({dailyMessageCap} questions)</span>
+              <p className="text-ink-2 text-[11px]">Upgrade to Pro or Ultra for up to 100 questions/day</p>
+            </div>
+            <Button size="sm" variant="primary" onClick={() => setShowUpgradeModal(true)}>
+              Upgrade
+            </Button>
+          </div>
+        )}
+
         {/* Chat Input Footer */}
         <form
           onSubmit={(e) => {
@@ -734,20 +862,75 @@ export default function AITutorDrawer({
           }}
           className="p-4 border-t border-line bg-paper flex flex-col gap-2 shrink-0"
         >
+          {/* Screenshot image preview chip */}
+          {attachedImage && (
+            <div className="flex items-center gap-2.5 p-2 bg-paper-2 rounded-xl border border-line text-xs animate-fade-in">
+              <img
+                src={attachedImage.previewUrl}
+                alt="Screenshot preview"
+                className="w-10 h-10 object-cover rounded-lg border border-line shrink-0"
+              />
+              <div className="flex-1 min-w-0">
+                <p className="text-xs font-medium text-ink truncate">{attachedImage.name}</p>
+                <p className="text-[10px] text-ink-2">Screenshot attached · Cosmo will analyze it</p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setAttachedImage(null)}
+                className="p-1 rounded-lg text-ink-2 hover:text-berry hover:bg-paper transition-colors cursor-pointer"
+                title="Remove screenshot"
+              >
+                <Trash2 className="w-4 h-4" />
+              </button>
+            </div>
+          )}
+
+          {/* Hidden file input */}
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="image/png,image/jpeg,image/webp"
+            className="hidden"
+            onChange={(e) => {
+              const file = e.target.files?.[0];
+              if (file) processImageFile(file);
+              e.target.value = '';
+            }}
+          />
+
           <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => fileInputRef.current?.click()}
+              disabled={isLoading || isMockMode || (!isVip && remainingImages !== null && remainingImages <= 0)}
+              title={
+                isVip
+                  ? 'Attach screenshot (VIP Unlimited)'
+                  : remainingImages !== null
+                  ? `Attach screenshot (${remainingImages}/${dailyImageCap} left today)`
+                  : 'Attach question screenshot'
+              }
+              className="p-2.5 rounded-xl border border-line bg-surface hover:bg-paper-2 text-ink-2 hover:text-accent disabled:opacity-40 transition-colors shrink-0 cursor-pointer"
+            >
+              <ImageIcon className="w-4 h-4" />
+            </button>
+
             <input
               ref={inputRef}
               type="text"
               value={inputQuery}
               onChange={(e) => setInputQuery(e.target.value)}
-              disabled={isLoading || isMockMode || (remainingMessages !== null && remainingMessages <= 0)}
+              onPaste={handlePaste}
+              disabled={isLoading || isMockMode || (!isVip && remainingMessages !== null && remainingMessages <= 0)}
               maxLength={1000}
               placeholder={
                 isMockMode
                   ? 'Cosmo is disabled during mock tests...'
-                  : remainingMessages !== null && remainingMessages <= 0
+                  : !isVip && remainingMessages !== null && remainingMessages <= 0
                   ? 'Daily limit reached. Resets tomorrow.'
-                  : 'Ask Cosmo a question...'
+                  : attachedImage
+                  ? 'Ask about this screenshot or press Enter to analyze...'
+                  : 'Ask Cosmo a question (or paste screenshot)...'
               }
               className="flex-1 px-3.5 py-2.5 rounded-xl bg-surface border border-line text-ink text-xs sm:text-sm placeholder:text-ink-2/60 focus:outline-none focus:border-accent disabled:opacity-50 transition-colors"
             />
@@ -755,7 +938,12 @@ export default function AITutorDrawer({
               type="submit"
               variant="primary"
               size="sm"
-              disabled={!inputQuery.trim() || isLoading || isMockMode || (remainingMessages !== null && remainingMessages <= 0)}
+              disabled={
+                (!inputQuery.trim() && !attachedImage) ||
+                isLoading ||
+                isMockMode ||
+                (!isVip && remainingMessages !== null && remainingMessages <= 0)
+              }
               className="h-10 px-3.5 shrink-0"
             >
               <Send className="w-4 h-4" />
@@ -764,12 +952,23 @@ export default function AITutorDrawer({
 
           <div className="flex items-center justify-between text-[11px] text-ink-2 px-1">
             <span>Cosmo guides with hints and never spoils answers.</span>
-            {remainingMessages !== null && (
-              <span className="font-mono">{remainingMessages} left</span>
-            )}
+            {isVip ? (
+              <span className="font-mono text-accent font-semibold">VIP Unlimited</span>
+            ) : remainingMessages !== null ? (
+              <span className="font-mono">
+                {remainingMessages} qs · {remainingImages ?? dailyImageCap} imgs left
+              </span>
+            ) : null}
           </div>
         </form>
       </aside>
+
+      {/* Upgrade Modal for plan limits */}
+      <UpgradeModal
+        isOpen={showUpgradeModal}
+        onClose={() => setShowUpgradeModal(false)}
+        highlightPlan="pro"
+      />
     </>
   );
 }

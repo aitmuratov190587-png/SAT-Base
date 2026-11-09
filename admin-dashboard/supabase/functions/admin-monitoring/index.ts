@@ -89,7 +89,7 @@ Deno.serve(async (req: Request) => {
 
     if (studentId) {
       const [profileResult, userResult] = await Promise.all([
-        admin.from('profiles').select('id, full_name, avatar_url, email, role, sat_date, current_score_math, current_score_english, target_score_math, target_score_english, starting_score_math, starting_score_english, is_setup_complete, tests_taken, questions_solved, created_at, updated_at').eq('id', studentId).maybeSingle(),
+        admin.from('profiles').select('id, full_name, avatar_url, email, phone, role, sat_date, current_score_math, current_score_english, target_score_math, target_score_english, starting_score_math, starting_score_english, is_setup_complete, tests_taken, questions_solved, created_at, updated_at, first_visit_at, last_active_at, country, city, device_type, browser, operating_system, traffic_source, account_status, subscription_plan').eq('id', studentId).maybeSingle(),
         admin.auth.admin.getUserById(studentId),
       ])
       if (profileResult.error) throw new Error(profileResult.error.message)
@@ -136,10 +136,11 @@ Deno.serve(async (req: Request) => {
       })
     }
 
-    const [profiles, sessions, allStudySessions] = await Promise.all([
-      allRows((from, to) => admin.from('profiles').select('id, full_name, avatar_url, email, role, sat_date, current_score_math, current_score_english, target_score_math, target_score_english, starting_score_math, starting_score_english, is_setup_complete, tests_taken, questions_solved, created_at').eq('role', 'student').order('created_at', { ascending: false }).range(from, to)),
+    const [profiles, sessions, allStudySessions, recentAttempts] = await Promise.all([
+      allRows((from, to) => admin.from('profiles').select('id, full_name, avatar_url, email, phone, role, sat_date, current_score_math, current_score_english, target_score_math, target_score_english, starting_score_math, starting_score_english, is_setup_complete, tests_taken, questions_solved, created_at, first_visit_at, last_active_at, country, city, device_type, browser, operating_system, traffic_source, account_status, subscription_plan').eq('role', 'student').order('created_at', { ascending: false }).range(from, to)),
       allRows((from, to) => admin.from('study_sessions').select('user_id, duration_seconds, last_activity_at, study_day').gte('study_day', addDays(today, -90)).range(from, to)),
       allRows((from, to) => admin.from('study_sessions').select('duration_seconds, study_day').range(from, to)),
+      allRows((from, to) => admin.from('flashrush_attempts').select('user_id, attempt_id, math, english, correct, answered, created_at').gte('created_at', new Date(Date.now() - 24 * 60 * 60_000).toISOString()).order('created_at', { ascending: false }).range(from, to)),
     ])
     const authUsers = new Map<string, { last_sign_in_at: string | null; email_confirmed_at: string | null }>()
     for (let page = 1; page <= 100; page += 1) {
@@ -189,7 +190,7 @@ Deno.serve(async (req: Request) => {
       totalStudyTimeByDay,
       realtime: {
         online: new Set(sessions.filter((item) => Date.now() - new Date(item.last_activity_at).getTime() < 3 * 60_000).map((item) => item.user_id)).size,
-        events: [],
+        events: recentAttempts.map((attempt) => ({ id: attempt.attempt_id, user_id: attempt.user_id, page: '/mock-tests/flashrush/results', event_type: 'test_completed', event_data: { score: attempt.math + attempt.english, correct: attempt.correct, answered: attempt.answered }, created_at: attempt.created_at, full_name: profiles.find((profile) => profile.id === attempt.user_id)?.full_name ?? null, email: profiles.find((profile) => profile.id === attempt.user_id)?.email ?? null })),
       },
     })
   } catch (error) {

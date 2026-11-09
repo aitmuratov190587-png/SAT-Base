@@ -5,6 +5,7 @@ import {
   BookOpen,
   BarChart3,
   Calendar,
+  CreditCard,
   LucideIcon,
 } from 'lucide-react';
 
@@ -15,16 +16,17 @@ interface TabItem {
 }
 
 const tabItems: TabItem[] = [
-  { path: '/', label: 'Dashboard', icon: LayoutDashboard },
+  { path: '/', label: 'Home', icon: LayoutDashboard },
   { path: '/questions', label: 'Practice', icon: BookOpen },
   { path: '/mock-tests', label: 'Mocks', icon: FileCheck2 },
-  { path: '/analytics', label: 'Analytics', icon: BarChart3 },
+  { path: '/analytics', label: 'Stats', icon: BarChart3 },
   { path: '/study-plan', label: 'Plan', icon: Calendar },
+  { path: '/pricing', label: 'Pricing', icon: CreditCard },
 ];
 
 /**
  * Cosmo Notebook Mobile Bottom Tab Bar (<768px)
- * - 5 essential items with 1.5px stroke icons
+ * - 6 essential items with 1.5px stroke icons
  * - Fixed bottom navigation with paper-2 background and 1px line border
  * - Active indicator in Signal Orange
  */
@@ -34,7 +36,7 @@ export default function MobileTabBar() {
   return (
     <nav
       aria-label="Mobile Navigation"
-      className="md:hidden fixed bottom-0 left-0 right-0 z-40 h-16 bg-paper-2/95 backdrop-blur-md border-t border-line flex items-center justify-around px-1 font-sans select-none"
+      className="md:hidden fixed bottom-0 left-0 right-0 z-40 h-16 bg-paper-2/95 backdrop-blur-md border-t border-line flex items-center justify-around px-0.5 font-sans select-none"
     >
       {tabItems.map((item) => {
         const isActive =
@@ -55,11 +57,11 @@ export default function MobileTabBar() {
             {isActive && (
               <span
                 aria-hidden="true"
-                className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-0.5 bg-accent rounded-full"
+                className="absolute top-0 left-1/2 -translate-x-1/2 w-6 h-0.5 bg-accent rounded-full"
               />
             )}
 
-            <item.icon className="w-5 h-5 shrink-0" strokeWidth={1.5} />
+            <item.icon className="w-4.5 h-4.5 shrink-0" strokeWidth={1.5} />
             <span className="text-[10px] mt-1 tracking-tight leading-none">{item.label}</span>
           </NavLink>
         );
