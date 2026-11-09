@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { ShuffledQuestion } from '../data/flashRushMock';
 import { useApp } from '../contexts/AppContext';
+import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../lib/supabaseClient';
 import Button from '../components/ui/Button';
 import ProgressBar from '../components/ui/ProgressBar';
@@ -24,6 +25,7 @@ import { FormattedMathText } from '../components/ui/KatexMath';
 import { TutorContext } from '../lib/tutorValidator';
 import { trackSiteEvent } from '../lib/activityTracking';
 import { recordAnswerEvent } from '../lib/offlineQueue';
+import { addToErrorBank } from '../lib/errorBankService';
 
 interface TestResultData {
   attemptId: string;
@@ -38,6 +40,7 @@ interface TestResultData {
 
 export default function FlashRushResults() {
   const navigate = useNavigate();
+  const { user } = useAuth();
   const { profile, updateProfile, refreshStatistics } = useApp();
   const [resultData, setResultData] = useState<TestResultData | null>(null);
   const [activeFilter, setActiveFilter] = useState<'all' | 'rw' | 'math' | 'incorrect'>('all');
@@ -97,6 +100,15 @@ export default function FlashRushResults() {
     const correct = resultData.questions.filter((q) => resultData.userAnswers[q.id] === q.correctAnswerId).length;
     void trackSiteEvent('test_completed', { test: 'flashrush', score: mathEarned + rwEarned, correct, answered });
 
+    // Auto-sync missed questions to Error Bank immediately (reliable across offline & guest modes)
+    const targetUserId = user?.id || 'guest';
+    resultData.questions.forEach((q) => {
+      const isCorrect = resultData.userAnswers[q.id] === q.correctAnswerId;
+      if (!isCorrect) {
+        void addToErrorBank(targetUserId, q.id, q.domain);
+      }
+    });
+
     void supabase
       .rpc('record_flashrush_attempt', {
         p_attempt_id: resultData.attemptId,
@@ -133,7 +145,7 @@ export default function FlashRushResults() {
           }
         });
       });
-  }, [resultData, refreshStatistics]);
+  }, [resultData, refreshStatistics, user]);
 
   const { questions, userAnswers, timeSpent } = (resultData || {
     questions: [],
@@ -247,14 +259,13 @@ export default function FlashRushResults() {
 
   // Add question to Error Bank
   const handleAddToErrorBank = (questionId: string) => {
+    const q = questions.find((item) => item.id === questionId);
     setErrorBank((prev) => {
       const next = new Set(prev);
       next.add(questionId);
-      try {
-        localStorage.setItem('satbase_error_bank', JSON.stringify([...next]));
-      } catch {}
       return next;
     });
+    void addToErrorBank(user?.id || 'guest', questionId, q?.domain);
   };
 
   // Ask Cosmo why handler

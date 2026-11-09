@@ -123,6 +123,7 @@ export default function WelcomeLanding() {
             <a href="#cosmo" className="hover:text-ink transition-colors">Cosmo</a>
             <a href="#exam-feel" className="hover:text-ink transition-colors">Exam feel</a>
             <a href="#faq" className="hover:text-ink transition-colors">FAQ</a>
+            <Link to="/pricing" className="hover:text-ink transition-colors">Pricing</Link>
           </nav>
 
           {/* Actions & Theme */}
@@ -891,6 +892,10 @@ export default function WelcomeLanding() {
 
             {/* Links */}
             <div className="flex items-center gap-4">
+              <Link to="/pricing" className="hover:text-ink transition-colors underline">
+                Pricing
+              </Link>
+              <span>·</span>
               <Link to="/privacy" className="hover:text-ink transition-colors underline">
                 Privacy Policy
               </Link>

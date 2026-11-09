@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "node --test --experimental-strip-types tests/core.test.mjs tests/analytics.test.mjs tests/licensing-killswitch.test.mjs tests/plans.test.mjs tests/telegramAuth.test.mjs tests/constellation.test.mjs tests/cosmoAssistant.test.mjs tests/cosmoUI.test.mjs tests/mascot.test.mjs tests/adversarialMascot.test.mjs tests/onboarding.test.mjs tests/planner.test.mjs tests/insights.test.mjs tests/tutor.test.mjs",
+    "test": "node --test --experimental-strip-types tests/core.test.mjs tests/analytics.test.mjs tests/licensing-killswitch.test.mjs tests/plans.test.mjs tests/telegramAuth.test.mjs tests/constellation.test.mjs tests/cosmoAssistant.test.mjs tests/cosmoUI.test.mjs tests/mascot.test.mjs tests/adversarialMascot.test.mjs tests/onboarding.test.mjs tests/planner.test.mjs tests/insights.test.mjs tests/tutor.test.mjs tests/errorBankAndVocab.test.mjs",
     "check:tokens": "node scripts/check-tokens.mjs",
     "typecheck": "tsc -p tsconfig.app.json --noEmit --incremental false",
     "build": "node scripts/check-tokens.mjs && tsc -b && vite build",

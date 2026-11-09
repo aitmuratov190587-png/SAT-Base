@@ -333,7 +333,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         testsTaken: 0,
         questionsSolved: 0,
         isSetupComplete: false,
-        plan: user.email === 'aitmuratov190587@gmail.com' ? 'vip' : 'free',
+        plan: user.email?.toLowerCase() === 'aitmuratov190587@gmail.com' ? 'vip' : 'free',
         planExpiresAt: null,
       };
       setProfile(fallback);
@@ -370,7 +370,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         testsTaken: data.tests_taken || 0,
         questionsSolved: data.questions_solved || 0,
         isSetupComplete: data.is_setup_complete || false,
-        plan: data.email === 'aitmuratov190587@gmail.com' ? 'vip' : resolveUserPlan(data),
+        plan: data.email?.toLowerCase() === 'aitmuratov190587@gmail.com' ? 'vip' : resolveUserPlan(data),
         planExpiresAt: data.plan_expires_at || null,
       };
       setProfile(p);
@@ -480,8 +480,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
   };
 
   const activePlan: SubscriptionPlan =
-    profile?.plan || (user?.email === 'aitmuratov190587@gmail.com' ? 'vip' : 'free');
-  const isVip = activePlan === 'vip' || user?.email === 'aitmuratov190587@gmail.com';
+    profile?.plan || (user?.email?.toLowerCase() === 'aitmuratov190587@gmail.com' ? 'vip' : 'free');
+  const isVip = activePlan === 'vip' || user?.email?.toLowerCase() === 'aitmuratov190587@gmail.com';
   const canUse = useCallback(
     (feature: 'auto_plan' | 'full_analytics' | 'insights' | 'all_mocks') => {
       return canUseFeature(activePlan, feature);

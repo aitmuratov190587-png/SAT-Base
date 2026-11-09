@@ -496,7 +496,7 @@ export default function Dashboard() {
 
               {/* 3. Error Bank */}
               <Link
-                to="/questions"
+                to="/error-bank"
                 className="p-4 sm:p-5 flex flex-col justify-between space-y-2 group hover:bg-paper-2/40 transition-colors"
               >
                 <div className="flex items-center justify-between text-xs text-ink-2">

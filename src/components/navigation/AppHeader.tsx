@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react';
 import { Search, Flame, Sparkles, Crown } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useApp } from '../../contexts/AppContext';
 import ThemeToggle from '../ThemeToggle';
 
@@ -17,10 +17,20 @@ export interface AppHeaderProps {
  * - Clean 1px bottom border in var(--color-line), no heavy borders or shadows
  */
 export default function AppHeader({ onOpenAITutor }: AppHeaderProps) {
+  const navigate = useNavigate();
   const { profile, plan, isVip } = useApp();
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   const streak = profile?.streak ?? 0;
+
+  const handleSearchKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      const val = searchInputRef.current?.value.trim();
+      if (val) {
+        navigate(`/questions?search=${encodeURIComponent(val)}`);
+      }
+    }
+  };
 
   // Global "/" keyboard shortcut to focus search input
   useEffect(() => {
@@ -65,6 +75,7 @@ export default function AppHeader({ onOpenAITutor }: AppHeaderProps) {
             type="text"
             aria-label="Search topics, formulas, reading skills"
             placeholder="Search topics, formulas, reading skills..."
+            onKeyDown={handleSearchKeyDown}
             className="w-64 md:w-80 pl-8 pr-8 py-1.5 text-xs bg-paper-2 border border-line rounded-[var(--radius-sm)] text-ink placeholder:text-ink-muted focus:outline-none focus:border-accent focus:bg-surface transition-colors duration-150"
           />
           <kbd

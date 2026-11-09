@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { X, Sparkles, Check, ArrowRight, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
@@ -21,6 +21,15 @@ export default function UpgradeModal({
 }: UpgradeModalProps) {
   const [showCheckout, setShowCheckout] = useState(false);
 
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
   const isUltra = highlightPlan === 'ultra_pro';
@@ -34,7 +43,14 @@ export default function UpgradeModal({
 
   return (
     <>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-ink/50 backdrop-blur-xs animate-fade-in font-sans">
+      <div
+        className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-ink/50 backdrop-blur-xs animate-fade-in font-sans"
+        onMouseDown={(e) => {
+          if (e.target === e.currentTarget) onClose();
+        }}
+        role="dialog"
+        aria-modal="true"
+      >
         <div className="relative w-full max-w-md bg-surface border border-line rounded-[var(--radius-lg)] p-6 sm:p-8 shadow-notebook">
           {/* Close Button */}
           <button

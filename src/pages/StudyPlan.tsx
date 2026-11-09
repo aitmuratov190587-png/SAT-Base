@@ -1416,6 +1416,22 @@ function TaskItem({
               >
                 {formatTaskTitle(task.title, task.topic_id)}
               </button>
+            ) : task.task_type === 'review' ? (
+              <button
+                type="button"
+                onClick={() => navigate('/error-bank')}
+                className="text-left hover:text-accent hover:underline cursor-pointer"
+              >
+                {formatTaskTitle(task.title, task.topic_id)}
+              </button>
+            ) : task.task_type === 'mock' ? (
+              <button
+                type="button"
+                onClick={() => navigate('/mock-tests')}
+                className="text-left hover:text-accent hover:underline cursor-pointer"
+              >
+                {formatTaskTitle(task.title, task.topic_id)}
+              </button>
             ) : (
               formatTaskTitle(task.title, task.topic_id)
             )}

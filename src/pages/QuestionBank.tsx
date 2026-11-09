@@ -5,7 +5,7 @@ import {
   ChevronDown,
   ChevronUp,
 } from 'lucide-react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import TopicPracticeModal from '../components/practice/TopicPracticeModal';
 import { useAuth } from '../contexts/AuthContext';
 import { fetchAllUserProgress, TopicProgressSummary } from '../lib/progressService';
@@ -149,11 +149,33 @@ export default function QuestionBank() {
   const { user } = useAuth();
   const effectiveUserId = user?.id || 'guest';
 
+  const [searchParams, setSearchParams] = useSearchParams();
   const [activeSubject, setActiveSubject] = useState<'reading_writing' | 'math'>('reading_writing');
   const [selectedTopicIds, setSelectedTopicIds] = useState<Set<string>>(new Set());
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState(() => searchParams.get('search') || '');
   const [filterMode, setFilterMode] = useState<FilterMode>('all');
   const [collapsedDomains, setCollapsedDomains] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    const q = searchParams.get('search');
+    if (q !== null && q !== searchQuery) {
+      setSearchQuery(q);
+      const lower = q.toLowerCase();
+      const mathKeywords = ['math', 'alg', 'linear', 'quad', 'geom', 'trig', 'stat', 'prob', 'ratio', 'equation', 'system'];
+      if (mathKeywords.some((k) => lower.includes(k))) {
+        setActiveSubject('math');
+      }
+    }
+  }, [searchParams]);
+
+  const handleSearchChange = (value: string) => {
+    setSearchQuery(value);
+    if (value) {
+      setSearchParams({ search: value }, { replace: true });
+    } else {
+      setSearchParams({}, { replace: true });
+    }
+  };
 
   // Real-time Cloud Progress from Supabase
   const [userProgress, setUserProgress] = useState<Record<string, TopicProgressSummary>>({});
@@ -186,7 +208,7 @@ export default function QuestionBank() {
     if (meta?.route) {
       navigate(meta.route);
     } else {
-      navigate('/practice/cross-text');
+      navigate(`/practice/${topic.id}`);
     }
   };
 
@@ -458,7 +480,7 @@ export default function QuestionBank() {
         <div className="w-full sm:w-80">
           <SearchInput
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => handleSearchChange(e.target.value)}
             placeholder="Search chapters or skills..."
             showSlashShortcut={true}
           />

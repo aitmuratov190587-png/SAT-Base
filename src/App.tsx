@@ -25,6 +25,8 @@ const DesignSystemPage = lazy(() => import('./pages/DesignSystemPage'));
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'));
 const TermsPage = lazy(() => import('./pages/TermsPage'));
 const PricingPage = lazy(() => import('./pages/PricingPage'));
+const ErrorBank = lazy(() => import('./pages/ErrorBank'));
+const VocabPage = lazy(() => import('./pages/VocabPage'));
 
 function ComingSoonPage({ title }: { title: string }) {
   const navigate = useNavigate();
@@ -110,6 +112,8 @@ export default function App() {
               <Route path="/dashboard" element={<Navigate to="/" replace />} />
               <Route path="/questions" element={<QuestionBank />} />
               <Route path="/mock-tests" element={<MockTests />} />
+              <Route path="/error-bank" element={<ErrorBank />} />
+              <Route path="/vocab" element={<VocabPage />} />
               <Route path="/study-planner" element={<StudyPlan />} />
               <Route path="/study-plan" element={<StudyPlan />} />
               <Route path="/analytics" element={<Analytics />} />

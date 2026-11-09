@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {
   X,
   Check,
@@ -130,8 +130,24 @@ export default function PaymentModal({
     onClose();
   };
 
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') resetAndClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen]);
+
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-ink/50 backdrop-blur-xs animate-fade-in font-sans">
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-ink/50 backdrop-blur-xs animate-fade-in font-sans"
+      onMouseDown={(e) => {
+        if (e.target === e.currentTarget) resetAndClose();
+      }}
+      role="dialog"
+      aria-modal="true"
+    >
       <div className="relative w-full max-w-xl bg-surface border border-line rounded-[28px] p-6 sm:p-8 shadow-notebook max-h-[92vh] overflow-y-auto">
         {/* Close Button */}
         <button

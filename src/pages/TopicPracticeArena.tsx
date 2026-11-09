@@ -16,6 +16,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { useApp } from '../contexts/AppContext';
 import { calculateSAElo, QuestionDifficulty, SATSection } from '../lib/saEloService';
 import { fetchAllUserProgress, saveQuestionProgress } from '../lib/progressService';
+import { addToErrorBank, removeFromErrorBank } from '../lib/errorBankService';
 import CalculatorModal from '../components/bluebook/CalculatorModal';
 import ReferenceModal from '../components/bluebook/ReferenceModal';
 import BluebookHeader from '../components/bluebook/BluebookHeader';
@@ -254,6 +255,13 @@ export default function TopicPracticeArena() {
       isCorrect,
       seconds
     ).then(refreshStatistics);
+
+    // Sync with Error Bank: auto-log missed questions, resolve answered correctly
+    if (!isCorrect) {
+      void addToErrorBank(effectiveUserId, currentQ.id, activeTopicId);
+    } else {
+      void removeFromErrorBank(effectiveUserId, currentQ.id);
+    }
 
     // Dynamic SAT-Adaptive ELO (SA-ELO) Calibration
     try {

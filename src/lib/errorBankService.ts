@@ -149,3 +149,29 @@ export async function removeFromErrorBank(userId: string, questionId: string): P
     console.error('Error in removeFromErrorBank:', err);
   }
 }
+
+/**
+ * Marks an error bank item as resolved with a timestamp
+ */
+export async function markResolvedInErrorBank(userId: string, questionId: string): Promise<void> {
+  const localSet = getLocalErrorBank();
+  localSet.delete(questionId);
+  setLocalErrorBank(localSet);
+
+  if (!userId || userId === 'guest') return;
+
+  try {
+    const { error } = await supabase
+      .from('error_bank')
+      .update({ resolved_at: new Date().toISOString() })
+      .eq('user_id', userId)
+      .eq('question_id', questionId);
+
+    if (error) {
+      console.warn('Error marking resolved in error_bank:', error.message);
+    }
+  } catch (err) {
+    console.error('Error in markResolvedInErrorBank:', err);
+  }
+}
+

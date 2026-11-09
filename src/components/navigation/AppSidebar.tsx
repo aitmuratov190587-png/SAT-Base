@@ -17,6 +17,8 @@ import {
   User,
   ArrowRight,
   MoreVertical,
+  AlertCircle,
+  BookMarked,
   LucideIcon,
 } from 'lucide-react';
 import { useApp } from '../../contexts/AppContext';
@@ -98,6 +100,8 @@ export default function AppSidebar({ onOpenAITutor }: AppSidebarProps) {
     { path: '/', label: 'Dashboard', icon: LayoutDashboard },
     { path: '/questions', label: 'Practice', icon: BookOpen },
     { path: '/mock-tests', label: 'Mock Exams', icon: FileCheck2 },
+    { path: '/error-bank', label: 'Error Bank', icon: AlertCircle },
+    { path: '/vocab', label: 'Vocab', icon: BookMarked },
     { path: '/analytics', label: 'Analytics', icon: BarChart3 },
     { path: '/study-plan', label: 'Study Plan', icon: Calendar },
     { path: '/pricing', label: 'Pricing', icon: CreditCard },
