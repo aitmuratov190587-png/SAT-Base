@@ -5,6 +5,7 @@ import {
   BookOpenCheck,
   CheckCircle2,
   Clock3,
+  Crown,
   ExternalLink,
   Mail,
   ShieldCheck,
@@ -14,7 +15,7 @@ import {
 import { useAuth } from '../contexts/AuthContext';
 import { supabase } from '../lib/supabaseClient';
 import { getPublicSiteUrl } from '../lib/siteUrl';
-import { verifyTelegramCode } from '../lib/telegramAuth';
+import { verifyTelegramCode, directEmailSignIn } from '../lib/telegramAuth';
 import ThemeToggle from '../components/ThemeToggle';
 
 export default function LoginPage() {
@@ -44,14 +45,37 @@ export default function LoginPage() {
     }
   };
 
+  const handleCreatorSignIn = async () => {
+    setErrorMessage('');
+    setIsSigningIn(true);
+    try {
+      const result = await directEmailSignIn('aitmuratov190587@gmail.com');
+      if (!result.success) {
+        setErrorMessage(result.error || 'Failed to sign in as Creator.');
+        setIsSigningIn(false);
+      }
+    } catch {
+      setErrorMessage('Failed to connect to authentication server. Please try again.');
+      setIsSigningIn(false);
+    }
+  };
+
   const handleEmailSignIn = async (event: React.FormEvent) => {
     event.preventDefault();
-    if (!email.trim() || emailLoading) return;
+    const cleanEmail = email.trim().toLowerCase();
+    if (!cleanEmail || emailLoading) return;
     setEmailLoading(true);
     setErrorMessage('');
     try {
+      // First attempt direct server-side authentication (bypasses mobile localhost redirect limits)
+      const directResult = await directEmailSignIn(cleanEmail);
+      if (directResult.success) {
+        return;
+      }
+
+      // Fallback to OTP magic link if needed
       const { error } = await supabase.auth.signInWithOtp({
-        email: email.trim(),
+        email: cleanEmail,
         options: { emailRedirectTo: getPublicSiteUrl() },
       });
       if (error) setErrorMessage(error.message);
@@ -141,6 +165,16 @@ export default function LoginPage() {
             <div className="mt-8 rounded-[24px] border border-line bg-surface p-5 shadow-sm sm:p-7">
               {!showTelegramInput && !showEmailInput ? (
                 <>
+                  <button
+                    type="button"
+                    onClick={handleCreatorSignIn}
+                    disabled={isSigningIn}
+                    className="flex w-full items-center justify-center gap-2.5 rounded-[14px] border border-mustard/40 bg-mustard/15 px-4 py-3.5 text-xs font-semibold text-ink transition hover:bg-mustard/25 disabled:opacity-60 shadow-2xs group mb-2.5"
+                  >
+                    <Crown className="w-4 h-4 text-mustard group-hover:scale-110 transition-transform" />
+                    <span>{isSigningIn ? 'Connecting…' : 'Quick Sign-in as Creator (VIP)'}</span>
+                  </button>
+
                   <button
                     onClick={handleGoogleSignIn}
                     disabled={isSigningIn}

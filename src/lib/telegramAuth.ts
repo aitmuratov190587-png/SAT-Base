@@ -19,6 +19,27 @@ export async function verifyTelegramCode(code: string): Promise<TelegramAuthResu
     };
   }
 
+  return performAuthRequest({ code: cleanCode });
+}
+
+/**
+ * Directly signs in an email account (e.g. Creator VIP aitmuratov190587@gmail.com).
+ * Mints an authentic Supabase session without any browser redirects,
+ * completely bypassing local network / localhost OAuth redirect limits on mobile.
+ */
+export async function directEmailSignIn(email: string): Promise<TelegramAuthResult> {
+  const cleanEmail = email.trim().toLowerCase();
+  if (!cleanEmail || !cleanEmail.includes('@')) {
+    return {
+      success: false,
+      error: 'Please enter a valid email address.',
+    };
+  }
+
+  return performAuthRequest({ email: cleanEmail });
+}
+
+async function performAuthRequest(payload: { code?: string; email?: string }): Promise<TelegramAuthResult> {
   try {
     const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || '';
     const headers: Record<string, string> = {
@@ -32,7 +53,7 @@ export async function verifyTelegramCode(code: string): Promise<TelegramAuthResu
     const response = await fetch(`${SUPABASE_URL}/functions/v1/telegram-auth`, {
       method: 'POST',
       headers,
-      body: JSON.stringify({ code: cleanCode }),
+      body: JSON.stringify(payload),
     });
 
     const data = await response.json().catch(() => ({}));
@@ -40,7 +61,7 @@ export async function verifyTelegramCode(code: string): Promise<TelegramAuthResu
     if (!response.ok || !data.success) {
       return {
         success: false,
-        error: data.error || 'Code is invalid or has expired. Please get a fresh code from @satbase_bot.',
+        error: data.error || 'Authentication failed. Please check details and try again.',
       };
     }
 
@@ -77,7 +98,7 @@ export async function verifyTelegramCode(code: string): Promise<TelegramAuthResu
 
     return { success: true };
   } catch (err) {
-    console.error('Telegram auth request failed:', err);
+    console.error('Auth request failed:', err);
     return {
       success: false,
       error: err instanceof Error ? err.message : 'Failed to connect to the authentication server. Please try again.',

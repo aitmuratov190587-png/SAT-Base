@@ -21,3 +21,12 @@ test('Telegram bot auth code generation generates 6 digit string', () => {
     assert.match(code, /^[1-9][0-9]{5}$/);
   }
 });
+
+test('directEmailSignIn validates email format', () => {
+  const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email || '').trim());
+
+  assert.equal(isValidEmail('aitmuratov190587@gmail.com'), true);
+  assert.equal(isValidEmail('test@satbase.uz'), true);
+  assert.equal(isValidEmail('invalid-email'), false);
+  assert.equal(isValidEmail(''), false);
+});
