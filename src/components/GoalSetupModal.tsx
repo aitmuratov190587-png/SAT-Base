@@ -297,52 +297,55 @@ export default function GoalSetupModal() {
                 <p className="text-xs font-medium text-ink-muted mb-2 font-sans">
                   Upcoming dates
                 </p>
-                {upcomingDates.map((d, index) => {
-                  const isSelected = selectedDate === d.date;
-                  return (
-                    <div
-                      key={d.date}
-                      ref={(el) => (dateRowRefs.current[index] = el)}
-                      role="radio"
-                      aria-checked={isSelected}
-                      tabIndex={isSelected || (!selectedDate && index === 0) ? 0 : -1}
-                      onClick={() => setSelectedDate(d.date)}
-                      onKeyDown={(e) => handleDateKeyDown(e, index, d.date)}
-                      className={`
-                        w-full flex items-center justify-between px-4 py-3.5 rounded-[var(--radius-md)]
-                        transition-all text-left cursor-pointer select-none
-                        focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-1
-                        ${
-                          isSelected
-                            ? 'border-2 border-ink bg-ink/[0.06] shadow-xs'
-                            : 'border border-line bg-surface hover:border-line-strong hover:bg-paper-2/50'
-                        }
-                      `}
-                    >
-                      <div className="flex items-center gap-3">
-                        {/* Radio outer ring + accent dot */}
-                        <div
-                          className={`w-4 h-4 rounded-full border flex items-center justify-center transition-colors shrink-0 ${
+                {(() => {
+                  const isSelectedInUpcoming = upcomingDates.some((item) => item.date === selectedDate);
+                  return upcomingDates.map((d, index) => {
+                    const isSelected = selectedDate === d.date;
+                    return (
+                      <div
+                        key={d.date}
+                        ref={(el) => (dateRowRefs.current[index] = el)}
+                        role="radio"
+                        aria-checked={isSelected}
+                        tabIndex={isSelected || (!isSelectedInUpcoming && index === 0) ? 0 : -1}
+                        onClick={() => setSelectedDate(d.date)}
+                        onKeyDown={(e) => handleDateKeyDown(e, index, d.date)}
+                        className={`
+                          w-full flex items-center justify-between px-4 py-3.5 rounded-[var(--radius-md)]
+                          transition-all text-left cursor-pointer select-none
+                          focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-1
+                          ${
                             isSelected
-                              ? 'border-accent bg-transparent'
-                              : 'border-line-strong bg-transparent'
-                          }`}
-                          aria-hidden="true"
-                        >
-                          {isSelected && (
-                            <div className="w-2 h-2 rounded-full bg-accent animate-scale-in" />
-                          )}
+                              ? 'border-2 border-ink bg-ink/[0.06] shadow-xs'
+                              : 'border border-line bg-surface hover:border-line-strong hover:bg-paper-2/50'
+                          }
+                        `}
+                      >
+                        <div className="flex items-center gap-3">
+                          {/* Radio outer ring + accent dot */}
+                          <div
+                            className={`w-4 h-4 rounded-full border flex items-center justify-center transition-colors shrink-0 ${
+                              isSelected
+                                ? 'border-accent bg-transparent'
+                                : 'border-line-strong bg-transparent'
+                            }`}
+                            aria-hidden="true"
+                          >
+                            {isSelected && (
+                              <div className="w-2 h-2 rounded-full bg-accent animate-scale-in" />
+                            )}
+                          </div>
+                          <span className="text-sm font-medium text-ink">
+                            {d.label}
+                          </span>
                         </div>
-                        <span className="text-sm font-medium text-ink">
-                          {d.label}
+                        <span className="text-xs font-mono text-ink-2">
+                          {d.formattedAway}
                         </span>
                       </div>
-                      <span className="text-xs font-mono text-ink-2">
-                        {d.formattedAway}
-                      </span>
-                    </div>
-                  );
-                })}
+                    );
+                  });
+                })()}
               </>
             )}
 

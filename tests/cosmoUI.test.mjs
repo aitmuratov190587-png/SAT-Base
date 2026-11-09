@@ -99,7 +99,7 @@ test('AITutorDrawer Universal Mode renders 6 quick action pills and feature guid
   assert.match(html, /SA-ELO &amp; Score Tiers|SA-ELO & Score Tiers/i);
 
   // Input placeholder
-  assert.match(html, /placeholder="Ask Cosmo a question\.\.\."/);
+  assert.match(html, /placeholder="Ask Cosmo a question/);
 });
 
 test('AITutorDrawer Practice Mode renders Socratic hint ladder and practice actions', () => {

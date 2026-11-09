@@ -63,6 +63,7 @@ export default function AppHeader({ onOpenAITutor }: AppHeaderProps) {
           <input
             ref={searchInputRef}
             type="text"
+            aria-label="Search topics, formulas, reading skills"
             placeholder="Search topics, formulas, reading skills..."
             className="w-64 md:w-80 pl-8 pr-8 py-1.5 text-xs bg-paper-2 border border-line rounded-[var(--radius-sm)] text-ink placeholder:text-ink-muted focus:outline-none focus:border-accent focus:bg-surface transition-colors duration-150"
           />

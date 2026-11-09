@@ -2,6 +2,8 @@ import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   PLAN_LIMITS,
+  PLAN_PRICING,
+  getPlanPrice,
   isMockTestUnlocked,
   canUseFeature,
   resolveUserPlan,
@@ -102,5 +104,33 @@ describe('STEP 14: Subscription Plans & Entitlements', () => {
       plan_expires_at: '2099-01-01T00:00:00Z',
     };
     assert.equal(resolveUserPlan(activeProfile), 'pro');
+  });
+
+  it('correctly maps dual currency pricing (UZS and USD)', () => {
+    // Pro pricing
+    const proUzs = getPlanPrice('pro', 'UZS');
+    assert.equal(proUzs.amount, 50000);
+    assert.equal(proUzs.currency, 'UZS');
+    assert.equal(proUzs.formatted, '50 000 so‘m');
+
+    const proUsd = getPlanPrice('pro', 'USD');
+    assert.equal(proUsd.amount, 4);
+    assert.equal(proUsd.currency, 'USD');
+    assert.equal(proUsd.formatted, '$4');
+
+    // Ultra Pro pricing
+    const ultraUzs = getPlanPrice('ultra_pro', 'UZS');
+    assert.equal(ultraUzs.amount, 200000);
+    assert.equal(ultraUzs.currency, 'UZS');
+    assert.equal(ultraUzs.formatted, '200 000 so‘m');
+
+    const ultraUsd = getPlanPrice('ultra_pro', 'USD');
+    assert.equal(ultraUsd.amount, 16);
+    assert.equal(ultraUsd.currency, 'USD');
+    assert.equal(ultraUsd.formatted, '$16');
+
+    // Free pricing
+    assert.equal(getPlanPrice('free', 'UZS').amount, 0);
+    assert.equal(getPlanPrice('free', 'USD').amount, 0);
   });
 });

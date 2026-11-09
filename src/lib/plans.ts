@@ -1,9 +1,11 @@
 export type SubscriptionPlan = 'free' | 'pro' | 'ultra_pro' | 'vip';
+export type CurrencyCode = 'UZS' | 'USD';
 
 export interface PlanLimits {
   plan: SubscriptionPlan;
   name: string;
-  priceMonthly: number; // in USD (0, 5, 20)
+  priceMonthly: number; // in USD (0, 4, 16)
+  priceMonthlyUzs: number; // in UZS (0, 50_000, 200_000)
   tutor_per_day: number;
   tutorPerDay: number;
   insights_per_day: number;
@@ -18,11 +20,42 @@ export interface PlanLimits {
   imageUploadsPerDay: number;
 }
 
+export interface PlanPrice {
+  amount: number;
+  currency: CurrencyCode;
+  formatted: string;
+  period: string;
+}
+
+export const PLAN_PRICING: Record<SubscriptionPlan, Record<CurrencyCode, PlanPrice>> = {
+  free: {
+    UZS: { amount: 0, currency: 'UZS', formatted: '0 so‘m', period: 'forever' },
+    USD: { amount: 0, currency: 'USD', formatted: '$0', period: 'forever' },
+  },
+  pro: {
+    UZS: { amount: 50_000, currency: 'UZS', formatted: '50 000 so‘m', period: '/ month' },
+    USD: { amount: 4, currency: 'USD', formatted: '$4', period: '/ month' },
+  },
+  ultra_pro: {
+    UZS: { amount: 200_000, currency: 'UZS', formatted: '200 000 so‘m', period: '/ month' },
+    USD: { amount: 16, currency: 'USD', formatted: '$16', period: '/ month' },
+  },
+  vip: {
+    UZS: { amount: 0, currency: 'UZS', formatted: '0 so‘m', period: 'lifetime' },
+    USD: { amount: 0, currency: 'USD', formatted: '$0', period: 'lifetime' },
+  },
+};
+
+export function getPlanPrice(plan: SubscriptionPlan, currency: CurrencyCode): PlanPrice {
+  return PLAN_PRICING[plan]?.[currency] || PLAN_PRICING.free[currency];
+}
+
 export const PLAN_LIMITS: Record<SubscriptionPlan, PlanLimits> = {
   free: {
     plan: 'free',
     name: 'Free',
     priceMonthly: 0,
+    priceMonthlyUzs: 0,
     tutor_per_day: 15,
     tutorPerDay: 15,
     insights_per_day: 0,
@@ -39,7 +72,8 @@ export const PLAN_LIMITS: Record<SubscriptionPlan, PlanLimits> = {
   pro: {
     plan: 'pro',
     name: 'Pro',
-    priceMonthly: 5,
+    priceMonthly: 4,
+    priceMonthlyUzs: 50_000,
     tutor_per_day: 50,
     tutorPerDay: 50,
     insights_per_day: 10,
@@ -56,7 +90,8 @@ export const PLAN_LIMITS: Record<SubscriptionPlan, PlanLimits> = {
   ultra_pro: {
     plan: 'ultra_pro',
     name: 'Ultra Pro',
-    priceMonthly: 20,
+    priceMonthly: 16,
+    priceMonthlyUzs: 200_000,
     tutor_per_day: 100,
     tutorPerDay: 100,
     insights_per_day: 20,
@@ -74,6 +109,7 @@ export const PLAN_LIMITS: Record<SubscriptionPlan, PlanLimits> = {
     plan: 'vip',
     name: 'VIP Creator',
     priceMonthly: 0,
+    priceMonthlyUzs: 0,
     tutor_per_day: 999999,
     tutorPerDay: 999999,
     insights_per_day: 999999,

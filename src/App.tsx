@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation, useNavigate, Navigate } from 'react-router-dom';
 import { useEffect, lazy, Suspense } from 'react';
 import { supabase } from './lib/supabaseClient';
 import { closeSiteSession, trackSiteEvent } from './lib/activityTracking';
@@ -107,6 +107,7 @@ export default function App() {
               }
             >
               <Route path="/" element={<Dashboard />} />
+              <Route path="/dashboard" element={<Navigate to="/" replace />} />
               <Route path="/questions" element={<QuestionBank />} />
               <Route path="/mock-tests" element={<MockTests />} />
               <Route path="/study-planner" element={<StudyPlan />} />

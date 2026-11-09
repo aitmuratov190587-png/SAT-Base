@@ -91,6 +91,7 @@ interface AppState {
   setSidebarOpen: (open: boolean) => void;
   setShowSetupModal: (show: boolean) => void;
   updateProfile: (updates: Partial<UserProfile>) => Promise<{ success: boolean; error?: string }>;
+  refreshProfile: () => Promise<void>;
   completeSetup: (data: {
     satDate: string;
     currentScore: ScoreBreakdown;
@@ -511,6 +512,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         setShowSetupModal,
         updateProfile,
         completeSetup,
+        refreshProfile: fetchProfile,
         language,
         setLanguage,
         isAITutorOpen,
@@ -531,10 +533,38 @@ export function AppProvider({ children }: { children: ReactNode }) {
   );
 }
 
+const DEFAULT_APP_STATE: AppState = {
+  profile: null,
+  profileLoading: false,
+  statistics: null,
+  mockAttempts: [],
+  refreshStatistics: async () => {},
+  sidebarOpen: true,
+  showSetupModal: false,
+  theme: 'light',
+  toggleTheme: () => {},
+  setSidebarOpen: () => {},
+  setShowSetupModal: () => {},
+  updateProfile: async () => ({ success: true }),
+  completeSetup: async () => ({ success: true }),
+  refreshProfile: async () => {},
+  language: 'en',
+  setLanguage: () => {},
+  isAITutorOpen: false,
+  setIsAITutorOpen: () => {},
+  openAITutor: () => {},
+  closeAITutor: () => {},
+  plan: 'free',
+  isVip: false,
+  canUse: () => false,
+  isMockUnlocked: (mockNumber: number) => mockNumber <= 6,
+  planLimits: PLAN_LIMITS.free,
+};
+
 export function useApp(): AppState {
   const context = useContext(AppContext);
   if (!context) {
-    throw new Error('useApp must be used within an AppProvider');
+    return DEFAULT_APP_STATE;
   }
   return context;
 }

@@ -386,7 +386,7 @@ export default function AITutorDrawer({
           : isPracticeMode
           ? ((context?.mode as 'practice' | 'results') || 'practice')
           : 'general',
-        currentPath: typeof window !== 'undefined' ? window.location.pathname : '/dashboard',
+        currentPath: typeof window !== 'undefined' ? window.location.pathname : '/',
         hintLevel: currentHint,
         questionId: context?.questionId,
         questionText: context?.questionText,

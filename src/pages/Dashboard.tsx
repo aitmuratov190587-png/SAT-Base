@@ -840,7 +840,7 @@ function ScoreTrailChart({
         {/* Goal Marker at the right end (100%), PLACED ABOVE THE TRAIL */}
         {goalScore > 0 && (
           <div
-            className="absolute top-1/2 right-0 -translate-y-1/2 flex flex-col items-end z-10"
+            className="absolute top-1/2 -translate-y-1/2 flex flex-col items-end z-10"
             style={{ left: `${goalPercent}%`, transform: 'translate(-100%, -50%)' }}
           >
             <span className="absolute -top-7 text-xs font-mono text-mustard font-semibold whitespace-nowrap bg-mustard/15 px-2 py-0.5 rounded border border-mustard/30">
