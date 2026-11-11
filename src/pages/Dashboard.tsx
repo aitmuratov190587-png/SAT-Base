@@ -1,4 +1,4 @@
-import { FormEvent, useMemo, useState } from 'react';
+import { FormEvent, useEffect, useMemo, useState } from 'react';
 import {
   BookOpen,
   Zap,
@@ -14,7 +14,7 @@ import {
   Compass,
   ChevronRight,
 } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useApp } from '../contexts/AppContext';
 import GoalSetupModal from '../components/GoalSetupModal';
 import Button from '../components/ui/Button';
@@ -22,6 +22,7 @@ import Card from '../components/ui/Card';
 import Badge from '../components/ui/Badge';
 import Skeleton from '../components/ui/Skeleton';
 import SkillConstellation from '../components/SkillConstellation';
+import type { AnswerEvent } from '../lib/analytics';
 
 function formatDuration(seconds: number) {
   const hours = Math.floor(seconds / 3600);
@@ -40,11 +41,36 @@ export default function Dashboard() {
     openAITutor,
   } = useApp();
 
+  const location = useLocation();
   const [isScoreModalOpen, setIsScoreModalOpen] = useState(false);
   const [savingScore, setSavingScore] = useState(false);
   const [startingMath, setStartingMath] = useState('');
   const [startingEnglish, setStartingEnglish] = useState('');
   const [askQuery, setAskQuery] = useState('');
+  const [demoStarEvents, setDemoStarEvents] = useState<AnswerEvent[] | undefined>(undefined);
+
+  const isDemoStars = import.meta.env.DEV
+    ? new URLSearchParams(location.search).get('demo') === 'stars'
+    : false;
+
+  useEffect(() => {
+    if (!import.meta.env.DEV) return;
+    if (!isDemoStars) {
+      setDemoStarEvents(undefined);
+      return;
+    }
+
+    let cancelled = false;
+    import('../components/skillConstellationDemo').then((mod) => {
+      if (!cancelled) {
+        setDemoStarEvents(mod.DEMO_STAR_EVENTS);
+      }
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [isDemoStars]);
 
   // Starting, Latest, Goal, and Progress Calculations
   const startingScore = profile?.startingScore?.total || 0;
@@ -667,7 +693,10 @@ export default function Dashboard() {
 
         {/* ── 8. Skill Constellation Section (Step 4b) ── */}
         <section data-section="star-map-step-4b" aria-label="Skill constellation" className="w-full">
-          <SkillConstellation />
+          <SkillConstellation
+            events={isDemoStars ? demoStarEvents ?? [] : undefined}
+            demoData={isDemoStars}
+          />
         </section>
       </div>
     </>
