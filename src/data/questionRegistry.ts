@@ -35,12 +35,11 @@ export interface TopicQuestionMeta {
  * Kill switch build flag: when false, only questions with source === 'original'
  * are included. Questions marked 'collegeboard' or 'unknown' are filtered out.
  */
-export const INCLUDE_COLLEGEBOARD_QUESTIONS: boolean =
-  typeof import.meta !== 'undefined' && import.meta?.env?.VITE_INCLUDE_COLLEGEBOARD_QUESTIONS !== undefined
-    ? import.meta.env.VITE_INCLUDE_COLLEGEBOARD_QUESTIONS === 'true'
-    : (typeof process !== 'undefined' && process.env?.VITE_INCLUDE_COLLEGEBOARD_QUESTIONS !== undefined
-      ? process.env.VITE_INCLUDE_COLLEGEBOARD_QUESTIONS === 'true'
-      : true);
+const envFlag =
+  (typeof import.meta !== 'undefined' && import.meta?.env?.VITE_INCLUDE_COLLEGEBOARD_QUESTIONS) ||
+  (typeof process !== 'undefined' && process.env?.VITE_INCLUDE_COLLEGEBOARD_QUESTIONS);
+
+export const INCLUDE_COLLEGEBOARD_QUESTIONS: boolean = envFlag === 'false' ? false : true;
 
 const filterAllowed = <T extends PracticeQuestion>(list: T[]): T[] => {
   if (INCLUDE_COLLEGEBOARD_QUESTIONS) return list;

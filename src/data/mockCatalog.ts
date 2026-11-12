@@ -13,16 +13,16 @@ export const MOCK_TESTS_CATALOG: MockCatalogItem[] = Array.from({ length: 30 }, 
   const num = i + 1;
   const numStr = String(num).padStart(2, '0');
   const isFree = num <= 6;
-  const isAvailable = num === 1; // Test 1 (FlashRush) is currently live, 2..30 are in catalog
+  const isAvailable = num === 1; // Test 1 is live full-length exam
 
   return {
     id: `mock-test-${num}`,
     number: numStr,
     testNumber: num,
     title: `Practice test ${num}`,
-    meta: '98 questions · 134 min · Adaptive',
+    meta: num === 1 ? '98 questions · 134 min · Full-length Digital SAT' : '98 questions · 134 min · Adaptive',
     isFree,
     status: isAvailable ? 'available' : 'coming_soon',
-    route: num === 1 ? '/mock-tests/flashrush' : undefined,
+    route: num === 1 ? '/mock-tests/practice-1' : undefined,
   };
 });

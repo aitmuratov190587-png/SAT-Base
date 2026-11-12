@@ -28,11 +28,11 @@ function excludeCollegeBoardPlugin(enabled: boolean) {
   };
 }
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(() => {
   const includeCollegeBoard =
     process.env.VITE_INCLUDE_COLLEGEBOARD_QUESTIONS !== undefined
-      ? process.env.VITE_INCLUDE_COLLEGEBOARD_QUESTIONS === 'true'
-      : mode === 'development';
+      ? process.env.VITE_INCLUDE_COLLEGEBOARD_QUESTIONS !== 'false'
+      : true;
 
   const includedQuestionCount = includeCollegeBoard ? 2707 : 25;
 

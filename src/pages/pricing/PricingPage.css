@@ -1,0 +1,135 @@
+/* Scoped Pricing page layout, typography, accessibility, and motion polish */
+
+.pricing-hero-title {
+  text-wrap: balance;
+}
+
+/* Accessible accent text contrast >= 4.5:1 across light and dark surfaces */
+.pricing-accent-label {
+  color: color-mix(in srgb, var(--color-accent) 58%, var(--color-ink) 42%);
+}
+
+[data-theme='dark'] .pricing-accent-label,
+.dark .pricing-accent-label {
+  color: color-mix(in srgb, var(--color-accent) 85%, var(--color-ink) 15%);
+}
+
+/* Keep Pricing header ThemeToggle in the same font family/size as sibling nav controls */
+.pricing-page .pricing-theme-toggle {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+/* Currency switcher tab focus & active consistency */
+.pricing-currency-tab {
+  outline: none;
+}
+
+.pricing-currency-tab:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+/* Pricing cards subtle hover elevation & button brightness */
+.pricing-card {
+  transition:
+    transform 180ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 180ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 180ms ease;
+}
+
+@media (hover: hover) {
+  .pricing-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-notebook-hover);
+  }
+}
+
+.pricing-cta-btn {
+  transition:
+    filter 150ms ease,
+    transform 150ms ease,
+    background-color 150ms ease,
+    border-color 150ms ease;
+}
+
+@media (hover: hover) {
+  .pricing-cta-btn:not(:disabled):hover {
+    filter: brightness(1.06);
+  }
+}
+
+/* Opaque comparison table surfaces for sticky header and pinned Capability column */
+.pricing-table-header {
+  background-color: var(--color-paper-2);
+}
+
+.pricing-table-corner {
+  background-color: var(--color-paper-2);
+}
+
+.pricing-table-sticky-col {
+  background-color: var(--color-surface);
+}
+
+.pricing-table-pro-header {
+  background-color: color-mix(in srgb, var(--color-accent) 8%, var(--color-paper-2) 92%);
+}
+
+.pricing-table-pro-cell {
+  background-color: color-mix(in srgb, var(--color-accent) 5%, var(--color-surface) 95%);
+}
+
+[data-theme='dark'] .pricing-table-pro-header,
+.dark .pricing-table-pro-header {
+  background-color: color-mix(in srgb, var(--color-accent) 10%, var(--color-paper-2) 90%);
+}
+
+[data-theme='dark'] .pricing-table-pro-cell,
+.dark .pricing-table-pro-cell {
+  background-color: color-mix(in srgb, var(--color-accent) 6%, var(--color-surface) 94%);
+}
+
+/* Accessible smooth accordion panel */
+.pricing-faq-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 180ms ease;
+}
+
+.pricing-faq-panel[data-open='true'] {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.pricing-faq-panel-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* Compact mobile floating Cosmo launcher strictly while /pricing is mounted */
+@media (max-width: 767px) {
+  body.pricing-route #root > div.fixed:has(#cosmo-launcher-tooltip) {
+    bottom: 16px;
+    right: 12px;
+  }
+
+  body.pricing-route #root > div.fixed:has(#cosmo-launcher-tooltip) div[data-mascot-state] {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pricing-card,
+  .pricing-cta-btn,
+  .pricing-faq-panel,
+  .pricing-faq-chevron {
+    transition: none !important;
+    transform: none !important;
+  }
+}

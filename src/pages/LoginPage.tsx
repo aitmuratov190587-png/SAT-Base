@@ -5,7 +5,6 @@ import {
   BookOpenCheck,
   CheckCircle2,
   Clock3,
-  Crown,
   ExternalLink,
   Mail,
   ShieldCheck,
@@ -41,21 +40,6 @@ export default function LoginPage() {
       await signInWithGoogle();
     } catch {
       setErrorMessage('Google sign-in could not start. Please try again.');
-      setIsSigningIn(false);
-    }
-  };
-
-  const handleCreatorSignIn = async () => {
-    setErrorMessage('');
-    setIsSigningIn(true);
-    try {
-      const result = await directEmailSignIn('aitmuratov190587@gmail.com');
-      if (!result.success) {
-        setErrorMessage(result.error || 'Failed to sign in as Creator.');
-        setIsSigningIn(false);
-      }
-    } catch {
-      setErrorMessage('Failed to connect to authentication server. Please try again.');
       setIsSigningIn(false);
     }
   };
@@ -165,16 +149,6 @@ export default function LoginPage() {
             <div className="mt-8 rounded-[24px] border border-line bg-surface p-5 shadow-sm sm:p-7">
               {!showTelegramInput && !showEmailInput ? (
                 <>
-                  <button
-                    type="button"
-                    onClick={handleCreatorSignIn}
-                    disabled={isSigningIn}
-                    className="flex w-full items-center justify-center gap-2.5 rounded-[14px] border border-mustard/40 bg-mustard/15 px-4 py-3.5 text-xs font-semibold text-ink transition hover:bg-mustard/25 disabled:opacity-60 shadow-2xs group mb-2.5"
-                  >
-                    <Crown className="w-4 h-4 text-mustard group-hover:scale-110 transition-transform" />
-                    <span>{isSigningIn ? 'Connecting…' : 'Quick Sign-in as Creator (VIP)'}</span>
-                  </button>
-
                   <button
                     onClick={handleGoogleSignIn}
                     disabled={isSigningIn}

@@ -15,6 +15,8 @@ const LoginPage = lazy(() => import('./pages/LoginPage'));
 const MockTests = lazy(() => import('./pages/MockTests'));
 const FlashRushMockTest = lazy(() => import('./pages/FlashRushMockTest'));
 const FlashRushResults = lazy(() => import('./pages/FlashRushResults'));
+const FullMockTest = lazy(() => import('./pages/FullMockTest'));
+const FullMockResults = lazy(() => import('./pages/FullMockResults'));
 const QuestionBank = lazy(() => import('./pages/QuestionBank'));
 const WelcomeLanding = lazy(() => import('./pages/WelcomeLanding'));
 const Analytics = lazy(() => import('./pages/Analytics'));
@@ -83,6 +85,22 @@ export default function App() {
             />
 
             {/* Full-screen Mock Test & Results */}
+            <Route
+              path="/mock-tests/practice-1"
+              element={
+                <ProtectedRoute>
+                  <FullMockTest />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/mock-tests/practice-1/results"
+              element={
+                <ProtectedRoute>
+                  <FullMockResults />
+                </ProtectedRoute>
+              }
+            />
             <Route
               path="/mock-tests/flashrush"
               element={

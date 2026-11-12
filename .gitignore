@@ -4,6 +4,7 @@ node_modules/
 # build
 dist/
 *.tsbuildinfo
+.netlify/
 
 # env files
 .env
