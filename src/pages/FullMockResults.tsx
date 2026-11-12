@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate, Link, useParams } from 'react-router-dom';
 import {
   CheckCircle2,
   XCircle,
@@ -19,13 +19,21 @@ import {
   loadFullMockResult,
   clearFullMockSession,
 } from '../lib/fullMockSession';
-import { ALL_PRACTICE_TEST_1_QUESTIONS } from '../data/mockTests/mockPracticeTest1';
+import {
+  getAllQuestionsForTest,
+  getPracticeTestConfig,
+} from '../data/mockTests/index';
 import { MockTestQuestion } from '../data/mockTests/pt1_types';
 
 export default function FullMockResults() {
   const navigate = useNavigate();
+  const { testNum: rawTestNum } = useParams<{ testNum?: string }>();
+  const testNum = Math.min(3, Math.max(1, parseInt(rawTestNum || '1', 10) || 1));
 
-  const [result] = useState(() => loadFullMockResult());
+  const testConfig = getPracticeTestConfig(testNum);
+  const allQuestions = getAllQuestionsForTest(testNum);
+
+  const [result] = useState(() => loadFullMockResult(testNum));
   const [activeFilter, setActiveFilter] = useState<'all' | 'rw' | 'math' | 'incorrect'>('all');
   const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(new Set());
 
@@ -39,9 +47,9 @@ export default function FullMockResults() {
       <div className="min-h-[70vh] flex items-center justify-center p-4">
         <EmptyState
           headline="No test results found"
-          description="You haven't completed Digital SAT Practice Test #1 yet, or the result was cleared."
-          actionLabel="Start Practice Test 1"
-          onAction={() => navigate('/mock-tests/practice-1')}
+          description={`You haven't completed Digital SAT Practice Test #${testNum} yet, or the result was cleared.`}
+          actionLabel={`Start Practice Test ${testNum}`}
+          onAction={() => navigate(`/mock-tests/practice-${testNum}`)}
           mascotSrc="/images/avatar-blue.png"
           className="max-w-md w-full"
         />
@@ -53,7 +61,7 @@ export default function FullMockResults() {
 
   // Map questions with user status
   const analyzedQuestions = useMemo(() => {
-    return ALL_PRACTICE_TEST_1_QUESTIONS.map((q) => {
+    return allQuestions.map((q) => {
       const userAns = userAnswers[q.id]?.trim();
       let isCorrect = false;
       const isOmitted = !userAns;
@@ -91,7 +99,7 @@ export default function FullMockResults() {
         isOmitted,
       };
     });
-  }, [userAnswers]);
+  }, [allQuestions, userAnswers]);
 
   // Filtered list
   const filteredList = useMemo(() => {
@@ -131,8 +139,8 @@ export default function FullMockResults() {
   };
 
   const handleRetake = () => {
-    clearFullMockSession();
-    navigate('/mock-tests/practice-1');
+    clearFullMockSession(testNum);
+    navigate(`/mock-tests/practice-${testNum}`);
   };
 
   const formattedDate = new Date(completedAt).toLocaleDateString(undefined, {
@@ -151,10 +159,10 @@ export default function FullMockResults() {
               Mock exams
             </Link>
             <span>/</span>
-            <span className="text-ink font-medium">Practice Test #1 Results</span>
+            <span className="text-ink font-medium">Practice Test #{testNum} Results</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-display font-bold text-ink tracking-tight">
-            Digital SAT® Practice Test #1
+            {testConfig.title}
           </h1>
           <p className="text-xs sm:text-sm text-ink-2 mt-1">
             Completed on {formattedDate} · 98 questions · Official College Board curve

@@ -1,13 +1,14 @@
-import { PRACTICE_TEST_1, type FullMockScoreResult } from '../data/mockTests/mockPracticeTest1.ts';
+import {
+  getPracticeTestConfig,
+  type FullMockScoreResult,
+} from '../data/mockTests/index.ts';
 import type { MockModuleConfig } from '../data/mockTests/pt1_types.ts';
-
-export const FULL_MOCK_SESSION_KEY = 'satbase_full_mock_session_pt1';
-export const FULL_MOCK_RESULT_KEY = 'satbase_full_mock_result_pt1';
 
 export type ModuleIndex = 0 | 1 | 2 | 3;
 
 export interface FullMockSession {
-  testId: 'practice-test-1';
+  testId: string;
+  testNumber: number;
   currentModuleIndex: ModuleIndex; // 0: rw1, 1: rw2, 2: math1, 3: math2
   currentQuestionIndex: number;
   phase: 'test' | 'review' | 'break' | 'complete';
@@ -29,6 +30,7 @@ export interface FullMockSession {
 export interface FullMockSavedResult {
   attemptId: string;
   testId: string;
+  testNumber: number;
   completedAt: string;
   userAnswers: Record<string, string>;
   scores: FullMockScoreResult;
@@ -46,16 +48,22 @@ export const MODULE_ORDER: Array<'rw1' | 'rw2' | 'math1' | 'math2'> = [
   'math2',
 ];
 
-export function getModuleConfigByIndex(index: ModuleIndex): MockModuleConfig {
+export function getModuleConfigByIndex(
+  testNum: number,
+  index: ModuleIndex
+): MockModuleConfig {
+  const config = getPracticeTestConfig(testNum);
   const key = MODULE_ORDER[index];
-  return PRACTICE_TEST_1.modules[key];
+  return config.modules[key];
 }
 
-export function createFullMockSession(): FullMockSession {
-  const rw1Config = PRACTICE_TEST_1.modules.rw1;
+export function createFullMockSession(testNum: number = 1): FullMockSession {
+  const config = getPracticeTestConfig(testNum);
+  const rw1Config = config.modules.rw1;
   const now = Date.now();
   return {
-    testId: 'practice-test-1',
+    testId: `practice-test-${testNum}`,
+    testNumber: testNum,
     currentModuleIndex: 0,
     currentQuestionIndex: 0,
     phase: 'test',
@@ -74,49 +82,68 @@ export function createFullMockSession(): FullMockSession {
   };
 }
 
-export function saveFullMockSession(session: FullMockSession | null): void {
+export function getSessionStorageKey(testNum: number = 1): string {
+  return `satbase_full_mock_session_pt${testNum}`;
+}
+
+export function getResultStorageKey(testNum: number = 1): string {
+  return `satbase_full_mock_result_pt${testNum}`;
+}
+
+export function saveFullMockSession(
+  session: FullMockSession | null,
+  testNum: number = 1
+): void {
   try {
+    const key = getSessionStorageKey(testNum);
     if (session === null) {
-      localStorage.removeItem(FULL_MOCK_SESSION_KEY);
+      localStorage.removeItem(key);
     } else {
-      localStorage.setItem(FULL_MOCK_SESSION_KEY, JSON.stringify(session));
+      localStorage.setItem(key, JSON.stringify(session));
     }
   } catch (err) {
     console.error('Failed to save full mock session to localStorage:', err);
   }
 }
 
-export function loadFullMockSession(): FullMockSession | null {
+export function loadFullMockSession(testNum: number = 1): FullMockSession | null {
   try {
-    const raw = localStorage.getItem(FULL_MOCK_SESSION_KEY);
+    const key = getSessionStorageKey(testNum);
+    const raw = localStorage.getItem(key);
     if (!raw) return null;
     const parsed = JSON.parse(raw) as FullMockSession;
-    if (parsed.testId !== 'practice-test-1') return null;
+    if (parsed.testNumber !== testNum) return null;
     return parsed;
   } catch {
     return null;
   }
 }
 
-export function clearFullMockSession(): void {
+export function clearFullMockSession(testNum: number = 1): void {
   try {
-    localStorage.removeItem(FULL_MOCK_SESSION_KEY);
+    const key = getSessionStorageKey(testNum);
+    localStorage.removeItem(key);
   } catch (err) {
     console.error('Failed to clear full mock session:', err);
   }
 }
 
-export function saveFullMockResult(result: FullMockSavedResult): void {
+export function saveFullMockResult(
+  result: FullMockSavedResult,
+  testNum: number = 1
+): void {
   try {
-    localStorage.setItem(FULL_MOCK_RESULT_KEY, JSON.stringify(result));
+    const key = getResultStorageKey(testNum);
+    localStorage.setItem(key, JSON.stringify(result));
   } catch (err) {
     console.error('Failed to save full mock result:', err);
   }
 }
 
-export function loadFullMockResult(): FullMockSavedResult | null {
+export function loadFullMockResult(testNum: number = 1): FullMockSavedResult | null {
   try {
-    const raw = localStorage.getItem(FULL_MOCK_RESULT_KEY);
+    const key = getResultStorageKey(testNum);
+    const raw = localStorage.getItem(key);
     if (!raw) return null;
     return JSON.parse(raw) as FullMockSavedResult;
   } catch {

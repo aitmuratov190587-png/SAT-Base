@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { Bookmark, Slash, Info } from 'lucide-react';
 import BluebookHeader from '../components/bluebook/BluebookHeader';
 import BluebookFooter, { QuestionStatus } from '../components/bluebook/BluebookFooter';
@@ -21,20 +21,28 @@ import {
   saveFullMockResult,
   FullMockSavedResult,
 } from '../lib/fullMockSession';
-import { calculateFullMockScores, PRACTICE_TEST_1 } from '../data/mockTests/mockPracticeTest1';
+import {
+  calculateFullMockScores,
+  getPracticeTestConfig,
+} from '../data/mockTests/index';
 
 export default function FullMockTest() {
   const navigate = useNavigate();
+  const { testNum: rawTestNum } = useParams<{ testNum?: string }>();
+  const testNum = Math.min(3, Math.max(1, parseInt(rawTestNum || '1', 10) || 1));
+
   const { profile } = useApp();
   const { user } = useAuth();
 
-  // Initialize or resume existing session
+  const testConfig = getPracticeTestConfig(testNum);
+
+  // Initialize or resume existing session for this specific test
   const [session, setSession] = useState<FullMockSession>(() => {
-    const existing = loadFullMockSession();
+    const existing = loadFullMockSession(testNum);
     if (existing && existing.phase !== 'complete') {
       return existing;
     }
-    return createFullMockSession();
+    return createFullMockSession(testNum);
   });
 
   const [now, setNow] = useState<number>(() => Date.now());
@@ -55,7 +63,10 @@ export default function FullMockTest() {
   const completionHandled = useRef<boolean>(false);
 
   // Current module config & active question
-  const currentModuleConfig = getModuleConfigByIndex(session.currentModuleIndex);
+  const currentModuleConfig = getModuleConfigByIndex(
+    testNum,
+    session.currentModuleIndex
+  );
   const questions = currentModuleConfig.questions;
   const activeQuestionIndex = Math.min(
     session.currentQuestionIndex,
@@ -82,7 +93,6 @@ export default function FullMockTest() {
       setNow(currentNow);
 
       if (currentNow >= session.moduleDeadline) {
-        // Time expired for this module: auto-advance or trigger review/next
         handleAutoAdvanceModule();
       }
     }, 1000);
@@ -92,16 +102,16 @@ export default function FullMockTest() {
 
   // Save session state to localStorage on any change
   useEffect(() => {
-    saveFullMockSession(session);
-  }, [session]);
+    saveFullMockSession(session, testNum);
+  }, [session, testNum]);
 
   // Track start of exam once
   useEffect(() => {
     void trackSiteEvent('test_started', {
-      test: 'practice-test-1',
+      test: `practice-test-${testNum}`,
       module: session.currentModuleIndex,
     });
-  }, []);
+  }, [testNum]);
 
   // Split divider drag handlers
   const handleDividerMouseDown = (e: React.MouseEvent) => {
@@ -140,7 +150,6 @@ export default function FullMockTest() {
   // SPR input change (allows numbers, decimals, fractions, and negative signs)
   const handleSprChange = (val: string) => {
     if (!activeQuestion) return;
-    // Sanitize: allow 0-9, ., /, -
     const sanitized = val.replace(/[^0-9./-]/g, '').slice(0, 7);
     setSession((prev) => ({
       ...prev,
@@ -191,7 +200,7 @@ export default function FullMockTest() {
 
     if (session.currentModuleIndex === 0) {
       // RW1 -> RW2
-      const rw2Config = PRACTICE_TEST_1.modules.rw2;
+      const rw2Config = testConfig.modules.rw2;
       setSession((prev) => ({
         ...prev,
         currentModuleIndex: 1,
@@ -208,7 +217,7 @@ export default function FullMockTest() {
       }));
     } else if (session.currentModuleIndex === 2) {
       // Math1 -> Math2
-      const math2Config = PRACTICE_TEST_1.modules.math2;
+      const math2Config = testConfig.modules.math2;
       setSession((prev) => ({
         ...prev,
         currentModuleIndex: 3,
@@ -225,7 +234,7 @@ export default function FullMockTest() {
 
   // Resume after 10-minute break -> Math Module 1
   const handleResumeAfterBreak = () => {
-    const math1Config = PRACTICE_TEST_1.modules.math1;
+    const math1Config = testConfig.modules.math1;
     const nowTs = Date.now();
     setSession((prev) => ({
       ...prev,
@@ -238,7 +247,6 @@ export default function FullMockTest() {
   };
 
   const handleAutoAdvanceModule = () => {
-    // When time runs out, auto-submit current module
     advanceToNextModule();
   };
 
@@ -247,12 +255,13 @@ export default function FullMockTest() {
     if (completionHandled.current) return;
     completionHandled.current = true;
 
-    const scores = calculateFullMockScores(finalSession.userAnswers);
+    const scores = calculateFullMockScores(testNum, finalSession.userAnswers);
     const completedAt = new Date().toISOString();
 
     const resultPayload: FullMockSavedResult = {
-      attemptId: `pt1-attempt-${Date.now()}`,
-      testId: 'practice-test-1',
+      attemptId: `pt${testNum}-attempt-${Date.now()}`,
+      testId: `practice-test-${testNum}`,
+      testNumber: testNum,
       completedAt,
       userAnswers: finalSession.userAnswers,
       scores,
@@ -263,17 +272,17 @@ export default function FullMockTest() {
       },
     };
 
-    saveFullMockResult(resultPayload);
-    clearFullMockSession();
+    saveFullMockResult(resultPayload, testNum);
+    clearFullMockSession(testNum);
 
     void trackSiteEvent('test_completed', {
-      test: 'practice-test-1',
+      test: `practice-test-${testNum}`,
       totalScore: scores.totalScore,
       rwScore: scores.rwScore,
       mathScore: scores.mathScore,
     });
 
-    navigate('/mock-tests/practice-1/results', { replace: true });
+    navigate(`/mock-tests/practice-${testNum}/results`, { replace: true });
   };
 
   // Status list for Footer Navigator & Review Screen
@@ -293,7 +302,6 @@ export default function FullMockTest() {
   // Keyboard navigation
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't intercept if student is typing in SPR input field
       if (
         document.activeElement?.tagName === 'INPUT' ||
         document.activeElement?.tagName === 'TEXTAREA'
@@ -505,7 +513,6 @@ export default function FullMockTest() {
                           </div>
                         </div>
 
-                        {/* Eliminate option button */}
                         <button
                           type="button"
                           onClick={(e) => toggleEliminateOption(option.letter, e)}
@@ -669,7 +676,6 @@ export default function FullMockTest() {
                           </div>
                         </div>
 
-                        {/* Eliminate option button */}
                         <button
                           type="button"
                           onClick={(e) => toggleEliminateOption(option.letter, e)}
@@ -721,7 +727,6 @@ export default function FullMockTest() {
               currentQuestionIndex: activeQuestionIndex + 1,
             }));
           } else {
-            // Last question in module -> open Review screen
             setSession((prev) => ({ ...prev, phase: 'review' }));
           }
         }}

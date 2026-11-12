@@ -102,6 +102,54 @@ export default function App() {
               }
             />
             <Route
+              path="/mock-tests/practice-2"
+              element={
+                <ProtectedRoute>
+                  <FullMockTest />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/mock-tests/practice-2/results"
+              element={
+                <ProtectedRoute>
+                  <FullMockResults />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/mock-tests/practice-3"
+              element={
+                <ProtectedRoute>
+                  <FullMockTest />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/mock-tests/practice-3/results"
+              element={
+                <ProtectedRoute>
+                  <FullMockResults />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/mock-tests/practice-:testNum"
+              element={
+                <ProtectedRoute>
+                  <FullMockTest />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/mock-tests/practice-:testNum/results"
+              element={
+                <ProtectedRoute>
+                  <FullMockResults />
+                </ProtectedRoute>
+              }
+            />
+            <Route
               path="/mock-tests/flashrush"
               element={
                 <ProtectedRoute>
