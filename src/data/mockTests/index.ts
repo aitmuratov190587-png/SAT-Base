@@ -2,17 +2,23 @@ import type { FullMockTestConfig, MockTestQuestion } from './pt1_types.ts';
 import { PRACTICE_TEST_1, ALL_PRACTICE_TEST_1_QUESTIONS } from './mockPracticeTest1.ts';
 import { PRACTICE_TEST_2, ALL_PRACTICE_TEST_2_QUESTIONS } from './mockPracticeTest2.ts';
 import { PRACTICE_TEST_3, ALL_PRACTICE_TEST_3_QUESTIONS } from './mockPracticeTest3.ts';
+import { PRACTICE_TEST_4, ALL_PRACTICE_TEST_4_QUESTIONS } from './mockPracticeTest4.ts';
+import { PRACTICE_TEST_5, ALL_PRACTICE_TEST_5_QUESTIONS } from './mockPracticeTest5.ts';
 
 export const PRACTICE_TESTS: Record<number, FullMockTestConfig> = {
   1: PRACTICE_TEST_1,
   2: PRACTICE_TEST_2,
   3: PRACTICE_TEST_3,
+  4: PRACTICE_TEST_4,
+  5: PRACTICE_TEST_5,
 };
 
 export const ALL_QUESTIONS_BY_TEST: Record<number, MockTestQuestion[]> = {
   1: ALL_PRACTICE_TEST_1_QUESTIONS,
   2: ALL_PRACTICE_TEST_2_QUESTIONS,
   3: ALL_PRACTICE_TEST_3_QUESTIONS,
+  4: ALL_PRACTICE_TEST_4_QUESTIONS,
+  5: ALL_PRACTICE_TEST_5_QUESTIONS,
 };
 
 export function getPracticeTestConfig(testNum: number): FullMockTestConfig {

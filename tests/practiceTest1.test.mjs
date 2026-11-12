@@ -11,7 +11,7 @@ import {
   getModuleConfigByIndex,
 } from '../src/lib/fullMockSession.ts';
 
-for (const testNum of [1, 2, 3]) {
+for (const testNum of [1, 2, 3, 4, 5]) {
   test(`Digital SAT Practice Test #${testNum} — Module Configuration & Timings`, () => {
     const config = getPracticeTestConfig(testNum);
     assert.equal(config.totalQuestions, 98);
@@ -81,7 +81,7 @@ for (const testNum of [1, 2, 3]) {
 }
 
 test('Digital SAT Practice Tests — Session Manager Multi-Test Support', () => {
-  for (const testNum of [1, 2, 3]) {
+  for (const testNum of [1, 2, 3, 4, 5]) {
     const session = createFullMockSession(testNum);
     assert.equal(session.testId, `practice-test-${testNum}`);
     assert.equal(session.testNumber, testNum);

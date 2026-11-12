@@ -134,6 +134,38 @@ export default function App() {
               }
             />
             <Route
+              path="/mock-tests/practice-4"
+              element={
+                <ProtectedRoute>
+                  <FullMockTest />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/mock-tests/practice-4/results"
+              element={
+                <ProtectedRoute>
+                  <FullMockResults />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/mock-tests/practice-5"
+              element={
+                <ProtectedRoute>
+                  <FullMockTest />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/mock-tests/practice-5/results"
+              element={
+                <ProtectedRoute>
+                  <FullMockResults />
+                </ProtectedRoute>
+              }
+            />
+            <Route
               path="/mock-tests/practice-:testNum"
               element={
                 <ProtectedRoute>
