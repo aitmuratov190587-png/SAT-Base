@@ -28,7 +28,7 @@ import { MockTestQuestion } from '../data/mockTests/pt1_types';
 export default function FullMockResults() {
   const navigate = useNavigate();
   const { testNum: rawTestNum } = useParams<{ testNum?: string }>();
-  const testNum = Math.min(3, Math.max(1, parseInt(rawTestNum || '1', 10) || 1));
+  const testNum = Math.min(5, Math.max(1, parseInt(rawTestNum || '1', 10) || 1));
 
   const testConfig = getPracticeTestConfig(testNum);
   const allQuestions = getAllQuestionsForTest(testNum);

@@ -29,7 +29,7 @@ import {
 export default function FullMockTest() {
   const navigate = useNavigate();
   const { testNum: rawTestNum } = useParams<{ testNum?: string }>();
-  const testNum = Math.min(3, Math.max(1, parseInt(rawTestNum || '1', 10) || 1));
+  const testNum = Math.min(5, Math.max(1, parseInt(rawTestNum || '1', 10) || 1));
 
   const { profile } = useApp();
   const { user } = useAuth();
