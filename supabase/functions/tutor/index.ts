@@ -30,11 +30,13 @@ function getCorsHeaders(req: Request) {
   const isAllowed =
     allowedList.includes(origin) ||
     isLocalDev ||
+    origin === "https://satbase.netlify.app" ||
+    /^https:\/\/[a-zA-Z0-9-]+\.netlify\.app$/.test(origin) ||
     (allowedList.some((o) => o.includes("vercel.app")) &&
       /^https:\/\/[a-zA-Z0-9-]+\.vercel\.app$/.test(origin));
 
   // Default fallback origin is the primary production domain configured in the secret
-  const defaultOrigin = allowedList[0] || "https://PROD_DOMAIN";
+  const defaultOrigin = allowedList[0] || "https://satbase.netlify.app";
 
   return {
     "Access-Control-Allow-Origin": isAllowed ? origin : defaultOrigin,

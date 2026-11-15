@@ -11,5 +11,5 @@ export function getPublicSiteUrl(): string {
   if (envUrl && typeof envUrl === 'string' && envUrl.trim().length > 0) {
     return envUrl.trim().replace(/\/+$/, '');
   }
-  return 'https://PROD_DOMAIN';
+  return 'https://satbase.netlify.app';
 }
