@@ -9,6 +9,8 @@ export const PRACTICE_TEST_5: FullMockTestConfig = {
   number: 5,
   title: 'Digital SAT® Practice Test #5',
   subtitle: '100% Original Full-Length Practice Examination designed strictly to College Board specifications.',
+  source: 'original',
+  license_note: 'SATBase 100% Original Full-Length Practice Examination designed to College Board specifications',
   totalQuestions: 98,
   totalMinutes: 134,
   modules: {

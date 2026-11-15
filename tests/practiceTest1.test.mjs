@@ -96,3 +96,18 @@ test('Digital SAT Practice Tests — Session Manager Multi-Test Support', () => 
     assert.equal(math2.questions.length, 22);
   }
 });
+
+test('Digital SAT Practice Tests 4 and 5 — Provenance & License Integrity', () => {
+  for (const testNum of [4, 5]) {
+    const config = getPracticeTestConfig(testNum);
+    assert.equal(config.source, 'original');
+    assert.ok(config.license_note);
+
+    const questions = ALL_QUESTIONS_BY_TEST[testNum];
+    assert.equal(questions.length, 98);
+    for (const q of questions) {
+      assert.equal(q.source, 'original');
+      assert.ok(q.license_note.includes('SATBase 100% Original'));
+    }
+  }
+});

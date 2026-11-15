@@ -3,6 +3,8 @@ import type { MockTestQuestion } from './pt1_types.ts';
 export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   {
     "id": "pt4-math-m1-q1",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 1,
@@ -34,6 +36,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q2",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 2,
@@ -65,6 +69,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q3",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 3,
@@ -96,6 +102,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q4",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 4,
@@ -127,6 +135,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q5",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 5,
@@ -158,6 +168,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q6",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 6,
@@ -189,6 +201,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q7",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 7,
@@ -220,6 +234,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q8",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 8,
@@ -251,6 +267,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q9",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 9,
@@ -282,6 +300,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q10",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 10,
@@ -313,6 +333,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q11",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 11,
@@ -344,6 +366,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q12",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 12,
@@ -375,6 +399,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q13",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 13,
@@ -406,6 +432,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q14",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 14,
@@ -437,6 +465,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q15",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 15,
@@ -468,6 +498,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q16",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 16,
@@ -499,6 +531,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q17",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 17,
@@ -530,6 +564,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q18",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 18,
@@ -543,6 +579,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q19",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 19,
@@ -556,6 +594,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q20",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 20,
@@ -569,6 +609,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q21",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 21,
@@ -582,6 +624,8 @@ export const PT4_MATH_MODULE1_QUESTIONS: MockTestQuestion[] = [
   },
   {
     "id": "pt4-math-m1-q22",
+    "source": "original",
+    "license_note": "SATBase 100% Original Full-Length Practice Examination designed to College Board specifications",
     "section": "math",
     "module": 1,
     "number": 22,

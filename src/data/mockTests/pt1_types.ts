@@ -22,6 +22,8 @@ export interface MockTestQuestion {
   options?: MockTestOption[];
   correctAnswer: string; // 'A' | 'B' | 'C' | 'D' or numerical string '10', '83.5'
   explanation: string;
+  source?: string;
+  license_note?: string;
 }
 
 export interface MockModuleConfig {
@@ -38,6 +40,8 @@ export interface FullMockTestConfig {
   number: number;
   title: string;
   subtitle: string;
+  source?: string;
+  license_note?: string;
   totalQuestions: 98;
   totalMinutes: 134;
   modules: {
